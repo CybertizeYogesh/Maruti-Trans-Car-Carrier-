@@ -1,0 +1,326 @@
+/* ==========================================================================
+   RESIDENTIAL MOVING PAGE STYLES
+   ========================================================================== */
+
+:root {
+  --red-main: #a10000;
+  --red-dark: #7a0000;
+  --srs-red-light: #fde8ea;
+  --white: #ffffff;
+  --border-light: #e3e6e9;
+  --text-dark: #212529;
+  --text-muted: #6c757d;
+  --gray-bg: #f8f9fa;
+}
+
+/* Force Arial across this page */
+.page-hero,
+.residential-moving-section,
+.pricing-section,
+.room-section,
+.rate-chart-section,
+.faq-section {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* ==================================================
+   INFO SECTION
+   ================================================== */
+.residential-moving-section {
+  background-color: var(--white);
+}
+
+.section-badge {
+  display: inline-block;
+  background-color: var(--srs-red-light);
+  color: var(--red-main);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 30px;
+  margin-bottom: 12px;
+}
+
+.section-title {
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.about-img-wrapper {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+}
+
+.about-img-rectangle-img {
+  transition: transform 0.5s ease;
+}
+
+.about-img-rectangle-img:hover {
+  transform: scale(1.03);
+}
+
+/* ==================================================
+   PRICING GUIDE SECTION
+   ================================================== */
+.pricing-section {
+  background-color: var(--gray-bg);
+}
+
+.pricing-title {
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.pricing-card {
+  background: var(--white);
+  border-radius: 14px;
+  padding: 30px 20px;
+  border: 1px solid var(--border-light);
+  transition: all 0.3s ease;
+}
+
+.pricing-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
+.icon-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: var(--srs-red-light);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-wrapper i {
+  font-size: 26px;
+  color: var(--red-main);
+}
+
+.home-type {
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+
+.item-count {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+
+.price-text {
+  font-weight: 600;
+  color: var(--red-main);
+  margin-bottom: 0;
+}
+
+/* ==================================================
+   ROOM-BY-ROOM SECTION
+   ================================================== */
+.room-section {
+  background-color: var(--white);
+}
+
+.room-subtitle {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--red-main);
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.room-title {
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.room-desc {
+  color: var(--text-muted);
+  max-width: 480px;
+  line-height: 1.6;
+}
+
+.room-box {
+  background-color: var(--gray-bg);
+  border-radius: 14px;
+  padding: 16px 18px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid var(--border-light);
+}
+
+.room-icon {
+  width: 44px;
+  height: 44px;
+  background-color: var(--red-main);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.room-icon i {
+  color: var(--white);
+  font-size: 20px;
+}
+
+.room-box span {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.category-box {
+  background-color: var(--white);
+  border: 1px solid var(--border-light);
+  border-radius: 14px;
+  padding: 18px 20px;
+}
+
+.category-box h6 {
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+}
+
+.tag-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tag {
+  background-color: var(--gray-bg);
+  color: var(--text-muted);
+  padding: 6px 12px;
+  font-size: 13px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+
+/* ==================================================
+   RATE CHART SECTION
+   ================================================== */
+.rate-chart-section {
+  background-color: var(--white);
+}
+
+.rate-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--red-dark);
+}
+
+.rate-table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.rate-table thead th {
+  background-color: var(--srs-red-light);
+  color: var(--text-dark);
+  font-weight: 600;
+  border-bottom: 1px solid var(--border-light);
+  white-space: nowrap;
+}
+
+.rate-table td,
+.rate-table th {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--border-light);
+  color: var(--text-dark);
+  font-size: 15px;
+}
+
+.rate-table tbody tr:hover {
+  background-color: #f8f9fa;
+}
+
+.rate-disclaimer {
+  margin-top: 20px;
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.7;
+}
+
+@media (max-width: 767px) {
+  .rate-title {
+    font-size: 22px;
+  }
+}
+
+/* ==================================================
+   FAQ SECTION
+   ================================================== */
+.faq-section {
+  background-color: var(--gray-bg);
+}
+
+.faq-badge {
+  display: inline-block;
+  background-color: var(--srs-red-light);
+  color: var(--red-main);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 30px;
+  margin-bottom: 12px;
+}
+
+.faq-title {
+  color: var(--text-dark);
+  font-weight: 700;
+}
+
+.faq-accordion {
+  max-width: 800px;
+}
+
+.accordion-item {
+  border: 1px solid var(--border-light);
+  border-radius: 10px;
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  font-weight: 600;
+  color: var(--text-dark);
+  padding: 18px 24px;
+  box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--srs-red-light);
+  color: var(--red-main);
+}
+
+.accordion-body {
+  padding: 20px 24px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  background-color: var(--white);
+}
+
+.faq-call-btn {
+  background-color: var(--red-main);
+  color: var(--white) !important;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.faq-call-btn:hover {
+  background-color: var(--red-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(161, 0, 0, 0.25);
+}

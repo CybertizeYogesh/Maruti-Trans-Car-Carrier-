@@ -1,0 +1,74 @@
+/* SRS Consignment Tracking Section Styles (track page only) */
+.srs-track-section {
+  background: var(--gray-bg);
+}
+
+.srs-track-card {
+  background: var(--white);
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 24px var(--white-60);
+  border: 1px solid var(--border-light);
+}
+
+.srs-track-label {
+  color: var(--text-dark);
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.srs-track-input {
+  font-size: 1.1rem;
+  padding: 0.9rem 1.2rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border-light);
+  background: var(--gray-bg);
+  color: var(--text-dark);
+}
+
+.srs-track-input:focus {
+  border-color: var(--red-main);
+  box-shadow: 0 0 0 0.2rem var(--srs-red-light);
+}
+
+.srs-track-btn {
+  background: var(--red-main);
+  border: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.7rem 2.5rem;
+  border-radius: 0.5rem;
+  transition: background 0.2s;
+}
+
+.srs-track-btn:hover {
+  background: var(--red-dark);
+}
+
+.srs-track-btn-outline {
+  border: 2px solid var(--red-main);
+  color: var(--red-main);
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 0.7rem 2.5rem;
+  border-radius: 0.5rem;
+  background: transparent;
+  transition: background 0.2s, color 0.2s;
+}
+
+.srs-track-btn-outline:hover {
+  background: var(--red-main);
+  color: var(--white);
+}
+
+@media (max-width: 767.98px) {
+  .srs-track-card {
+    padding: 1.2rem 0.8rem;
+  }
+
+  .srs-track-btn,
+  .srs-track-btn-outline {
+    padding: 0.7rem 1.2rem;
+    font-size: 1rem;
+  }
+}
+

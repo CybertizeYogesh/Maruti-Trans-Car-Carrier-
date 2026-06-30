@@ -1,0 +1,409 @@
+/* ==========================================================================
+   ABOUT US PAGE STYLES
+   ========================================================================== */
+
+:root {
+  --red-main: #a10000;
+  --red-dark: #7a0000;
+  --srs-red-light: #fde8ea;
+  --white: #ffffff;
+  --border-light: #e3e6e9;
+  --text-dark: #212529;
+  --text-muted: #6c757d;
+  --gray-bg: #f8f9fa;
+  --white-80: rgba(255, 255, 255, 0.8);
+}
+
+/* Force Arial across this page */
+.page-hero,
+.about-company,
+.about-timeline,
+.why-choose-us,
+.reasons-list-section {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* ==================================================
+   ABOUT COMPANY SECTION
+   ================================================== */
+.about-company {
+  background-color: var(--white);
+}
+
+.about-image-wrap {
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.about-image-wrap img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.about-image-wrap img:hover {
+  transform: scale(1.03);
+}
+
+.about-tag {
+  display: inline-block;
+  padding: 6px 16px;
+  background: var(--srs-red-light);
+  color: var(--red-main);
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.about-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 18px;
+  line-height: 1.3;
+}
+
+.about-heading span {
+  color: var(--red-main);
+}
+
+.about-content-box p {
+  color: var(--text-muted);
+  font-size: 15.5px;
+  line-height: 1.75;
+  margin-bottom: 14px;
+}
+
+.about-btn {
+  background-color: var(--red-main);
+  color: var(--white) !important;
+  font-weight: 600;
+  padding: 12px 28px;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.about-btn:hover {
+  background-color: var(--red-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(161, 0, 0, 0.25);
+}
+
+@media (max-width: 991px) {
+  .about-heading {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-heading {
+    font-size: 26px;
+  }
+  .about-content-box p {
+    font-size: 14.8px;
+  }
+}
+
+/* ==================================================
+   ABOUT TIMELINE SECTION
+   ================================================== */
+.about-timeline {
+  background-color: var(--gray-bg);
+}
+
+.timeline-badge {
+  display: inline-block;
+  padding: 6px 18px;
+  background: var(--srs-red-light);
+  color: var(--red-main);
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 30px;
+  margin-bottom: 10px;
+}
+
+.timeline-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.timeline-title span {
+  color: var(--red-main);
+}
+
+.timeline-wrapper {
+  position: relative;
+  padding: 40px 0;
+}
+
+@media (min-width: 992px) {
+  /* Center Line */
+  .timeline-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: rgba(161, 0, 0, 0.2);
+    transform: translateX(-50%);
+  }
+
+  .timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+  }
+
+  .timeline-dot {
+    position: absolute;
+    top: 45px;
+    width: 18px;
+    height: 18px;
+    background-color: var(--red-main);
+    border-radius: 50%;
+    z-index: 2;
+    border: 3px solid rgba(161, 0, 0, 0.2);
+  }
+
+  /* Odd items (left column in Bootstrap grid) -> dot on right edge */
+  .timeline-item:nth-child(odd) .timeline-dot {
+    right: -9px;
+  }
+
+  /* Even items (right column in Bootstrap grid) -> dot on left edge */
+  .timeline-item:nth-child(even) .timeline-dot {
+    left: -9px;
+  }
+}
+
+.timeline-content {
+  background: var(--white);
+  padding: 22px 26px;
+  border-radius: 14px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: translateY(-4px);
+}
+
+.timeline-year {
+  display: block;
+  font-weight: 700;
+  color: var(--red-main);
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+}
+
+.timeline-content h4 {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 6px;
+}
+
+.timeline-content p {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+@media (max-width: 991px) {
+  .timeline-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 20px;
+    width: 2px;
+    background: rgba(161, 0, 0, 0.2);
+  }
+
+  .timeline-item {
+    position: relative;
+    padding-left: 45px !important;
+    margin-bottom: 24px;
+  }
+
+  .timeline-dot {
+    position: absolute;
+    top: 40px;
+    left: 12px;
+    width: 16px;
+    height: 16px;
+    background-color: var(--red-main);
+    border-radius: 50%;
+    z-index: 2;
+    border: 3px solid rgba(161, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 576px) {
+  .timeline-title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .timeline-content {
+    padding: 16px 18px;
+  }
+
+  .timeline-content h4 {
+    font-size: 1.15rem;
+  }
+}
+
+/* ==================================================
+   WHY CHOOSE US SECTION
+   ================================================== */
+.why-choose-us {
+  background-color: var(--white);
+}
+
+.why-title {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.why-title span {
+  color: var(--red-main);
+}
+
+.why-choose-card {
+  background: var(--white);
+  border: 1px solid var(--border-light);
+  border-radius: 18px;
+  padding: 40px 25px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.02);
+}
+
+.why-choose-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.icon-arc {
+  position: relative;
+  width: 120px;
+  height: 60px;
+  margin: 0 auto 25px;
+  border-top: 4px solid var(--red-main);
+  border-left: 4px solid var(--red-main);
+  border-right: 4px solid var(--red-main);
+  border-radius: 120px 120px 0 0;
+}
+
+.icon-circle {
+  position: absolute;
+  left: 50%;
+  bottom: -30px;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 60px;
+  border: 3px solid var(--red-main);
+  border-radius: 50%;
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-circle i {
+  font-size: 26px;
+  color: var(--red-main);
+}
+
+.why-choose-card h5 {
+  margin-top: 35px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+}
+
+.why-choose-card p {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .why-title {
+    font-size: 2rem;
+  }
+}
+
+/* ==================================================
+   13 REASONS SECTION
+   ================================================== */
+.reasons-list-section {
+  background-color: var(--gray-bg);
+}
+
+.reason-list-card {
+  background: var(--white);
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 22px 25px;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.35s ease;
+  height: 100%;
+}
+
+.reason-list-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.09);
+}
+
+.reason-icon-box {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  background-color: var(--red-main);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.reason-icon-box i {
+  font-size: 26px;
+  color: var(--white);
+}
+
+.reason-list-card h5 {
+  margin: 0;
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+@media (max-width: 768px) {
+  .reason-list-card {
+    padding: 18px 20px;
+  }
+  .reason-icon-box {
+    width: 52px;
+    height: 52px;
+    min-width: 52px;
+  }
+  .reason-icon-box i {
+    font-size: 22px;
+  }
+}

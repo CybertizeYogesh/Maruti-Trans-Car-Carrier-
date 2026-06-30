@@ -1,0 +1,180 @@
+/* ==========================================================================
+   WHY CHOOSE US PAGE STYLES
+   ========================================================================== */
+
+:root {
+  --red-main: #a10000;
+  --red-dark: #7a0000;
+  --srs-red-light: #fde8ea;
+  --white: #ffffff;
+  --border-light: #e3e6e9;
+  --text-dark: #212529;
+  --text-muted: #6c757d;
+  --gray-bg: #fafbfc;
+}
+
+/* Force Arial across this page */
+.page-hero,
+.choose-us-modern-section,
+.choose-modern-card {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* ==================================================
+   WHY CHOOSE US CONTAINER SECTION
+   ================================================== */
+.choose-us-modern-section {
+  background: var(--gray-bg);
+  padding: 60px 0;
+}
+
+.choose-modern-title {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--red-main);
+  margin-bottom: 12px;
+  letter-spacing: -1px;
+}
+
+.choose-modern-subtitle {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Card */
+.choose-modern-card {
+  background: var(--white);
+  border-radius: 18px;
+  border: 1.5px solid #f3d6de;
+  box-shadow: 0 4px 24px rgba(220, 20, 60, 0.06);
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  padding: 36px 32px 32px 32px;
+  margin-bottom: 0;
+  transition: all 0.3s ease;
+  min-height: 300px;
+  height: 100%;
+}
+
+.choose-modern-card:hover {
+  border-color: var(--red-main);
+  box-shadow: 0 8px 32px rgba(220, 20, 60, 0.13);
+  transform: translateY(-6px);
+}
+
+.choose-modern-icon {
+  background: var(--srs-red-light);
+  color: var(--red-main);
+  border-radius: 50%;
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  margin-right: 0;
+  margin-top: 2px;
+  box-shadow: 0 2px 8px rgba(220, 20, 60, 0.08);
+  flex-shrink: 0;
+}
+
+.choose-modern-icon i {
+  color: var(--red-main) !important;
+  font-size: 2.2rem;
+  display: inline-block;
+}
+
+.choose-modern-card-title {
+  color: var(--text-dark);
+  font-weight: 700;
+  font-size: 1.35rem;
+  margin-bottom: 8px;
+  margin-top: 0;
+}
+
+.choose-modern-card-desc {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  margin-bottom: 12px;
+  line-height: 1.6;
+}
+
+.choose-modern-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.choose-modern-list li {
+  color: var(--text-dark);
+  font-size: 1.02rem;
+  margin-bottom: 7px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.choose-modern-list i {
+  color: var(--red-main);
+  font-size: 1.15rem;
+  margin-right: 4px;
+}
+
+@media (max-width: 991.98px) {
+  .choose-modern-card {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 28px 18px 24px 18px;
+    gap: 18px;
+    min-height: auto;
+  }
+
+  .choose-modern-icon {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .choose-us-modern-section {
+    padding: 40px 0;
+  }
+
+  .choose-modern-title {
+    font-size: 1.6rem;
+  }
+
+  .choose-modern-subtitle {
+    font-size: 1rem;
+  }
+
+  .choose-modern-card {
+    padding: 20px 15px;
+    gap: 12px;
+  }
+
+  .choose-modern-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 1.5rem;
+  }
+
+  .choose-modern-icon i {
+    font-size: 1.6rem;
+  }
+
+  .choose-modern-card-title {
+    font-size: 1.15rem;
+  }
+
+  .choose-modern-card-desc {
+    font-size: 0.95rem;
+  }
+
+  .choose-modern-list li {
+    font-size: 0.95rem;
+  }
+}

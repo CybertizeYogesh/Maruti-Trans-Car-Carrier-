@@ -1,0 +1,162 @@
+/* Branches Section */
+.branches-section {
+  background: var(--gray-bg);
+}
+
+.branch-card {
+  border: 1.5px solid var(--srs-red-light);
+  transition: box-shadow 0.2s, border-color 0.2s;
+  min-height: 420px;
+  margin-bottom: 0;
+}
+
+.branch-card:hover {
+  border-color: var(--red-main);
+  box-shadow: 0 8px 32px rgba(220, 20, 60, 0.13);
+}
+
+.branch-title {
+  color: var(--red-dark);
+  font-weight: 800;
+  font-size: 1.6rem;
+  letter-spacing: 0.5px;
+}
+
+.branch-map iframe {
+  border-radius: 12px;
+  min-height: 180px;
+  width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  .branch-title {
+    font-size: 1.2rem;
+  }
+
+  .branch-card {
+    padding: 18px 8px 12px 8px;
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 576px) {
+  .branches-section {
+    padding: 18px 0 8px 0;
+  }
+
+  .branch-title {
+    font-size: 1rem;
+  }
+
+  .branch-card {
+    padding: 10px 4px 8px 4px;
+    min-height: 220px;
+  }
+
+  .branch-map iframe {
+    min-height: 120px;
+  }
+}
+
+/* All India Branches Page Styles */
+
+.branches-city-link {
+  padding: 1rem 1.25rem;
+  display: block;
+  transition: all 0.3s ease;
+  border-radius: 8px;
+  background-color: #a10000;
+  border: 1px solid #e9ecef;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.branches-city-text {
+  font-size: 1rem;
+  color: #e9ecef;
+  display: block;
+  line-height: 1.5;
+}
+
+.branches-city-name {
+  font-weight: 700;
+  color: #e9ecef;
+}
+
+.branches-city-link:hover {
+  background-color: #a10000;
+  border-color: #a10000;
+  box-shadow: 0 3px 8px rgba(184, 0, 28, 0.15);
+  transform: translateY(-2px);
+}
+
+.branches-city-link:hover .branches-city-text {
+  color: #e9ecef;
+}
+
+.branches-city-link:hover .branches-city-name {
+  color: #e9ecef;
+}
+
+
+@media (max-width: 575.98px) {
+
+  .branches-city-text {
+    font-size: 0.95rem;
+  }
+}
+
+/* State Cities Red Box Design */
+.state-city-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, #a10000 0%, #a10000 100%);
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(184, 0, 28, 0.2);
+}
+
+.state-city-icon {
+  font-size: 2rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.state-city-text {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+}
+
+.state-city-text strong {
+  font-weight: 600;
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.state-city-box:hover {
+  background: linear-gradient(135deg, #a10000 0%, #a10000 100%);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(184, 0, 28, 0.35);
+}
+
+.state-city-box:hover .state-city-text {
+  color: #fff;
+}
+
+@media (max-width: 767.98px) {
+  .state-city-box {
+    padding: 1rem 1.25rem;
+  }
+
+  .state-city-icon {
+    font-size: 1.5rem;
+  }
+
+  .state-city-text {
+    font-size: 0.95rem;
+  }
+}
+

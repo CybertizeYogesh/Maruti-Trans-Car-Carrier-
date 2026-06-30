@@ -1,0 +1,89 @@
+/* ==========================================================================
+   GALLERY PAGE STYLES
+   ========================================================================== */
+
+:root {
+  --red-main: #a10000;
+  --white: #ffffff;
+  --border-light: #e3e6e9;
+  --text-dark: #212529;
+  --text-muted: #6c757d;
+  --gray-bg: #f8f9fa;
+}
+
+/* Force Arial across this page */
+.page-hero,
+.srs-gallery-section {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* ==================================================
+   GALLERY SECTION
+   ================================================== */
+.srs-gallery-section {
+  background-color: var(--gray-bg);
+}
+
+.gallery-heading {
+  margin-bottom: 25px;
+}
+
+.gallery-subtitle {
+  color: var(--red-main);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Card layout */
+.srs-gallery-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+  background: var(--white);
+  border: 1px solid var(--border-light);
+  transition: all 0.3s ease;
+}
+
+.srs-gallery-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+/* Overlay caption */
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 14px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--white) !important;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.05));
+  z-index: 2;
+}
+
+/* Hover Effects */
+.srs-gallery-card:hover img {
+  transform: scale(1.05);
+}
+
+.srs-gallery-card:hover {
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .srs-gallery-card img {
+    height: 200px;
+  }
+  .gallery-caption {
+    padding: 10px 14px;
+    font-size: 13px;
+  }
+}

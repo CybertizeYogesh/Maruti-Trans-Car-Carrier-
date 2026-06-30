@@ -1,0 +1,284 @@
+/* FAB Buttons (Call & WhatsApp) - Clean Circles */
+.fab-wrapper {
+  z-index: 998;
+  position: fixed;
+  left: 20px;
+}
+
+.fab-call {
+  bottom: 90px;
+}
+
+.fab-whatsapp {
+  bottom: 25px;
+}
+
+.fab-wrapper a {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50% !important;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: linear-gradient(135deg, #25D366 0%, #128C7E 100%);
+}
+
+.fab-call a {
+  background: linear-gradient(135deg, #e21b22 0%, #a10000 100%);
+  box-shadow: 0 4px 15px rgba(226, 27, 34, 0.4);
+}
+
+.fab-wrapper a:hover {
+  transform: scale(1.1) rotate(10deg);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+.fab-call a:hover {
+  box-shadow: 0 6px 20px rgba(226, 27, 34, 0.6);
+}
+
+.fab-icon {
+  font-size: 1.5rem;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ============================================
+   RESPONSIVE NAVIGATION STYLES
+   ============================================ */
+
+/* Large Tablets & Small Desktops (992px to 1199px) */
+@media (max-width: 1199px) {
+  .main-navbar .container-fluid {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .btn-track {
+    padding: 6px 12px;
+    font-size: 0.9rem;
+  }
+
+  .btn-quote {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Tablets (768px and below) */
+@media (max-width: 768px) {
+  .top-nav-bar {
+    padding: 6px 0;
+  }
+
+  .top-nav-company-text {
+    font-size: 0.85rem;
+  }
+
+  .top-nav-link {
+    font-size: 0.8rem;
+  }
+
+  .main-nav-logo {
+    height: 50px;
+  }
+
+  .main-navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
+
+  .btn-track {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+
+  .btn-quote {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+  }
+
+  .hamburger-menu-btn {
+    width: 36px;
+    height: 36px;
+  }
+
+  .hamburger-menu-btn span {
+    width: 20px;
+  }
+
+  .menu-section-heading {
+    font-size: 1rem;
+  }
+
+  .menu-section-link {
+    font-size: 0.9rem;
+  }
+
+  .fullscreen-menu-logo {
+    height: 40px;
+  }
+
+  .fab-text {
+    font-size: 0.85rem;
+  }
+}
+
+/* Mobile (576px and below) */
+@media (max-width: 576px) {
+  .top-nav-link span {
+    display: none;
+  }
+
+  .top-nav-link i {
+    font-size: 1rem;
+  }
+
+  .main-navbar {
+    padding: 8px 0;
+  }
+
+  .main-navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+
+  .navbar-brand {
+    flex-shrink: 0;
+  }
+
+
+  .main-nav-logo {
+    height: 50px;
+  }
+
+  .btn-track {
+    padding: 5px 8px;
+    font-size: 0.75rem;
+    border-width: 1.5px;
+  }
+
+  .btn-track .me-2 {
+    margin-right: 3px !important;
+    font-size: 0.85rem;
+  }
+
+  .btn-track .d-inline {
+    font-size: 0.7rem;
+  }
+
+  .hamburger-menu-btn {
+    width: 32px;
+    height: 32px;
+    gap: 4px;
+  }
+
+  .hamburger-menu-btn span {
+    width: 18px;
+    height: 2px;
+  }
+
+  .menu-section-heading {
+    font-size: 0.95rem;
+  }
+
+  .menu-section-heading i {
+    font-size: 1rem;
+  }
+
+  .menu-section-link {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+  }
+
+  .btn-close-custom {
+    padding: 6px 12px;
+    font-size: 0.85rem;
+  }
+
+  .social-icon-btn {
+    width: 34px;
+    height: 34px;
+    font-size: 0.9rem;
+  }
+
+  .fab-wrapper {
+    bottom: 80px;
+  }
+
+  .fab-wrapper a {
+    padding: 10px 16px;
+  }
+
+  .fab-icon {
+    font-size: 1.1rem;
+  }
+
+  .fab-text {
+    font-size: 0.8rem;
+  }
+}
+
+/* Extra small (400px and below) */
+@media (max-width: 400px) {
+  .main-nav-logo {
+    height: 45px;
+  }
+
+  .btn-track span {
+    font-size: 0.75rem;
+  }
+
+  .hamburger-menu-btn {
+    width: 32px;
+    height: 32px;
+  }
+
+  .hamburger-menu-btn span {
+    width: 16px;
+  }
+
+  .menu-section-heading {
+    font-size: 0.9rem;
+  }
+
+  .menu-section-link {
+    font-size: 0.8rem;
+    padding: 5px 8px;
+  }
+
+  .fullscreen-menu-logo {
+    height: 35px;
+  }
+}
+
+.main-nav-logo {
+  height: 60px;
+}
+
+/* Large screens (1200px and above) */
+@media (min-width: 1200px) {
+  .top-nav-link {
+    font-size: 0.9rem;
+  }
+
+  .btn-track,
+  .btn-quote {
+    font-size: 0.95rem;
+  }
+
+  .menu-section-heading {
+    font-size: 1.15rem;
+  }
+
+  .menu-section-link {
+    font-size: 1rem;
+  }
+}
+

@@ -1,0 +1,662 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css");
+
+/* Theme Colors */
+:root {
+  --red-dark: #a10000;
+  --red-main: #a10000;
+  --red-light: #a10000;
+  --white: #ffffff;
+  --white-80: rgba(255, 255, 255, 0.8);
+  --white-60: rgba(255, 255, 255, 0.6);
+  --text-dark: #111;
+  --text-muted: #555;
+  --srs-red-light: #fde8ea;
+  --gray-bg: #f7f7f7;
+  --border-light: #e6e6e6;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+/* Unique class for SRS social icon in navigation and footer */
+.srs-social-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  background: transparent;
+  border-radius: 8px;
+  padding: 2px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.privacy-section {
+  background: var(--gray-bg);
+  border-radius: 1rem;
+  box-shadow: 0 2px 8px var(--white-60);
+  padding: 2rem 2rem 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.privacy-section h2 {
+  color: var(--red-main);
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.privacy-section h3 {
+  color: var(--red-dark);
+  font-weight: 600;
+  margin-top: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.privacy-section ul,
+.privacy-section ol {
+  margin-bottom: 1rem;
+}
+
+.privacy-section li {
+  margin-bottom: 0.5rem;
+}
+
+.privacy-section strong {
+  color: var(--red-main);
+}
+
+.privacy-contact {
+  background: var(--srs-red-light);
+  border-left: 4px solid var(--red-main);
+  padding: 1.5rem 2rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  color: var(--text-dark);
+}
+
+@media (max-width: 767px) {
+
+  .privacy-section,
+  .privacy-contact {
+    padding: 1rem;
+  }
+}
+
+/* =====================================================
+   STATS / NUMBERS SECTION (RED THEME)
+   ===================================================== */
+
+/* ---------- Heading ---------- */
+.stats-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.stats-subtitle {
+  max-width: 650px;
+  color: var(--white-80);
+  font-size: 1.05rem;
+}
+
+/* ---------- Stat Card ---------- */
+.stat-card {
+  padding: 20px;
+}
+
+/* ---------- Icon ---------- */
+.stat-icon {
+  width: 64px;
+  height: 64px;
+  margin: 0 auto 16px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-icon i {
+  font-size: 28px;
+  color: var(--white);
+}
+
+/* ---------- Value ---------- */
+.stat-value {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--white);
+}
+
+/* ---------- Label ---------- */
+.stat-label {
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: #fff !important;
+}
+
+/* ---------- Decorative Circles ---------- */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.circle-lg {
+  width: 700px;
+  height: 700px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.circle-md {
+  width: 300px;
+  height: 300px;
+  top: 10%;
+  left: 10%;
+}
+
+.circle-sm {
+  width: 200px;
+  height: 200px;
+  bottom: 10%;
+  right: 10%;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 768px) {
+  .stats-title {
+    font-size: 2rem;
+  }
+
+  .stat-value {
+    font-size: 2.3rem;
+  }
+}
+
+
+/* =====================================================
+   PROCESS SECTION (5 STEP) – RED THEME
+   ===================================================== */
+
+.process-section {
+  padding: 50px 0 60px 0;
+  background: var(--white);
+}
+
+/* ---------- Header ---------- */
+.process-header {
+  margin-bottom: 40px;
+}
+
+.process-badge {
+  display: inline-block;
+  background-color: var(--red-main);
+  color: var(--white);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 20px;
+  margin-bottom: 16px;
+}
+
+.process-title {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: var(--text-dark);
+  margin-bottom: 10px;
+  letter-spacing: -1px;
+}
+
+.process-subtitle {
+  max-width: 600px;
+  margin: 0 auto;
+  font-size: 1.08rem;
+  color: #888;
+  font-weight: 500;
+}
+
+/* ---------- Wrapper ---------- */
+.process-wrapper {
+  position: relative;
+}
+
+/* ---------- Connecting Line ---------- */
+.process-line {
+  position: absolute;
+  top: 40px;
+  left: 10%;
+  right: 10%;
+  height: 2px;
+  background-color: var(--border-light);
+  z-index: 1;
+}
+
+/* ---------- Process Item ---------- */
+.process-item {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 180px;
+  margin-bottom: 0;
+}
+
+/* ---------- Icon Wrapper ---------- */
+.process-icon-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+
+/* ---------- Icon ---------- */
+.process-icon {
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--red-main), var(--red-dark));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 24px 0 rgba(220, 20, 60, 0.18);
+  transition: box-shadow 0.2s;
+  margin: 0 auto;
+}
+
+.process-icon i {
+  font-size: 2.2rem;
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---------- Step Number ---------- */
+.process-step-number {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #ff9800;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px 0 rgba(255, 152, 0, 0.15);
+  border: 2px solid #fff;
+}
+
+/* ---------- Text ---------- */
+.process-step-title {
+  font-size: 1.13rem;
+  font-weight: 800;
+  margin-bottom: 6px;
+  color: var(--text-dark);
+  letter-spacing: 0.01em;
+  margin-top: 2px;
+}
+
+.process-step-desc {
+  font-size: 0.97rem;
+  color: #888;
+  padding: 0 8px;
+  margin-top: 2px;
+  min-height: 48px;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 991px) {
+  .process-line {
+    display: none;
+  }
+
+  .process-title {
+    font-size: 2rem;
+  }
+
+  .process-item {
+    min-width: 160px;
+  }
+
+  .process-icon {
+    width: 68px;
+    height: 68px;
+  }
+
+  .process-icon i {
+    font-size: 1.6rem;
+  }
+
+  .process-step-number {
+    width: 26px;
+    height: 26px;
+    font-size: 0.85rem;
+    top: -7px;
+    right: -7px;
+  }
+}
+
+@media (max-width: 576px) {
+  .process-item {
+    min-width: 100%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  .process-icon {
+    width: 56px;
+    height: 56px;
+  }
+
+  .process-icon i {
+    font-size: 1.2rem;
+  }
+
+  .process-step-number {
+    width: 20px;
+    height: 20px;
+    font-size: 0.7rem;
+    top: -4px;
+    right: -4px;
+  }
+
+  .process-step-title {
+    font-size: 1rem;
+  }
+
+  .process-step-desc {
+    font-size: 0.92rem;
+    min-height: 0;
+  }
+}
+
+/* =====================================================
+   PROCESS TIMELINE (VERTICAL CASCADE)
+   ===================================================== */
+.process-item {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  padding-left: 60px;
+  margin-bottom: 40px;
+}
+
+.process-item::before {
+  content: "";
+  position: absolute;
+  left: 22px;
+  top: 50px;
+  width: 2px;
+  height: calc(100% - 20px);
+  background: rgba(220, 53, 69, 0.2);
+}
+
+.process-item:last-child::before {
+  display: none;
+}
+
+.process-step {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 44px;
+  height: 44px;
+  background: #a10000;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  box-shadow: 0 10px 25px rgba(220, 53, 69, 0.35);
+}
+
+.process-content h5 {
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.process-content p {
+  color: #666;
+  font-size: 14.5px;
+  margin-bottom: 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 767px) {
+  .process-item {
+    padding-left: 55px;
+  }
+
+  .process-title {
+    font-size: 26px;
+  }
+
+  .process-content p {
+    font-size: 14px;
+  }
+}
+
+/* =====================================================
+   PROCESS SECTION (STEP ACCORDION OVERLAYS)
+   ===================================================== */
+.process-section {
+  background-color: var(--white);
+}
+
+.process-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--text-dark);
+}
+
+.process-title span {
+  color: var(--red-main);
+}
+
+.process-subtitle {
+  max-width: 650px;
+  font-size: 15px;
+  color: var(--text-muted);
+  margin-top: 12px;
+}
+
+.step-item {
+  padding: 20px;
+}
+
+.step-icon {
+  width: 64px;
+  height: 64px;
+  background-color: var(--red-main);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin: 0 auto 12px;
+}
+
+.step-item h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.step-item p {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+.step-arrow {
+  position: absolute;
+  right: -14px;
+  top: 32px;
+  font-size: 22px;
+  color: var(--red-light);
+}
+
+@media (max-width: 768px) {
+  .process-title {
+    font-size: 30px;
+  }
+
+  .step-arrow {
+    display: none;
+  }
+}
+
+/* =====================================================
+   PAGE HERO STYLES (SECONDARY PAGES)
+   ===================================================== */
+.page-hero {
+  background: linear-gradient(135deg,
+      #a10000,
+      #a10000);
+  padding: 60px 0;
+  color: var(--white);
+}
+
+.page-hero-content {
+  max-width: 700px;
+}
+
+.page-hero-content h1 {
+  font-size: 2.5rem;
+  white-space: nowrap;
+}
+
+/* Breadcrumb */
+.page-breadcrumb {
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+}
+
+.page-breadcrumb a {
+  color: #ffe3e3;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.page-breadcrumb span {
+  margin: 0 6px;
+  color: #ffe3e3;
+}
+
+/* Title */
+.page-hero h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* Subtitle */
+.page-hero p {
+  font-size: 1.15rem;
+  opacity: 0.95;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .page-hero {
+    padding: 40px 0;
+  }
+
+  .page-hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .page-hero p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .page-hero-content h1 {
+    font-size: 1.5rem;
+    word-break: break-word;
+    white-space: normal;
+  }
+
+  .page-hero-content {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
+
+
+
+/* ==========================================================================
+   STATE-CITY BOX COMPONENT STYLES
+   ========================================================================== */
+.state-city-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.5rem;
+  background: linear-gradient(135deg, var(--red-main) 0%, var(--red-dark) 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(184, 0, 28, 0.2);
+  transition: all 0.3s ease;
+  min-height: 80px;
+  font-family: Arial, sans-serif !important;
+}
+
+.state-city-icon {
+  font-size: 2rem;
+  color: #fff !important;
+  flex-shrink: 0;
+}
+
+.state-city-text {
+  color: #fff !important;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: 400;
+  text-align: left;
+}
+
+.state-city-text strong,
+.state-city-text b {
+  font-weight: 700;
+  display: block;
+  margin-top: 0.2rem;
+}
+
+.state-city-box:hover {
+  background: linear-gradient(135deg, var(--red-dark) 0%, var(--red-main) 100%);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(184, 0, 28, 0.35);
+}
+
+@media (max-width: 767.98px) {
+  .state-city-box {
+    padding: 1rem 1.25rem;
+  }
+
+  .state-city-icon {
+    font-size: 1.5rem;
+  }
+
+  .state-city-text {
+    font-size: 0.95rem;
+  }
+}

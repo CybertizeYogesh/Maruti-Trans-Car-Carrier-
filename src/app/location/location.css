@@ -1,0 +1,139 @@
+/* ==========================================================================
+   LOCATIONS WE SERVE PAGE STYLES
+   ========================================================================== */
+
+:root {
+  --red-main: #a10000;
+  --red-dark: #7a0000;
+  --srs-red-light: #fde8ea;
+  --white: #ffffff;
+  --border-light: #e3e6e9;
+  --text-dark: #212529;
+  --text-muted: #6c757d;
+  --gray-bg: #f8f9fa;
+}
+
+/* Force Arial across this page */
+.page-hero,
+.st-service-area {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* ==================================================
+   LOCATIONS CONTAINER SECTION
+   ================================================== */
+.st-service-area {
+  background: var(--gray-bg);
+}
+
+.st__section__title {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.st__section__title span.display-6 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: var(--red-main) !important;
+}
+
+.st__section__title .circle {
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: var(--red-main);
+  margin: 15px auto 0;
+  border-radius: 2px;
+}
+
+/* Service Box (State/City Card) */
+.st__service__box {
+  background: var(--white);
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  height: 220px;
+  width: 100%;
+}
+
+.st__service__thumb {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.st__service__thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+  filter: brightness(0.8);
+}
+
+.st__service__content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.state_title {
+  color: var(--white) !important;
+  font-weight: 700;
+  font-size: 1.15rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.state_title i {
+  transition: transform 0.3s ease;
+  font-size: 1.25rem;
+}
+
+/* Hover Effects */
+.st__service__box:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(161, 0, 0, 0.2);
+}
+
+.st__service__box:hover .st__service__thumb img {
+  transform: scale(1.08);
+  filter: brightness(0.7);
+}
+
+.st__service__box:hover .state_title i {
+  transform: translateX(6px);
+}
+
+/* Responsive Overrides */
+@media (max-width: 991px) {
+  .st__section__title span.display-6 {
+    font-size: 1.8rem;
+  }
+
+  .st__service__box {
+    height: 180px;
+  }
+}
+
+@media (max-width: 576px) {
+  .st__section__title span.display-6 {
+    font-size: 1.5rem;
+  }
+
+  .st__service__box {
+    height: 150px;
+  }
+
+  .state_title {
+    font-size: 1rem;
+  }
+}

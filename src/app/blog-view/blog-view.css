@@ -1,0 +1,156 @@
+/* ==========================================================================
+   BLOG VIEW PAGE STYLES
+   ========================================================================== */
+
+:root {
+  --red-main: #a10000;
+  --red-dark: #7a0000;
+  --srs-red-light: #fde8ea;
+  --white: #ffffff;
+  --border-light: #e3e6e9;
+  --text-dark: #212529;
+  --text-muted: #6c757d;
+  --gray-bg: #f8f9fa;
+}
+
+/* Force Arial across this page */
+.page-hero,
+.blog-detail-card,
+.blog-content,
+.blog-tag-badge,
+.blog-sidebar-title,
+.blog-search-btn {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+/* ==================================================
+   BLOG DETAILS SECTION
+   ================================================== */
+.blog-detail-card {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+  background-color: var(--white);
+}
+
+.blog-detail-img-wrapper {
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+}
+
+.blog-detail-img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog-meta-item {
+  color: var(--text-muted);
+  font-size: 0.95rem;
+}
+
+.blog-meta-icon {
+  color: var(--red-main);
+}
+
+.blog-content {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--text-dark);
+}
+
+.blog-content p {
+  margin-bottom: 1.5rem;
+}
+
+.blog-content h2,
+.blog-content h3,
+.blog-content h4 {
+  color: var(--red-main);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.blog-content ul,
+.blog-content ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* Tag Badge */
+.blog-tag-badge {
+  background: var(--srs-red-light);
+  color: var(--red-main);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.blog-tag-badge:hover {
+  background: var(--red-main);
+  color: white !important;
+}
+
+/* Sidebar styling */
+.blog-sidebar-title {
+  color: var(--red-main);
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.blog-search-group {
+  background: var(--gray-bg);
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--border-light);
+}
+
+.blog-search-group input {
+  background: transparent;
+  padding: 0.75rem 1rem;
+  border: none;
+  width: 100%;
+}
+
+.blog-search-group input:focus {
+  outline: none;
+}
+
+.blog-search-btn {
+  background: var(--red-main);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.25rem;
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.blog-search-btn:hover {
+  background: var(--red-dark);
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .blog-detail-img-wrapper {
+    height: 320px;
+  }
+}
+
+@media (max-width: 576px) {
+  .blog-detail-img-wrapper {
+    height: 220px;
+  }
+  .blog-content {
+    font-size: 1rem;
+  }
+}
