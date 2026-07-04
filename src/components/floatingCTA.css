@@ -208,7 +208,11 @@
     font-size: 0.9rem;
   }
 
-  .fab-wrapper {
+  .fab-call {
+    bottom: 145px;
+  }
+
+  .fab-whatsapp {
     bottom: 80px;
   }
 
