@@ -8,18 +8,45 @@ import "./location-slug.css";
 export async function generateMetadata({ params }) {
   const { locationSlug } = await params;
   const location = locationsData[locationSlug];
+  const url = `https://srspackersandmovers.com/${locationSlug}`;
 
   if (!location) {
     return {
-      title: "Best Packers and Movers - SRS Packers",
-      description: "SRS Packers And Movers offers premium relocation and shifting services."
+      title: "Best Car Carrier Shifting - Maruti Trans Packers",
+      description: "Maruti Trans Car Carrier Shifting offers premium vehicle relocation and shifting services."
     };
   }
 
+  const title = `Best Car Shifting in ${location.city}, ${location.state} | Maruti Trans Packers`;
+  const description = `Maruti Trans Car Shifting in ${location.city}, ${location.state} offers professional, damage-free vehicle shipping, car carriers, and flatbed transport. Get a free quote today.`;
+
   return {
-    title: `Best Packers and Movers in ${location.city}, ${location.state}, SRS Packers`,
-    description: `SRS Packers and Movers in ${location.city}, ${location.state} offers premium relocation, home shifting, and office moving services. Get a free quote today.`,
-    keywords: `packers and movers ${location.city.toLowerCase()}, home shifting ${location.city.toLowerCase()}, local moving ${location.city.toLowerCase()}`
+    title,
+    description,
+    keywords: `car shifting ${location.city.toLowerCase()}, packers and movers ${location.city.toLowerCase()}, vehicle transport ${location.city.toLowerCase()}, car carrier ${location.city.toLowerCase()}`,
+    alternates: {
+      canonical: url,
+    },
+    openGraph: {
+      title,
+      description,
+      url,
+      images: [
+        {
+          url: "https://srspackersandmovers.com/assets/images/services/home_shifting.webp",
+          width: 1200,
+          height: 630,
+          alt: `Car Shifting in ${location.city}`
+        }
+      ],
+      type: "website"
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: ["https://srspackersandmovers.com/assets/images/services/home_shifting.webp"]
+    }
   };
 }
 
@@ -45,8 +72,68 @@ export default async function LocationSlugPage({ params }) {
     .filter(loc => loc.state === state && loc.slug !== locationSlug)
     .slice(0, 48); // Limit to top 48 sibling cities to keep the page clean
 
+  // Schemas definition
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://srspackersandmovers.com"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Locations",
+        "item": "https://srspackersandmovers.com/location"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": city,
+        "item": `https://srspackersandmovers.com/${locationSlug}`
+      }
+    ]
+  };
+
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Car Shifting & Vehicle Transportation",
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Maruti Trans Packers & Movers",
+      "telephone": "+918512000715",
+      "priceRange": "INR 3500 - INR 32000",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "House No. 84, Ground Floor, Chandwass Road, Chandwass, Badhra",
+        "addressLocality": "Charkhi Dadri",
+        "addressRegion": "Haryana",
+        "postalCode": "127312",
+        "addressCountry": "IN"
+      }
+    },
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": city
+    },
+    "description": `Professional, secure, and damage-free vehicle shifting, car carriers, and flatbed transport services in ${city}, ${state}.`
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
+      />
+
       {/* Page Hero */}
       <section className="page-hero">
         <div className="container">
@@ -60,7 +147,7 @@ export default async function LocationSlugPage({ params }) {
               <span>/</span>
               <span>{city}</span>
             </nav>
-            <h1>Best Packers and Movers in {city}</h1>
+            <h1>Best Car Shifting in {city}</h1>
             <p>Choose your city for reliable and professional moving services</p>
           </div>
         </div>
@@ -79,90 +166,55 @@ export default async function LocationSlugPage({ params }) {
             {/* Left Main Content Block */}
             <div className="col-lg-7 col-md-7">
               <h2 className="fw-bold text-dark h3 mb-3">
-                SRS Packers and Movers in {city}, {state} – Your Trusted Moving Partner Since 2018
+                Maruti Trans Car Carrier in {city}, {state} – Your Trusted Vehicle Shipping Partner
               </h2>
               <p className="text-muted leading-relaxed mb-4">
-                SRS Packers and Movers in {city}, {state}, is a professional and experienced removal company, which provides hassle free relocation services. From local to cross country moving, it’s all stress free. Our cheap Best Packers and Movers in {city}, {state} covers everything from residential moving, move to office, vehicle shift or transport of the fragile items. We are a hassle free, affordable and safe move with our expert team of packing materials and advanced logistics.
+                Maruti Trans Car Shifting in {city}, {state}, is a professional and experienced vehicle transport company providing hassle-free car shipping. From local towing to interstate car carrier transit, we make it stress-free. Our cheap Car Carrier Services in {city}, {state} cover everything from family hatchbacks, luxury sedans, premium SUVs, to enclosed transport trailer shifting.
               </p>
 
-              <h3 className="fw-bold text-dark h4 mb-3">{city}, {state} Packing and Moving Services</h3>
+              <h3 className="fw-bold text-dark h4 mb-3">{city}, {state} Vehicle Securement & Handling</h3>
               <p className="text-muted leading-relaxed mb-4">
-                The best packing material, which we provide our customers at SRS Packers and Movers, ensures that your valuables are safe and intact while in transit. For this purpose we use materials like bubble wraps, blankets, thermocol, wooden frames, cardboard/ corrugated and wardrobe boxes, plastic crates, foam sheets and corrugated rolls. We make sure to pack our belongings in the best way possible in order to maintain quality of packing for comfortable transportation.
+                We use premium hydraulic flatbeds and double-decker open trailers to ship vehicles. To protect your car against rough highway terrain, we secure each wheel using four-point soft-touch straps, ensuring zero movement and chassis scrapes during transit.
               </p>
 
-              <h3 className="fw-bold text-dark h4 mb-3">Affordable Packers and Movers {city}, {state}</h3>
+              <h3 className="fw-bold text-dark h4 mb-3">Affordable Car Carrier Services {city}, {state}</h3>
               <p className="text-muted leading-relaxed mb-4">
-                Looking for Cheap Packers and Movers in {city}, {state}. Being one of the reliable and affordable moving solutions provider SRS Packers and Movers provides packers and movers services at the best price or at the cheapest price than others. We offer transparent pricing and competitive rates which are much more affordable than any other home or office relocations company.
+                Searching for affordable car shifting near me? Maruti Trans provides competitive and transparent pricing. Our car transport rates are highly affordable, with no hidden highway fuel surcharges or surprise tolls.
               </p>
 
-              <h3 className="fw-bold text-dark h4 mb-3">Our Major Services we provide in {city}, {state}</h3>
+              <h3 className="fw-bold text-dark h4 mb-3">Our Core Car Shifting Services in {city}, {state}</h3>
               
-              <h4 className="fw-bold text-danger h5 mt-4 mb-2">Household Shifting Services in {city}, {state}</h4>
+              <h4 className="fw-bold text-danger h5 mt-4 mb-2">Door-to-Door Car Shifting in {city}, {state}</h4>
               <p className="text-muted leading-relaxed mb-4">
-                Being considered as one of the Best Packers and Movers in {city}, {state}, SRS Packers and Movers is specialized in home shifting and residential moving. Whatever be your requirement, whether it be a 1BHK, 2BHK, 3BHK, 4BHK or bungalow, our team makes sure to help you through the process smoothly. We are a known and trusted home moving company that efficiently takes charge of all the areas of shifting house and make your move easy and stress free.
+                We handle the complete shipping process at your door. Our crew picks up the vehicle directly from your home and rolls it off right at your new doorstep, eliminating terminal yard visits.
               </p>
 
-              <h4 className="fw-bold text-danger h5 mb-2">Office Relocation Services in {city}, {state}</h4>
+              <h4 className="fw-bold text-danger h5 mb-2">Luxury & Sports Car Shifting in {city}, {state}</h4>
               <p className="text-muted leading-relaxed mb-4">
-                For commercial or corporate solutions, we have various packages for personal or business customers. Our service covers safely transporting office laptops, desktops, printers, monitors and electrical appliances, office furniture etc. We also offer our de-assembling and reassembling furniture services that do not disrupt your business operation.
+                For high-value luxury sports and vintage cars, we provide customized flatbed carriers and covered transport container trucks equipped with air-ride shock-absorbing suspensions.
               </p>
 
-              <h4 className="fw-bold text-danger h5 mb-2">Car Transportation Services in {city}, {state}</h4>
+              <h4 className="fw-bold text-danger h5 mb-2">Single Car Carrier Flatbeds in {city}, {state}</h4>
               <p className="text-muted leading-relaxed mb-4">
-                Need vehicle relocation services? One more service offered by SRS Packers and Movers is secure Car carriers for car shifting and car transport. Be it an SUV, Sedan or any other car, we provide safe car driving services at really low cost and are able to deliver cars on time without any damage.
+                Need urgent delivery? Our single car carrier towing vehicles provide direct, dedicated routing for your vehicle without intermediate stops.
               </p>
 
-              <h4 className="fw-bold text-danger h5 mb-2">Bike Shifting Services in {city}, {state}</h4>
+              <h4 className="fw-bold text-danger h5 mb-2">Enclosed Carrier Services in {city}, {state}</h4>
               <p className="text-muted leading-relaxed mb-4">
-                We are into the two wheeler transport in which we do bike transport and bike relocation service with a secure mode. Whatever the mode of transport and however plush the wheels of the vehicle, our bike shifting and bike transportation promises your vehicle would make it safely and without any damage.
+                Safeguard your vehicle from public view, highway dust, rain, and gravel. Our hard-sided covered trailers offer complete environmental protection.
               </p>
 
-              <h4 className="fw-bold text-danger h5 mb-2">{city}, {state} Packers and Movers with Insurance</h4>
-              <p className="text-muted leading-relaxed mb-4">
-                We offer transit insurance and goods insurance for added peace of mind. Our comprehensive coverage ensures that your belongings are protected against unforeseen events during the move.
-              </p>
-
-              <h4 className="fw-bold text-danger h5 mb-2">Professional Packers and Movers {city}, {state}</h4>
-              <p className="text-muted leading-relaxed mb-4">
-                Please have no doubt that SRS Packers and Movers is the best Packers and Movers of {city}, {state}. Our handymen, trained in our Professional Moving Services have years of experience in handling them. In {state}, we are the best and reliable packers and movers when you are looking for shifting within {city} or from {city} to any other city of {state} or any city across India.
-              </p>
-
-              <h4 className="fw-bold text-danger h5 mb-2">Local Packers and Movers {city}, {state}</h4>
-              <p className="text-muted leading-relaxed mb-4">
-                In case of local shifting solutions, SRS Packers and Movers are offering fast and effective local moving services. Our local moving company handles all kinds of moving whether you are moving around {city}, within {state} or anywhere near the area. You can also come to our local office for you hassle free relocation.
-              </p>
-
-              <h4 className="fw-bold text-danger h5 mb-2">Furniture Moving and Packing in {city}, {state}</h4>
-              <p className="text-muted leading-relaxed mb-4">
-                We provide heavy or delicate furniture with our experts. Secure transportation of your valuable items is ensured and we provide furniture shifting and furniture de-assembling services to make sure these furniture items are safe during transit.
-              </p>
-
-              <h4 className="fw-bold text-danger h5 mb-2">Packers and Movers for Fragile Items in {city}, {state}</h4>
-              <p className="text-muted leading-relaxed mb-4">
-                We are specialized in the handling of delicate goods: art pieces, electronics, and glass ware so we provide glass moving, fragile care, handle with care as well as antique arts transportation services for the utmost safety.
-              </p>
-
-              <h3 className="fw-bold text-dark h4 mt-5 mb-3">Packers and Movers Near Me in {city}, {state}</h3>
-              <p className="text-muted leading-relaxed mb-4">
-                In search to find the Cheapest or the Best Packers and Movers near me? SRS Packers and Movers provides services across {state} for quick and efficient moving solutions available near you.
-              </p>
-
-              <h3 className="fw-bold text-dark h4 mt-4 mb-3">IBA Approved Packers in {city}, {state}</h3>
-              <p className="text-muted leading-relaxed mb-4">
-                An IBA approved transporter offering IBA approved bills to the government employees is SRS Packers and Movers. We also provide IBA bills to the packers and movers if required.
-              </p>
-
-              <h3 className="fw-bold text-dark h4 mt-4 mb-3">Packers and Movers in {city}, {state} Price Comparison</h3>
+              <h3 className="fw-bold text-dark h4 mt-5 mb-3">Car Transport in {city}, {state} Price Comparison</h3>
               <p className="text-muted leading-relaxed mb-3">
-                Make sure you compare our prices of {city}, {state} with the Free Quote offered by various service providers before opting for one. But still you will find SRS Packers And Movers as the cheapest and the best shifting service provider in the affordable price range. So feel free to hiring us anytime.
+                Below are the approximate car transportation rates from {city}. Costs are calculated based on model size, transport type (Open vs. Enclosed), and distance.
               </p>
               <p className="text-muted leading-relaxed mb-2">
-                The 3 factors affecting cost of packing and moving are:
+                The 3 main factors affecting vehicle transport costs are:
               </p>
               <ul className="text-muted ps-3 mb-4">
-                <li className="mb-2"><strong>Distance and destination:</strong> Long distances will naturally cost more due to fuel and tolls.</li>
-                <li className="mb-2"><strong>Volume of goods:</strong> The size of your house determines the truck size and staff size required.</li>
-                <li className="mb-2"><strong>Type of packing materials used:</strong> Heavy multi-layer wrapping for fragile assets adds to quality costs.</li>
+                <li className="mb-2"><strong>Distance and Route:</strong> Long-distance highway transits incur higher fuel and toll costs.</li>
+                <li className="mb-2"><strong>Vehicle Size & Model:</strong> Heavy SUVs require more carrier space and fuel capacity than light hatchbacks.</li>
+                <li className="mb-2"><strong>Carrier Type Selected:</strong> Enclosed container shipping carries a premium over open-trailer shipping.</li>
               </ul>
 
               {/* Price comparison rates table */}
@@ -170,44 +222,43 @@ export default async function LocationSlugPage({ params }) {
                 <table className="table table-bordered table-striped text-center">
                   <thead>
                     <tr className="bg-danger text-white">
-                      <th>Shifting Category</th>
-                      <th>Local Shifting Rates</th>
+                      <th>Vehicle Category</th>
+                      <th>Local Shipping Rates</th>
                       <th>Domestic Shifting Rates</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>1 BHK House Shifting</td>
+                      <td>Hatchback Shifting</td>
+                      <td>Rs 3,500 - 6,000</td>
+                      <td>Rs 7,500 - 12,000</td>
+                    </tr>
+                    <tr>
+                      <td>Sedan Shifting</td>
+                      <td>Rs 4,500 - 7,500</td>
+                      <td>Rs 9,000 - 15,000</td>
+                    </tr>
+                    <tr>
+                      <td>SUV / MUV Shifting</td>
                       <td>Rs 5,500 - 9,500</td>
-                      <td>Rs 11,500 - 18,000</td>
+                      <td>Rs 11,000 - 18,000</td>
                     </tr>
                     <tr>
-                      <td>2 BHK House Shifting</td>
-                      <td>Rs 8,000 - 15,500</td>
-                      <td>Rs 14,000 - 24,000</td>
-                    </tr>
-                    <tr>
-                      <td>3 BHK House Shifting</td>
-                      <td>Rs 12,000 - 21,000</td>
-                      <td>Rs 20,000 - 32,000</td>
-                    </tr>
-                    <tr>
-                      <td>Car Carrier Services</td>
-                      <td>Rs 4,000 - 8,000</td>
-                      <td>Rs 9,000 - 22,000</td>
+                      <td>Luxury & Sports Car</td>
+                      <td>Rs 8,000 - 15,000</td>
+                      <td>Rs 18,000 - 32,000</td>
                     </tr>
                   </tbody>
                 </table>
               </div>
 
-              <h3 className="fw-bold text-dark h4 mt-5 mb-3">Why Choose SRS Packers and Movers in {city}, {state}?</h3>
+              <h3 className="fw-bold text-dark h4 mt-5 mb-3">Why Choose Maruti Trans in {city}, {state}?</h3>
               <ul className="text-muted ps-3 mb-5">
-                <li className="mb-2">With over 6 years of experience dated since 2018.</li>
-                <li className="mb-2">Affordable and reliable relocation solutions.</li>
-                <li className="mb-2">Secured transit by packing materials of best quality.</li>
-                <li className="mb-2">Household, office as well as vehicle transferring with the expert manner.</li>
-                <li className="mb-2">IBA-approved packers for government employees.</li>
-                <li className="mb-2">Insurance coverage for added protection.</li>
+                <li className="mb-2">Over 10 years of vehicle shipping experience.</li>
+                <li className="mb-2">Registered corporate GST invoice and IBA bills.</li>
+                <li className="mb-2">Certified tie-down wheel straps for zero-scratch transit.</li>
+                <li className="mb-2">Real-time GPS coordinator highway updates.</li>
+                <li className="mb-2">Full transit insurance coverage for complete security.</li>
               </ul>
             </div>
 
@@ -217,7 +268,7 @@ export default async function LocationSlugPage({ params }) {
                 <div className="p-2 bg-light border rounded-3 shadow-sm">
                   <iframe 
                     src={`https://maps.google.com/maps?q=${encodeURIComponent(city + ' ' + state)}&z=13&output=embed`}
-                    title={`Map of SRS Packers and Movers in ${city}`}
+                    title={`Map of Maruti Trans Car Shifting in ${city}`}
                     width="100%" 
                     height="400" 
                     loading="lazy"
@@ -330,7 +381,7 @@ export default async function LocationSlugPage({ params }) {
                       <div key={idx} className="col-12 col-sm-6 col-md-4">
                         <Link href={`/${sibling.slug}`} className="text-decoration-none text-danger fw-semibold d-flex align-items-center gap-2">
                           <i className="bi bi-geo-alt-fill"></i>
-                          <span>Packers and Movers in {sibling.city}</span>
+                          <span>Car Shifting in {sibling.city}</span>
                         </Link>
                       </div>
                     ))}
@@ -344,7 +395,7 @@ export default async function LocationSlugPage({ params }) {
                   <div className="row g-4 align-items-center">
                     <div className="col-md-5">
                       <img 
-                        src="/assets/images/gallery/gallery3.jpg" 
+                        src="/assets/images/gallery/gallery3.webp" 
                         alt={`${city} Team`} 
                         loading="lazy"
                         className="img-fluid rounded-4 shadow-sm border"
@@ -393,14 +444,14 @@ export default async function LocationSlugPage({ params }) {
                     <div className="col-md-6 col-lg-4">
                       <div className="city-service-card">
                         <div className="city-service-icon">
-                          <i className="bi bi-boxes"></i>
+                          <i className="bi bi-send"></i>
                         </div>
-                        <h4 className="city-service-title">Warehousing Service in {city}</h4>
+                        <h4 className="city-service-title">Car Courier Service in {city}</h4>
                         <p className="city-service-desc">
-                          Looking for dependable warehouse services in {city}? SRS Packers and Movers offers industry-leading storage space to store a variety of goods, for a short period and long period.
+                          Express state-to-state vehicle shipping with optimized corridor routing for quick delivery. Perfect for individual car shipping.
                         </p>
-                        <Link href="/warehousing" className="city-service-link">
-                          View Warehousing Service →
+                        <Link href="/car-courier-service" className="city-service-link">
+                          View Courier Service →
                         </Link>
                       </div>
                     </div>
@@ -408,14 +459,14 @@ export default async function LocationSlugPage({ params }) {
                     <div className="col-md-6 col-lg-4">
                       <div className="city-service-card">
                         <div className="city-service-icon">
-                          <i className="bi bi-globe"></i>
+                          <i className="bi bi-house-check"></i>
                         </div>
-                        <h4 className="city-service-title">International Packers and Movers</h4>
+                        <h4 className="city-service-title">Door-to-Door Car Shifting</h4>
                         <p className="city-service-desc">
-                          SRS Packers and Movers provides families and professionals with dependable international relocation services. Our exemplary service records have built SRS's credibility through our years of experience.
+                          Convenient home pickup and direct doorstep delivery with certified check sheets and hydraulic rollback loaders.
                         </p>
-                        <Link href="/international-moving" className="city-service-link">
-                          View International Moving →
+                        <Link href="/door-to-door-car-transport" className="city-service-link">
+                          View Door-to-Door Transport →
                         </Link>
                       </div>
                     </div>
@@ -423,44 +474,14 @@ export default async function LocationSlugPage({ params }) {
                     <div className="col-md-6 col-lg-4">
                       <div className="city-service-card">
                         <div className="city-service-icon">
-                          <i className="bi bi-building-gear"></i>
+                          <i className="bi bi-arrow-left-right"></i>
                         </div>
-                        <h4 className="city-service-title">Industrial Shifting Services</h4>
+                        <h4 className="city-service-title">Car Relocation Service</h4>
                         <p className="city-service-desc">
-                          At SRS Packers and Movers, our team handles industrial shifting services in {city} with a level of care and planning that large-scale moves genuinely require.
+                          Coordinated vehicle shifting for corporate transfers and family relocations across India with complete transit tracking.
                         </p>
-                        <Link href="/services" className="city-service-link">
-                          View Industrial Shifting →
-                        </Link>
-                      </div>
-                    </div>
-
-                    <div className="col-md-6 col-lg-4">
-                      <div className="city-service-card">
-                        <div className="city-service-icon">
-                          <i className="bi bi-house-door"></i>
-                        </div>
-                        <h4 className="city-service-title">Home Shifting Service</h4>
-                        <p className="city-service-desc">
-                          Enjoy a smooth and stress-free household shifting experience in {city} with SRS Packers and Movers. Our experienced team handles every detail with care.
-                        </p>
-                        <Link href="/residential-moving" className="city-service-link">
-                          View Home Shifting →
-                        </Link>
-                      </div>
-                    </div>
-
-                    <div className="col-md-6 col-lg-4">
-                      <div className="city-service-card">
-                        <div className="city-service-icon">
-                          <i className="bi bi-receipt"></i>
-                        </div>
-                        <h4 className="city-service-title">Bill For Claim Packers</h4>
-                        <p className="city-service-desc">
-                          SRS Packers and Movers specializes in providing transparent, verified, and fully compliant Bill for Claim Packers and Movers in {city}, ensuring documentation is accepted without hassle.
-                        </p>
-                        <Link href="/contacts" className="city-service-link">
-                          View Bill For Claim →
+                        <Link href="/car-relocation-service" className="city-service-link">
+                          View Relocation Service →
                         </Link>
                       </div>
                     </div>
@@ -470,12 +491,42 @@ export default async function LocationSlugPage({ params }) {
                         <div className="city-service-icon">
                           <i className="bi bi-truck"></i>
                         </div>
-                        <h4 className="city-service-title">Car Transportation Services</h4>
+                        <h4 className="city-service-title">Car Carrier Shifting</h4>
                         <p className="city-service-desc">
-                          Experience safe and reliable car transportation services in {city} with our expert team. We ensure your vehicle is handled with the utmost care and delivered on time.
+                          Economical multi-car shipping via open double-decker carrier trailers, secured by four-point wheel-strapping systems.
                         </p>
-                        <Link href="/car-transportation-services" className="city-service-link">
-                          View Car Transportation →
+                        <Link href="/car-carrier" className="city-service-link">
+                          View Car Carrier →
+                        </Link>
+                      </div>
+                    </div>
+
+                    <div className="col-md-6 col-lg-4">
+                      <div className="city-service-card">
+                        <div className="city-service-icon">
+                          <i className="bi bi-star-fill"></i>
+                        </div>
+                        <h4 className="city-service-title">Luxury Car Shifting</h4>
+                        <p className="city-service-desc">
+                          White-glove handling with soft wheel straps and air-ride trailers for sports, classic, and premium brand automobiles.
+                        </p>
+                        <Link href="/luxury-car-transport-services" className="city-service-link">
+                          View Luxury Shifting →
+                        </Link>
+                      </div>
+                    </div>
+
+                    <div className="col-md-6 col-lg-4">
+                      <div className="city-service-card">
+                        <div className="city-service-icon">
+                          <i className="bi bi-shield-lock"></i>
+                        </div>
+                        <h4 className="city-service-title">Enclosed Car Carrier</h4>
+                        <p className="city-service-desc">
+                          Covered hard-sided trailer containers protecting luxury and vintage cars from weather conditions and road debris.
+                        </p>
+                        <Link href="/enclosed-car-carrier-services" className="city-service-link">
+                          View Enclosed Carrier →
                         </Link>
                       </div>
                     </div>
@@ -617,9 +668,9 @@ export default async function LocationSlugPage({ params }) {
               {/* Final callout */}
               <div className="city-callout-box">
                 <h3 className="city-callout-title">Contact us today to get free quote for your shifting</h3>
-                <p className="city-callout-desc">Packers and movers in {city}, {state} like SRS Packers and Movers offer best packers and movers services which would be smooth and hassle free.</p>
-                <a href="tel:+919892325154" className="city-callout-btn">
-                  <i className="bi bi-telephone-fill"></i> Call Now: +91 9892325154
+                <p className="city-callout-desc">Packers and movers in {city}, {state} like Maruti Trans Car Carrier Shifting offer best packers and movers services which would be smooth and hassle free.</p>
+                <a href="tel:+918512000715" className="city-callout-btn">
+                  <i className="bi bi-telephone-fill"></i> Call Now: +91 8512000715
                 </a>
               </div>
 

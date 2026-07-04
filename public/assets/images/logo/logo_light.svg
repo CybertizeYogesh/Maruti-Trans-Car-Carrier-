@@ -1,0 +1,23 @@
+<svg viewBox="0 0 320 70" width="320" height="70" xmlns="http://www.w3.org/2000/svg">
+  <!-- Circular Emblem (White fill for high contrast) -->
+  <circle cx="35" cy="35" r="30" stroke="#ffffff" stroke-width="2" fill="#ffffff" />
+  
+  <!-- Stylized Corporate Shifting Graphics inside Circle -->
+  <!-- Top Roof/Cargo Shield (Red) -->
+  <path d="M20 25 L50 25 L35 15 Z" fill="#a10000" />
+  
+  <!-- Center "MT" Lettermark (Bold Black) -->
+  <text x="35" y="38" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="11" fill="#1f2327" text-anchor="middle" letter-spacing="0.5">MT</text>
+  
+  <!-- Bottom Curved Highway Road (Black with white dash line) -->
+  <path d="M18 41 C28 46, 42 46, 52 41" stroke="#1f2327" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M21 42.5 C29 46, 41 46, 49 42.5" stroke="#ffffff" stroke-width="0.8" stroke-dasharray="2,2" fill="none"/>
+
+  <!-- Brand Typography next to emblem -->
+  <!-- "MARUTI TRANS" in bold white -->
+  <text x="78" y="26" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="21" fill="#ffffff" letter-spacing="0.5">MARUTI TRANS</text>
+  <!-- "CAR CARRIER" in bold white -->
+  <text x="78" y="46" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="17" fill="#ffffff" letter-spacing="1">CAR CARRIER</text>
+  <!-- Tagline "TRUSTED VEHICLE SHIFTING PARTNER" in light silver -->
+  <text x="78" y="58" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="8.5" fill="#e3e6e9" letter-spacing="0.8">TRUSTED VEHICLE SHIFTING PARTNER</text>
+</svg>

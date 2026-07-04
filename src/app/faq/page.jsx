@@ -5,88 +5,72 @@ import Link from "next/link";
 import "./faq.css";
 
 const CATEGORIES = [
-  "General Questions",
-  "Support Team",
-  "Pricing & Charges",
-  "Insurance",
-  "Delivery & Tracking"
+  "Shifting Process",
+  "Rates & Booking",
+  "Safety & Insurance",
+  "Transit & Tracking"
 ];
 
 const FAQS = [
   { 
-    category: "General Questions",
-    q: "Is packing included in the moving service?", 
-    a: "Yes, we provide complete packing services using high-quality materials to ensure safe transportation." 
+    category: "Shifting Process",
+    q: "What is the difference between open and enclosed car carriers?", 
+    a: "Open car carriers are cost-effective double-decker trailers that transport up to 8-10 cars simultaneously along national highways. Enclosed car carriers use hard-sided metal containers to shield your vehicle from weather, dust, rain, and road debris, making them ideal for luxury and vintage vehicles." 
   },
   { 
-    category: "General Questions",
-    q: "Do you provide packing materials?", 
-    a: "Yes, we provide high-quality packing materials including carton boxes, bubble wrap, thermocol, stretch wrap, and specialized materials for fragile items." 
+    category: "Shifting Process",
+    q: "Can I place personal items or household goods inside the car?", 
+    a: "Under RTO transport regulations, car carriers are licensed to shift vehicles only, not personal goods or household baggage. Small accessories, a spare tire, and a jack can remain inside the vehicle. The fuel tank should be kept at around 1/4 capacity." 
   },
   { 
-    category: "General Questions",
-    q: "What items are not allowed to be loaded?", 
-    a: "For safety reasons, we do not transport hazardous materials, gas cylinders, liquid chemicals, explosive materials, highly inflammable substances, or jewelry/cash. Please make personal arrangements for valuable documents and jewelry." 
+    category: "Shifting Process",
+    q: "How is my car loaded and secured onto the transport trailer?", 
+    a: "Our crew drives the vehicle up specialized hydraulic ramps or rollback platform beds. Once positioned on the carrier deck, the car is locked in place using a four-point soft-touch wheel strapping system, ensuring zero body scrapes or rolling during transit." 
   },
   { 
-    category: "Support Team",
-    q: "How can I contact your customer support?", 
-    a: "Our dedicated customer support team is available 24/7. You can call us directly at +91 9892325154 or email us at info@srspackersandmovers.com for any queries or assistance." 
+    category: "Rates & Booking",
+    q: "How are vehicle transportation charges calculated?", 
+    a: "Our shifting charges depend on the distance, the vehicle type (hatchback vs. sedan vs. SUV vs. luxury sports car), and the selected transport type (open trailer vs. single flatbed rollback vs. enclosed container)." 
   },
   { 
-    category: "Support Team",
-    q: "What happens if my plans change and I need to reschedule?", 
-    a: "Please contact our support team at least 48 hours before the scheduled move time. We will reschedule your move to your preferred new date based on slot availability without any extra cancellation fee." 
+    category: "Rates & Booking",
+    q: "What documents are required to book interstate car shifting?", 
+    a: "To pass state check-posts legally, you must provide copies of the vehicle Registration Certificate (RC Book), valid car insurance policy, active Pollution Under Control (PUC) certificate, and the owner's ID proof (Aadhar/PAN)." 
   },
   { 
-    category: "Pricing & Charges",
-    q: "How do you calculate moving charges?", 
-    a: "Charges depend on distance, volume of goods, type of packing, and additional services required." 
+    category: "Rates & Booking",
+    q: "Are there any hidden highway fuel surcharges or toll fees?", 
+    a: "No, Maruti Trans maintains 100% transparency. Our final written quotations are inclusive of all driver allowances, toll charges, fuel surcharges, and state taxes. GST is billed separately as per actuals." 
   },
   { 
-    category: "Pricing & Charges",
-    q: "How do I get a quote for my move?", 
-    a: "You can get a free quote by filling out our online form, calling our helpline at +91 9892325154, or visiting any of our branches. Our team will assess your requirements and provide a detailed estimate." 
+    category: "Safety & Insurance",
+    q: "Is transit insurance mandatory for car transport?", 
+    a: "Yes, comprehensive transit insurance is mandatory to protect your vehicle against unforeseen highway accidents, fires, or external damage during transit. The premium is calculated based on the car's current insured declared value (IDV)." 
   },
   { 
-    category: "Pricing & Charges",
-    q: "Are there any hidden charges?", 
-    a: "No, we maintain complete transparency in our pricing. All charges including packing, loading, transport, and unloading are clearly itemized in our initial quotation. GST and toll charges are billed as per actuals." 
+    category: "Safety & Insurance",
+    q: "How do you guarantee vehicle chassis and body safety?", 
+    a: "We never tie chains directly to the chassis or metal bumpers. Vehicles are locked purely via heavy-duty soft straps around the tires, keeping the suspension system free and preventing any structural tension." 
   },
   { 
-    category: "Insurance",
-    q: "Do you provide insurance for goods?", 
-    a: "Yes, we offer transit insurance to protect your belongings against unforeseen damages." 
+    category: "Safety & Insurance",
+    q: "What happens in case of minor transit scratches or damage?", 
+    a: "Before loading, our team conducts a formal digital condition inspection and records photos of your car. In the rare event of transit damage, you must notify us within 24 hours of delivery to process the claims with our insurance partner." 
   },
   { 
-    category: "Insurance",
-    q: "Is my shipment insured by default?", 
-    a: "Yes, all shipments are covered by transit insurance. We offer basic to all-risk insurance plans for valuable items." 
+    category: "Transit & Tracking",
+    q: "How long does interstate car shipping take in India?", 
+    a: "Standard shipping via open multi-car carriers typically takes 3 to 7 days depending on the route distance. Dedicated single flatbed tow trucks offer express transit and deliver faster." 
   },
   { 
-    category: "Insurance",
-    q: "How can I claim insurance in case of damage?", 
-    a: "In the rare event of damage, you must notify our support team within 24 hours of delivery. We will assist you with the documentation and claim processing with the insurance provider for a quick settlement." 
-  },
-  { 
-    category: "Delivery & Tracking",
-    q: "How long does delivery take?", 
-    a: "Delivery time depends on the destination and mode of transport. We always aim for timely delivery." 
-  },
-  { 
-    category: "Delivery & Tracking",
-    q: "How long does a typical move take?", 
-    a: "Local moves take 1–2 days, domestic 3–7 days, and international moves 2–4 weeks depending on distance and volume." 
-  },
-  { 
-    category: "Delivery & Tracking",
-    q: "Can I track my consignment?", 
-    a: "Yes! SRS Packers and Movers provides consignment tracking features. Simply navigate to our 'Track Shipment' page and enter your booking details." 
+    category: "Transit & Tracking",
+    q: "Can I track my car during the journey?", 
+    a: "Yes! Maruti Trans provides consignment tracking features. Simply navigate to our 'Track Shipment' page and enter your booking details." 
   }
 ];
 
 export default function FAQPage() {
-  const [activeCategory, setActiveCategory] = useState("General Questions");
+  const [activeCategory, setActiveCategory] = useState("Shifting Process");
 
   const filteredFaqs = FAQS.filter((faq) => faq.category === activeCategory);
 
@@ -104,7 +88,7 @@ export default function FAQPage() {
               <span>FAQ</span>
             </nav>
             <h1>Frequently Asked Questions</h1>
-            <p>Get Answers to All Your Moving and Packing Questions - Everything You Need to Know Before You Move</p>
+            <p>Get Answers to All Your Car Carrier and Vehicle Shifting Questions - Everything You Need to Know Before Shipping Your Vehicle</p>
           </div>
         </div>
       </section>
@@ -115,7 +99,7 @@ export default function FAQPage() {
           <div className="text-center mb-5">
             <h2 className="faq-title">Frequently Asked Questions</h2>
             <p className="faq-description mx-auto">
-              We’re here to help you with packing, moving, and relocation queries.
+              We’re here to help you with car carrier trailer bookings, flatbed rollbacks, and vehicle transit insurance queries.
             </p>
           </div>
 

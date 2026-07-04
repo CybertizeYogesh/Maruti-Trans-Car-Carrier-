@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "SRS Packers and Movers in Thane, Maharashtra",
+  title: "Maruti Trans Car Shifting in Thane, Maharashtra",
   description: "Find reliable and professional packers and movers in Thane to the Major Cities of India. Get free quotes for home shifting, office shifting, and cargo transport.",
 };
 

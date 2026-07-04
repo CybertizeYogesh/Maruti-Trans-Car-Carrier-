@@ -72,11 +72,12 @@
 }
 
 .main-navbar.sticky-top {
-  position: sticky;
-  z-index: 1020;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1030 !important;
   margin-bottom: 0 !important;
-  background: #fff;
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10);
+  background: #ffffff !important;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10) !important;
 }
 
 .main-nav-logo:hover {

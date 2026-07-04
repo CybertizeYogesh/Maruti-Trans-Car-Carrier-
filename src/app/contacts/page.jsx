@@ -50,18 +50,20 @@ export default function ContactsPage() {
   return (
     <>
       {/* Page Hero */}
-      <section className="page-hero">
+      <section className="page-hero text-center py-5">
         <div className="container">
-          <div className="page-hero-content">
-            <nav className="page-breadcrumb">
+          <div className="page-hero-content mx-auto" style={{ maxWidth: "800px" }}>
+            <nav className="page-breadcrumb d-flex justify-content-center gap-2 mb-3">
               <Link href="/">
                 <i className="bi bi-house-door"></i> Home
               </Link>
               <span>/</span>
-              <span>Contact Us</span>
+              <span className="text-white-50">Contact Us</span>
             </nav>
-            <h1>Contact Us</h1>
-            <p>Get in touch with us for free moving quotes and local shifting support</p>
+            <h1 className="fw-bold text-white mb-3" style={{ fontSize: "3rem" }}>Contact Our Team</h1>
+            <p className="lead text-white-80">
+              Get in touch with Maruti Trans for free vehicle shifting quotes, booking assistance, and cargo tracking updates.
+            </p>
           </div>
         </div>
       </section>
@@ -69,86 +71,96 @@ export default function ContactsPage() {
       {/* Contact Section */}
       <section className="srs-contact-section py-5">
         <div className="container">
-          <div className="row g-4 align-items-start justify-content-center">
+          <div className="row g-4 align-items-stretch justify-content-center">
             
             {/* Left Content (Info) */}
-            <div className="col-lg-5">
-              <span className="contact-badge">Get In Touch</span>
-              <h2 className="contact-title">
-                We'd Love to <span>Hear From You</span>
-              </h2>
-              <p className="contact-text">
-                Have questions about your move? Our team is ready to help you plan
-                the perfect relocation.
-              </p>
+            <div className="col-lg-5 d-flex">
+              <div className="card w-100 border-0 shadow-sm rounded-4 p-4 p-md-5 bg-white d-flex flex-column justify-content-between">
+                <div>
+                  <span className="contact-badge px-3 py-1 rounded-pill small fw-bold">Get In Touch</span>
+                  <h2 className="contact-title fw-bold text-dark mt-3 mb-4" style={{ fontSize: "2rem" }}>
+                    We'd Love to <span className="text-danger">Hear From You</span>
+                  </h2>
+                  <p className="text-muted leading-relaxed mb-4">
+                    Have questions about interstate car carrier trailer schedules, rates, or booking documents? Our customer support desk is active 24/7.
+                  </p>
 
-              <div className="contact-info">
-                <div className="info-item">
-                  <div className="info-icon">
-                    <i className="bi bi-telephone"></i>
-                  </div>
-                  <div>
-                    <h6>Contact Number</h6>
-                    <p>
-                      <a href="tel:+919892325154" className="text-decoration-none text-muted">
-                        +91 9892325154
-                      </a>
-                    </p>
+                  <div className="contact-info d-flex flex-column gap-4">
+                    <div className="info-item d-flex gap-3 align-items-start">
+                      <div className="info-icon bg-danger text-white rounded-3 d-flex align-items-center justify-content-center shadow-sm" style={{ width: "48px", height: "48px", flexShrink: 0 }}>
+                        <i className="bi bi-telephone fs-5"></i>
+                      </div>
+                      <div>
+                        <h6 className="fw-bold text-dark mb-1">Helpline Phone</h6>
+                        <p className="m-0">
+                          <a href="tel:+918512000715" className="text-decoration-none text-muted fw-semibold">
+                            +91 8512000715
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="info-item d-flex gap-3 align-items-start">
+                      <div className="info-icon bg-danger text-white rounded-3 d-flex align-items-center justify-content-center shadow-sm" style={{ width: "48px", height: "48px", flexShrink: 0 }}>
+                        <i className="bi bi-envelope fs-5"></i>
+                      </div>
+                      <div>
+                        <h6 className="fw-bold text-dark mb-1">Email Us</h6>
+                        <p className="m-0">
+                          <a href="mailto:info@marutitrans.com" className="text-decoration-none text-muted fw-semibold">
+                            info@marutitrans.com
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div className="info-item d-flex gap-3 align-items-start">
+                      <div className="info-icon bg-danger text-white rounded-3 d-flex align-items-center justify-content-center shadow-sm" style={{ width: "48px", height: "48px", flexShrink: 0 }}>
+                        <i className="bi bi-geo-alt fs-5"></i>
+                      </div>
+                      <div>
+                        <h6 className="fw-bold text-dark mb-1">Registered Head Office Address</h6>
+                        <p className="text-muted small leading-relaxed m-0">
+                          Floor No.: GROUND FLOOR<br />
+                          Building No./Flat No.: HOUSE NO .84<br />
+                          Name Of Premises/Building: MARUTI TRANS PACKERS & MOVERS<br />
+                          Road/Street: CHANDWASS ROAD<br />
+                          Nearby Landmark: Hari Om Irritation Company<br />
+                          Locality/Sub Locality: CHANDWASS ,BADHRA<br />
+                          City/Town/Village: Kiskanda<br />
+                          District: Charkhi Dadri<br />
+                          State: Haryana<br />
+                          PIN Code: 127312
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
 
-                <div className="info-item">
-                  <div className="info-icon">
-                    <i className="bi bi-envelope"></i>
-                  </div>
-                  <div>
-                    <h6>Email Us</h6>
-                    <p>
-                      <a href="mailto:info@srspackersandmovers.com" className="text-decoration-none text-muted">
-                        info@srspackersandmovers.com
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                <div className="info-item">
-                  <div className="info-icon">
-                    <i className="bi bi-geo-alt"></i>
-                  </div>
-                  <div>
-                    <h6>Mumbai Office Address</h6>
-                    <p>
-                      Plot no. 9, Shop no. 4, City inclave, sec.2a, koparkhairne Mumbai, Maharashtra 400709
-                    </p>
-                  </div>
-                </div>
-
-                <div className="info-item">
-                  <div className="info-icon">
-                    <i className="bi bi-building"></i>
-                  </div>
-                  <div>
-                    <h6>Pune Office Address</h6>
-                    <p>
-                      Shop No. 03, Ganadhish Residency, Behind Chul Muttan, Pimple Saudagar, Pimpri-Chinchwad, Pune, Maharashtra 411027
-                    </p>
+                <div className="mt-4 pt-4 border-top">
+                  <h6 className="fw-bold text-dark mb-2">Social Connections</h6>
+                  <div className="d-flex gap-2">
+                    <a href="#" className="btn btn-outline-secondary rounded-circle d-flex align-items-center justify-content-center" style={{ width: "40px", height: "40px" }}><i className="bi bi-facebook"></i></a>
+                    <a href="#" className="btn btn-outline-secondary rounded-circle d-flex align-items-center justify-content-center" style={{ width: "40px", height: "40px" }}><i className="bi bi-twitter"></i></a>
+                    <a href="#" className="btn btn-outline-secondary rounded-circle d-flex align-items-center justify-content-center" style={{ width: "40px", height: "40px" }}><i className="bi bi-instagram"></i></a>
+                    <a href="#" className="btn btn-outline-secondary rounded-circle d-flex align-items-center justify-content-center" style={{ width: "40px", height: "40px" }}><i className="bi bi-linkedin"></i></a>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Right Form */}
-            <div className="col-lg-5">
-              <div className="contact-form-card">
-                <h4>Request a Free Quote</h4>
+            <div className="col-lg-5 d-flex">
+              <div className="card w-100 border-0 shadow-sm rounded-4 p-4 p-md-5 bg-white">
+                <h4 className="fw-bold text-dark mb-4">Request a Free Quote</h4>
 
                 <form onSubmit={handleSubmit}>
                   <div className="row g-3">
-                    <div className="col-md-6">
-                      <label className="form-label">Full Name *</label>
+                    <div className="col-12">
+                      <label className="form-label fw-semibold text-dark">Full Name *</label>
                       <input
                         type="text"
-                        className="form-control"
+                        className="form-control py-2 px-3 border rounded-3"
                         placeholder="Enter your name"
                         value={formData.name}
                         onChange={(e) => setFormData({ ...formData, name: e.target.value })}
@@ -156,12 +168,12 @@ export default function ContactsPage() {
                       />
                     </div>
 
-                    <div className="col-md-6">
-                      <label className="form-label">Phone Number *</label>
+                    <div className="col-12">
+                      <label className="form-label fw-semibold text-dark">Phone Number *</label>
                       <input
                         type="tel"
-                        className="form-control"
-                        placeholder="+91"
+                        className="form-control py-2 px-3 border rounded-3"
+                        placeholder="Enter 10 digit number"
                         value={formData.phone}
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         required
@@ -169,10 +181,10 @@ export default function ContactsPage() {
                     </div>
 
                     <div className="col-12">
-                      <label class="form-label">Email Address</label>
+                      <label className="form-label fw-semibold text-dark">Email Address</label>
                       <input
                         type="email"
-                        className="form-control"
+                        className="form-control py-2 px-3 border rounded-3"
                         placeholder="your@email.com"
                         value={formData.email}
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
@@ -180,11 +192,11 @@ export default function ContactsPage() {
                     </div>
 
                     <div className="col-12">
-                      <label className="form-label">Message</label>
+                      <label className="form-label fw-semibold text-dark">Shifting Requirements</label>
                       <textarea
-                        className="form-control"
+                        className="form-control py-2 px-3 border rounded-3"
                         rows="4"
-                        placeholder="Your Message"
+                        placeholder="Please describe your shifting requirement (e.g. Maruti Swift from Charkhi Dadri to Pune)"
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       ></textarea>
@@ -192,8 +204,8 @@ export default function ContactsPage() {
 
                     {statusMessage === "success" && (
                       <div className="col-12">
-                        <div className="alert alert-success m-0">
-                          <p style={{ color: "green", margin: 0 }}>
+                        <div className="alert alert-success m-0 rounded-3">
+                          <p style={{ color: "green", margin: 0, fontWeight: "600" }}>
                             Thank you! Your quote request successfully submitted. We'll respond soon.
                           </p>
                         </div>
@@ -202,15 +214,15 @@ export default function ContactsPage() {
 
                     {statusMessage && statusMessage !== "success" && (
                       <div className="col-12">
-                        <p style={{ color: "red", margin: 0 }}>
+                        <p style={{ color: "red", margin: 0, fontWeight: "600" }}>
                           {statusMessage}
                         </p>
                       </div>
                     )}
 
-                    <div className="col-md-6">
-                      <button type="submit" className="submit-btn w-100" disabled={isLoading}>
-                        <i className="bi bi-send"></i> {isLoading ? "Sending..." : "Send Message"}
+                    <div className="col-12 mt-4">
+                      <button type="submit" className="btn btn-danger w-100 py-3 rounded-3 fw-bold text-white shadow-sm transition-all" disabled={isLoading} style={{ backgroundColor: "#a10000" }}>
+                        <i className="bi bi-send me-2"></i> {isLoading ? "Sending..." : "Submit Quote Request"}
                       </button>
                     </div>
                   </div>
@@ -219,6 +231,30 @@ export default function ContactsPage() {
             </div>
 
           </div>
+
+          {/* Google Map Section */}
+          <div className="row mt-5">
+            <div className="col-12">
+              <div className="card border-0 shadow-sm rounded-4 overflow-hidden bg-white">
+                <div className="card-header bg-white border-bottom p-4">
+                  <h5 className="fw-bold text-dark m-0"><i className="bi bi-map-fill text-danger me-2"></i>Registered Head Office Location (Haryana)</h5>
+                </div>
+                <div className="p-0">
+                  <iframe
+                    title="Map of Maruti Trans registered Haryana office"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111867.75549091871!2d76.191147!3d28.592548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391215b3e6c0c2e3%3A0xeab4838634cf8df8!2sCharkhi%20Dadri%2C%20Haryana!5e0!3m2!1sen!2sin!4v1719591618979!5m2!1sen!2sin"
+                    width="100%"
+                    height="400"
+                    style={{ border: 0, display: "block" }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
         </div>
       </section>
     </>

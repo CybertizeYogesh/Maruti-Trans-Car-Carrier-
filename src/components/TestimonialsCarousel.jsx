@@ -1,62 +1,62 @@
 "use client";
 
 import React, { useRef, useEffect } from "react";
-import "./TestimonialsCarouse.css";
+import "./TestimonialsCarousel.css";
 
 const TESTIMONIALS = [
   {
     initials: "RS",
     name: "Rahul Sharma",
     route: "Mumbai to Delhi",
-    text: "“Excellent service! The team was professional and handled all our belongings with utmost care. The entire move was completed ahead of schedule.”"
+    text: "“Superb car shipping service! My sedan was loaded onto a hydraulic flatbed and secured perfectly with wheel straps. Arrived in Delhi from Mumbai without a single scratch!”"
   },
   {
     initials: "PP",
     name: "Priya Patel",
     route: "Pune to Bangalore",
-    text: "“Best packers and movers I've ever hired. Transparent pricing, no hidden costs, and exceptional packing quality. Highly recommended!”"
+    text: "“Extremely satisfied with their car carrier service. The pricing was transparent and all-inclusive. My hatchback arrived in Bangalore on time. Excellent support!”"
   },
   {
     initials: "AK",
     name: "Amit Kumar",
     route: "Chennai to Hyderabad",
-    text: "“SRS made our office relocation seamless. Minimal downtime and everything was set up perfectly at the new location. Great team!”"
+    text: "“Maruti Trans made my luxury SUV transport seamless. I was worried about my new car, but their enclosed carrier protected it from road debris perfectly. Great job!”"
   },
   {
     initials: "SG",
     name: "Sneha Gupta",
     route: "Kolkata to Mumbai",
-    text: "“Very impressed with their car carrier service. My car arrived safely and on time. Tracking updates were very helpful.”"
+    text: "“Very impressed with their open multi-car carrier trailer network. My SUV was delivered from Kolkata to Mumbai on the committed date. Tracking updates were helpful.”"
   },
   {
     initials: "MS",
     name: "Manish Singh",
     route: "Mumbai to Pune",
-    text: "“Hired them for household shifting. Extremely happy with their packing speed and safety measures. Highly recommended!”"
+    text: "“Hired them for shipping my classic vintage car to Pune. The single car flatbed carrier service was highly professional. Zero chassis scraping or body damage!”"
   },
   {
     initials: "AD",
     name: "Anjali Deshmukh",
     route: "Thane to Navi Mumbai",
-    text: "“The team was courteous and carefully unpacked all the items. Excellent localized shifting service in Mumbai.”"
+    text: "“Courteous crew and swift local towing for my hatchback. They did a formal condition inspection check before loading. Highly recommend their local shifting!”"
   },
   {
     initials: "VM",
     name: "Vikram Malhotra",
     route: "Delhi to Mumbai",
-    text: "“Very smooth house relocation. The packing of my fragile glassware was done with double-layered bubble wrap. No damages at all.”"
+    text: "“Very smooth interstate car relocation. The loading on the double-decker trailer was done with high-quality tire blocks. Received my sedan safely. No issues at all.”"
   },
   {
     initials: "PN",
     name: "Pooja Nair",
     route: "Bangalore to Pune",
-    text: "“Professional support, timely updates, and very supportive loaders. Thanks to SRS Packers for safe transportation of my bike.”"
+    text: "“Professional support, timely updates, and very supportive crew. Thanks to Maruti Trans for safe enclosed container transportation of my premium sports car.”"
   },
   {
     initials: "DJ",
     name: "Deepak Joshi",
     route: "Mumbai to Ahmedabad",
-    text: "“Excellent warehousing storage facility. Kept my household items for 3 months with complete safety and security.”"
+    text: "“Excellent vehicle transit storage facility. They safely parked my SUV in their secure terminal yard in Mumbai before transporting it to Ahmedabad. Safe and reliable!”"
   }
 ];
 
@@ -112,6 +112,7 @@ export default function TestimonialsCarousel() {
   useEffect(() => {
     startAutoSlide();
     return () => stopAutoSlide();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const handleManualNext = () => {

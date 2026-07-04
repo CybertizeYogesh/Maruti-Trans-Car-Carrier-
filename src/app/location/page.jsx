@@ -3,9 +3,9 @@ import Link from "next/link";
 import "./location.css";
 
 export const metadata = {
-  title: "All India Service SRS Packers And Movers",
-  description: "SRS Packers And Movers offers premium relocation, home shifting, and office moving services in Maharashtra and across major states in India.",
-  keywords: "srs packers locations, home shifting states, office moving cities, all india packers movers",
+  title: "All India Service Maruti Trans Car Carrier Shifting",
+  description: "Maruti Trans Car Carrier Shifting offers premium relocation, home shifting, and office moving services in Maharashtra and across major states in India.",
+  keywords: "Maruti Trans Packers & Movers locations, home shifting states, office moving cities, all india packers movers",
 };
 
 export default function LocationPage() {
@@ -18,15 +18,15 @@ export default function LocationPage() {
     { name: "Rajasthan", img: "/assets/images/state/Rajasthan.webp", path: "/rajasthan-packers-and-movers" },
     { name: "Punjab", img: "/assets/images/state/punjab.webp", path: "/punjab-packers-and-movers" },
     { name: "Jaipur", img: "/assets/images/state/jaipur.webp", path: "/jaipur-packers-and-movers" },
-    { name: "Karnataka", img: "/assets/images/state/karnataka.png", path: "/karnataka-packers-and-movers" },
-    { name: "Andhra Pradesh", img: "/assets/images/state/karnataka.png", path: "/andhra-pradesh-packers-and-movers" }
+    { name: "Karnataka", img: "/assets/images/state/karnataka.webp", path: "/karnataka-packers-and-movers" },
+    { name: "Andhra Pradesh", img: "/assets/images/state/karnataka.webp", path: "/andhra-pradesh-packers-and-movers" }
   ];
 
   const CITIES = [
-    { name: "Mumbai to Major Cities", img: "/assets/images/cities/mumbai.png", path: "/maharashtra/mumbai-to-other-city-services" },
-    { name: "Pune to Major Cities", img: "/assets/images/cities/pune.png", path: "/maharashtra/pune-to-other-city-services" },
-    { name: "Navi Mumbai to Major Cities", img: "/assets/images/cities/navi-mumbai.png", path: "/maharashtra/navi-mumbai-to-other-city-services" },
-    { name: "Thane to Major Cities", img: "/assets/images/cities/thane.png", path: "/maharashtra/thane-to-other-city-services" }
+    { name: "Gurgaon to Major Cities", img: "/assets/images/gallery/gallery1.webp", path: "/contacts?origin=Gurgaon" },
+    { name: "Faridabad to Major Cities", img: "/assets/images/gallery/gallery3.webp", path: "/contacts?origin=Faridabad" },
+    { name: "Rohtak to Major Cities", img: "/assets/images/gallery/gallery6.webp", path: "/contacts?origin=Rohtak" },
+    { name: "Charkhi Dadri to Major Cities", img: "/assets/images/services/car.webp", path: "/contacts?origin=CharkhiDadri" }
   ];
 
   return (
@@ -86,11 +86,11 @@ export default function LocationPage() {
             ))}
           </div>
 
-          {/* Section 2: Maharashtra City Routes */}
+          {/* Section 2: Haryana City Routes */}
           <div className="row mt-5">
             <div className="col-lg-12">
               <div className="st__section__title mb-5 text-center">
-                <span className="display-6 fw-bold text-danger">Maharashtra to Pan-India Cities</span>
+                <span className="display-6 fw-bold text-danger">Haryana</span>
                 <span className="circle"></span>
               </div>
             </div>

@@ -36,8 +36,10 @@ export default function QuoteForm({ isModal = false, isServicePage = false, defa
 
   const fromRef = useRef(null);
   const toRef = useRef(null);
+  const fromTimeoutRef = useRef(null);
+  const toTimeoutRef = useRef(null);
 
-  // Close suggestions on outside click
+  // Close suggestions on outside click and clean up timeouts
   useEffect(() => {
     function handleClickOutside(event) {
       if (fromRef.current && !fromRef.current.contains(event.target)) {
@@ -48,7 +50,11 @@ export default function QuoteForm({ isModal = false, isServicePage = false, defa
       }
     }
     document.addEventListener("mousedown", handleClickOutside);
-    return () => document.removeEventListener("mousedown", handleClickOutside);
+    return () => {
+      document.removeEventListener("mousedown", handleClickOutside);
+      if (fromTimeoutRef.current) clearTimeout(fromTimeoutRef.current);
+      if (toTimeoutRef.current) clearTimeout(toTimeoutRef.current);
+    };
   }, []);
 
   const handleMoveTypeSelect = (type) => {
@@ -63,48 +69,62 @@ export default function QuoteForm({ isModal = false, isServicePage = false, defa
     setStep(2);
   };
 
-  // Autocomplete fetch for origin
-  const handleFromChange = async (e) => {
+  // Autocomplete fetch for origin with 300ms debounce
+  const handleFromChange = (e) => {
     const val = e.target.value;
     setFormData({ ...formData, mf_input: val });
     if (val.trim().length < 2) {
       setFromSuggestions([]);
       return;
     }
-    try {
-      const res = await fetch("/api/places/autocomplete", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ q: val })
-      });
-      const data = await res.json();
-      setFromSuggestions(data);
-      setShowFromSug(true);
-    } catch (err) {
-      console.error("Autocomplete error:", err);
+
+    if (fromTimeoutRef.current) {
+      clearTimeout(fromTimeoutRef.current);
     }
+
+    fromTimeoutRef.current = setTimeout(async () => {
+      try {
+        const res = await fetch("/api/places/autocomplete", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ q: val })
+        });
+        const data = await res.json();
+        setFromSuggestions(data);
+        setShowFromSug(true);
+      } catch (err) {
+        console.error("Autocomplete error:", err);
+      }
+    }, 300);
   };
 
-  // Autocomplete fetch for destination
-  const handleToChange = async (e) => {
+  // Autocomplete fetch for destination with 300ms debounce
+  const handleToChange = (e) => {
     const val = e.target.value;
     setFormData({ ...formData, mt_input: val });
     if (val.trim().length < 2) {
       setToSuggestions([]);
       return;
     }
-    try {
-      const res = await fetch("/api/places/autocomplete", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ q: val })
-      });
-      const data = await res.json();
-      setToSuggestions(data);
-      setShowToSug(true);
-    } catch (err) {
-      console.error("Autocomplete error:", err);
+
+    if (toTimeoutRef.current) {
+      clearTimeout(toTimeoutRef.current);
     }
+
+    toTimeoutRef.current = setTimeout(async () => {
+      try {
+        const res = await fetch("/api/places/autocomplete", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ q: val })
+        });
+        const data = await res.json();
+        setToSuggestions(data);
+        setShowToSug(true);
+      } catch (err) {
+        console.error("Autocomplete error:", err);
+      }
+    }, 300);
   };
 
   const handleSelectFromCity = async (item) => {
@@ -390,8 +410,8 @@ export default function QuoteForm({ isModal = false, isServicePage = false, defa
         <div className="slider-form-header px-3 py-3">
           <div className="d-flex justify-content-between align-items-center">
             <span className="slider-form-title text-white">Get a Free Quote</span>
-            <a href="tel:+919892325154" className="slider-form-phone-link fw-bold">
-              <i className="bi bi-telephone-fill me-1"></i>9892325154
+            <a href="tel:+918512000715" className="slider-form-phone-link fw-bold">
+              <i className="bi bi-telephone-fill me-1"></i>8512000715
             </a>
           </div>
         </div>
@@ -538,8 +558,8 @@ export default function QuoteForm({ isModal = false, isServicePage = false, defa
             <span className="slider-form-title text-white">
               Get a Free Quote
             </span>
-            <a href="tel:+919892325154" className="slider-form-phone-link fw-bold">
-              <i className="bi bi-telephone-fill me-1"></i>9892325154
+            <a href="tel:+918512000715" className="slider-form-phone-link fw-bold">
+              <i className="bi bi-telephone-fill me-1"></i>8512000715
             </a>
           </div>
         </div>
@@ -692,43 +712,43 @@ export default function QuoteForm({ isModal = false, isServicePage = false, defa
 
             <div className="move-type-selection">
               <div
-                className={`move-type-option ${moveType === "domestic" ? "selected" : ""}`}
-                onClick={() => handleMoveTypeSelect("domestic")}
+                className={`move-type-option ${moveType === "Hatchback" ? "selected" : ""}`}
+                onClick={() => handleMoveTypeSelect("Hatchback")}
               >
                 <div className="move-type-icon">
-                  <i className="bi bi-geo-alt-fill"></i>
+                  <i className="bi bi-car-front"></i>
                 </div>
-                <p className="move-type-label">Domestic</p>
+                <p className="move-type-label">Hatchback</p>
               </div>
 
               <div
-                className={`move-type-option ${moveType === "international" ? "selected" : ""}`}
-                onClick={() => handleMoveTypeSelect("international")}
+                className={`move-type-option ${moveType === "Sedan" ? "selected" : ""}`}
+                onClick={() => handleMoveTypeSelect("Sedan")}
               >
                 <div className="move-type-icon">
-                  <i className="bi bi-globe"></i>
+                  <i className="bi bi-car-front-fill"></i>
                 </div>
-                <p className="move-type-label">International</p>
+                <p className="move-type-label">Sedan</p>
               </div>
 
               <div
-                className={`move-type-option ${moveType === "local" ? "selected" : ""}`}
-                onClick={() => handleMoveTypeSelect("local")}
+                className={`move-type-option ${moveType === "SUV" ? "selected" : ""}`}
+                onClick={() => handleMoveTypeSelect("SUV")}
               >
                 <div className="move-type-icon">
-                  <i className="bi bi-building"></i>
+                  <i className="bi bi-truck"></i>
                 </div>
-                <p className="move-type-label">Local Shifting</p>
+                <p className="move-type-label">SUV / MUV</p>
               </div>
 
               <div
-                className={`move-type-option ${moveType === "Warehouse" ? "selected" : ""}`}
-                onClick={() => handleMoveTypeSelect("Warehouse")}
+                className={`move-type-option ${moveType === "Luxury" ? "selected" : ""}`}
+                onClick={() => handleMoveTypeSelect("Luxury")}
               >
                 <div className="move-type-icon">
-                  <i className="bi bi-boxes"></i>
+                  <i className="bi bi-shield-lock-fill"></i>
                 </div>
-                <p className="move-type-label">Warehouse</p>
+                <p className="move-type-label">Luxury / Enclosed</p>
               </div>
             </div>
 
@@ -748,8 +768,8 @@ export default function QuoteForm({ isModal = false, isServicePage = false, defa
               <div className="slider-form-header px-3 py-3">
                 <div className="d-flex justify-content-between align-items-center">
                   <span className="slider-form-title text-white">Get a Free Quote</span>
-                  <a href="tel:+919892325154" className="slider-form-phone-link fw-bold">
-                    <i className="bi bi-telephone-fill me-1"></i>9892325154
+                  <a href="tel:+918512000715" className="slider-form-phone-link fw-bold">
+                    <i className="bi bi-telephone-fill me-1"></i>8512000715
                   </a>
                 </div>
               </div>

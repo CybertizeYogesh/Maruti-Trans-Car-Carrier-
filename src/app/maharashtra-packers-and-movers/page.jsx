@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "SRS Packers And Movers in Maharashtra",
-  description: "Find reliable and professional packers and movers in Packers & Movers in Maharashtra. Get free quotes for home shifting, office shifting, and cargo transport.",
+  title: "Maruti Trans Car Shifting in Maharashtra",
+  description: "Find reliable and professional packers and movers in Car Shifting in Maharashtra. Get free quotes for home shifting, office shifting, and cargo transport.",
 };
 
 export default function LocationRoutePage() {
@@ -11,2682 +11,2682 @@ export default function LocationRoutePage() {
   {
     "path": "/achalpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Achalpur</strong>"
+    "html": "Car Shifting in <strong>Achalpur</strong>"
   },
   {
     "path": "/adawad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Adawad</strong>"
+    "html": "Car Shifting in <strong>Adawad</strong>"
   },
   {
     "path": "/agar-panchaitan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Agar Panchaitan</strong>"
+    "html": "Car Shifting in <strong>Agar Panchaitan</strong>"
   },
   {
     "path": "/aheri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Aheri</strong>"
+    "html": "Car Shifting in <strong>Aheri</strong>"
   },
   {
     "path": "/ahiri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ahiri</strong>"
+    "html": "Car Shifting in <strong>Ahiri</strong>"
   },
   {
     "path": "/ahmadnagar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ahmadnagar</strong>"
+    "html": "Car Shifting in <strong>Ahmadnagar</strong>"
   },
   {
     "path": "/ahmadpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ahmadpur</strong>"
+    "html": "Car Shifting in <strong>Ahmadpur</strong>"
   },
   {
     "path": "/ahmednagar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ahmednagar</strong>"
+    "html": "Car Shifting in <strong>Ahmednagar</strong>"
   },
   {
     "path": "/airoli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Airoli</strong>"
+    "html": "Car Shifting in <strong>Airoli</strong>"
   },
   {
     "path": "/ajra-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ajra</strong>"
+    "html": "Car Shifting in <strong>Ajra</strong>"
   },
   {
     "path": "/akalkot-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Akalkot</strong>"
+    "html": "Car Shifting in <strong>Akalkot</strong>"
   },
   {
     "path": "/akkalkot-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Akkalkot</strong>"
+    "html": "Car Shifting in <strong>Akkalkot</strong>"
   },
   {
     "path": "/akluj-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Akluj</strong>"
+    "html": "Car Shifting in <strong>Akluj</strong>"
   },
   {
     "path": "/akola-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Akola</strong>"
+    "html": "Car Shifting in <strong>Akola</strong>"
   },
   {
     "path": "/akolner-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Akolner</strong>"
+    "html": "Car Shifting in <strong>Akolner</strong>"
   },
   {
     "path": "/akot-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Akot</strong>"
+    "html": "Car Shifting in <strong>Akot</strong>"
   },
   {
     "path": "/akrani-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Akrani</strong>"
+    "html": "Car Shifting in <strong>Akrani</strong>"
   },
   {
     "path": "/alandi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Alandi</strong>"
+    "html": "Car Shifting in <strong>Alandi</strong>"
   },
   {
     "path": "/ale-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ale</strong>"
+    "html": "Car Shifting in <strong>Ale</strong>"
   },
   {
     "path": "/alibag-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Alibag</strong>"
+    "html": "Car Shifting in <strong>Alibag</strong>"
   },
   {
     "path": "/alkuti-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Alkuti</strong>"
+    "html": "Car Shifting in <strong>Alkuti</strong>"
   },
   {
     "path": "/allapalli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Allapalli</strong>"
+    "html": "Car Shifting in <strong>Allapalli</strong>"
   },
   {
     "path": "/amalner-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Amalner</strong>"
+    "html": "Car Shifting in <strong>Amalner</strong>"
   },
   {
     "path": "/amarnath-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Amarnath</strong>"
+    "html": "Car Shifting in <strong>Amarnath</strong>"
   },
   {
     "path": "/ambad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ambad</strong>"
+    "html": "Car Shifting in <strong>Ambad</strong>"
   },
   {
     "path": "/ambajogai-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ambajogai</strong>"
+    "html": "Car Shifting in <strong>Ambajogai</strong>"
   },
   {
     "path": "/ambarnath-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ambarnath</strong>"
+    "html": "Car Shifting in <strong>Ambarnath</strong>"
   },
   {
     "path": "/ambegaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ambegaon</strong>"
+    "html": "Car Shifting in <strong>Ambegaon</strong>"
   },
   {
     "path": "/amgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Amgaon</strong>"
+    "html": "Car Shifting in <strong>Amgaon</strong>"
   },
   {
     "path": "/amravati-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Amravati</strong>"
+    "html": "Car Shifting in <strong>Amravati</strong>"
   },
   {
     "path": "/amravati-division-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Amravati Division</strong>"
+    "html": "Car Shifting in <strong>Amravati Division</strong>"
   },
   {
     "path": "/andura-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Andura</strong>"
+    "html": "Car Shifting in <strong>Andura</strong>"
   },
   {
     "path": "/anjangaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Anjangaon</strong>"
+    "html": "Car Shifting in <strong>Anjangaon</strong>"
   },
   {
     "path": "/anjarle-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Anjarle</strong>"
+    "html": "Car Shifting in <strong>Anjarle</strong>"
   },
   {
     "path": "/anshing-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Anshing</strong>"
+    "html": "Car Shifting in <strong>Anshing</strong>"
   },
   {
     "path": "/arag-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Arag</strong>"
+    "html": "Car Shifting in <strong>Arag</strong>"
   },
   {
     "path": "/arangaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Arangaon</strong>"
+    "html": "Car Shifting in <strong>Arangaon</strong>"
   },
   {
     "path": "/ardhapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ardhapur</strong>"
+    "html": "Car Shifting in <strong>Ardhapur</strong>"
   },
   {
     "path": "/argaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Argaon</strong>"
+    "html": "Car Shifting in <strong>Argaon</strong>"
   },
   {
     "path": "/artist-village-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Artist Village</strong>"
+    "html": "Car Shifting in <strong>Artist Village</strong>"
   },
   {
     "path": "/arvi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Arvi</strong>"
+    "html": "Car Shifting in <strong>Arvi</strong>"
   },
   {
     "path": "/ashta-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ashta</strong>"
+    "html": "Car Shifting in <strong>Ashta</strong>"
   },
   {
     "path": "/ashti-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ashti</strong>"
+    "html": "Car Shifting in <strong>Ashti</strong>"
   },
   {
     "path": "/asoda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Asoda</strong>"
+    "html": "Car Shifting in <strong>Asoda</strong>"
   },
   {
     "path": "/assaye-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Assaye</strong>"
+    "html": "Car Shifting in <strong>Assaye</strong>"
   },
   {
     "path": "/astagaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Astagaon</strong>"
+    "html": "Car Shifting in <strong>Astagaon</strong>"
   },
   {
     "path": "/aundh-satara-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Aundh Satara</strong>"
+    "html": "Car Shifting in <strong>Aundh Satara</strong>"
   },
   {
     "path": "/aurangabad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Aurangabad</strong>"
+    "html": "Car Shifting in <strong>Aurangabad</strong>"
   },
   {
     "path": "/ausa-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ausa</strong>"
+    "html": "Car Shifting in <strong>Ausa</strong>"
   },
   {
     "path": "/badnapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Badnapur</strong>"
+    "html": "Car Shifting in <strong>Badnapur</strong>"
   },
   {
     "path": "/badnera-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Badnera</strong>"
+    "html": "Car Shifting in <strong>Badnera</strong>"
   },
   {
     "path": "/bagewadi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bagewadi</strong>"
+    "html": "Car Shifting in <strong>Bagewadi</strong>"
   },
   {
     "path": "/balapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Balapur</strong>"
+    "html": "Car Shifting in <strong>Balapur</strong>"
   },
   {
     "path": "/balapur-akola-district-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Balapur Akola district</strong>"
+    "html": "Car Shifting in <strong>Balapur Akola district</strong>"
   },
   {
     "path": "/ballalpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ballalpur</strong>"
+    "html": "Car Shifting in <strong>Ballalpur</strong>"
   },
   {
     "path": "/ballard-estate-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ballard Estate</strong>"
+    "html": "Car Shifting in <strong>Ballard Estate</strong>"
   },
   {
     "path": "/ballarpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ballarpur</strong>"
+    "html": "Car Shifting in <strong>Ballarpur</strong>"
   },
   {
     "path": "/banda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Banda</strong>"
+    "html": "Car Shifting in <strong>Banda</strong>"
   },
   {
     "path": "/baner-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Baner</strong>"
+    "html": "Car Shifting in <strong>Baner</strong>"
   },
   {
     "path": "/bankot-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bankot</strong>"
+    "html": "Car Shifting in <strong>Bankot</strong>"
   },
   {
     "path": "/barsi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Barsi</strong>"
+    "html": "Car Shifting in <strong>Barsi</strong>"
   },
   {
     "path": "/basmat-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Basmat</strong>"
+    "html": "Car Shifting in <strong>Basmat</strong>"
   },
   {
     "path": "/basmath-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Basmath</strong>"
+    "html": "Car Shifting in <strong>Basmath</strong>"
   },
   {
     "path": "/bavdhan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bavdhan</strong>"
+    "html": "Car Shifting in <strong>Bavdhan</strong>"
   },
   {
     "path": "/bawanbir-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bawanbir</strong>"
+    "html": "Car Shifting in <strong>Bawanbir</strong>"
   },
   {
     "path": "/beed-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Beed</strong>"
+    "html": "Car Shifting in <strong>Beed</strong>"
   },
   {
     "path": "/bhadgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhadgaon</strong>"
+    "html": "Car Shifting in <strong>Bhadgaon</strong>"
   },
   {
     "path": "/bhandara-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhandara</strong>"
+    "html": "Car Shifting in <strong>Bhandara</strong>"
   },
   {
     "path": "/bhandardara-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhandardara</strong>"
+    "html": "Car Shifting in <strong>Bhandardara</strong>"
   },
   {
     "path": "/bhigvan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhigvan</strong>"
+    "html": "Car Shifting in <strong>Bhigvan</strong>"
   },
   {
     "path": "/bhiwandi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhiwandi</strong>"
+    "html": "Car Shifting in <strong>Bhiwandi</strong>"
   },
   {
     "path": "/bhiwapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhiwapur</strong>"
+    "html": "Car Shifting in <strong>Bhiwapur</strong>"
   },
   {
     "path": "/bhokar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhokar</strong>"
+    "html": "Car Shifting in <strong>Bhokar</strong>"
   },
   {
     "path": "/bhokardan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhokardan</strong>"
+    "html": "Car Shifting in <strong>Bhokardan</strong>"
   },
   {
     "path": "/bhoom-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhoom</strong>"
+    "html": "Car Shifting in <strong>Bhoom</strong>"
   },
   {
     "path": "/bhor-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhor</strong>"
+    "html": "Car Shifting in <strong>Bhor</strong>"
   },
   {
     "path": "/bhudgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhudgaon</strong>"
+    "html": "Car Shifting in <strong>Bhudgaon</strong>"
   },
   {
     "path": "/bhugaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhugaon</strong>"
+    "html": "Car Shifting in <strong>Bhugaon</strong>"
   },
   {
     "path": "/bhum-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhum</strong>"
+    "html": "Car Shifting in <strong>Bhum</strong>"
   },
   {
     "path": "/bhusaval-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhusaval</strong>"
+    "html": "Car Shifting in <strong>Bhusaval</strong>"
   },
   {
     "path": "/bhusawal-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhusawal</strong>"
+    "html": "Car Shifting in <strong>Bhusawal</strong>"
   },
   {
     "path": "/bid-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bid</strong>"
+    "html": "Car Shifting in <strong>Bid</strong>"
   },
   {
     "path": "/bijur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bijur</strong>"
+    "html": "Car Shifting in <strong>Bijur</strong>"
   },
   {
     "path": "/bilashi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bilashi</strong>"
+    "html": "Car Shifting in <strong>Bilashi</strong>"
   },
   {
     "path": "/biloli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Biloli</strong>"
+    "html": "Car Shifting in <strong>Biloli</strong>"
   },
   {
     "path": "/boisar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Boisar</strong>"
+    "html": "Car Shifting in <strong>Boisar</strong>"
   },
   {
     "path": "/borgaon-manju-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Borgaon Manju</strong>"
+    "html": "Car Shifting in <strong>Borgaon Manju</strong>"
   },
   {
     "path": "/borivali-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Borivali</strong>"
+    "html": "Car Shifting in <strong>Borivali</strong>"
   },
   {
     "path": "/brahmapuri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Brahmapuri</strong>"
+    "html": "Car Shifting in <strong>Brahmapuri</strong>"
   },
   {
     "path": "/buldana-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Buldana</strong>"
+    "html": "Car Shifting in <strong>Buldana</strong>"
   },
   {
     "path": "/buldhana-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Buldhana</strong>"
+    "html": "Car Shifting in <strong>Buldhana</strong>"
   },
   {
     "path": "/chakan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chakan</strong>"
+    "html": "Car Shifting in <strong>Chakan</strong>"
   },
   {
     "path": "/chakur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chakur</strong>"
+    "html": "Car Shifting in <strong>Chakur</strong>"
   },
   {
     "path": "/chalisgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chalisgaon</strong>"
+    "html": "Car Shifting in <strong>Chalisgaon</strong>"
   },
   {
     "path": "/chanda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chanda</strong>"
+    "html": "Car Shifting in <strong>Chanda</strong>"
   },
   {
     "path": "/chandgad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chandgad</strong>"
+    "html": "Car Shifting in <strong>Chandgad</strong>"
   },
   {
     "path": "/chandor-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chandor</strong>"
+    "html": "Car Shifting in <strong>Chandor</strong>"
   },
   {
     "path": "/chandrapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chandrapur</strong>"
+    "html": "Car Shifting in <strong>Chandrapur</strong>"
   },
   {
     "path": "/chandur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chandur</strong>"
+    "html": "Car Shifting in <strong>Chandur</strong>"
   },
   {
     "path": "/chandur-bazar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chandur Bazar</strong>"
+    "html": "Car Shifting in <strong>Chandur Bazar</strong>"
   },
   {
     "path": "/chausala-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chausala</strong>"
+    "html": "Car Shifting in <strong>Chausala</strong>"
   },
   {
     "path": "/chicholi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chicholi</strong>"
+    "html": "Car Shifting in <strong>Chicholi</strong>"
   },
   {
     "path": "/chichondi-patil-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chichondi Patil</strong>"
+    "html": "Car Shifting in <strong>Chichondi Patil</strong>"
   },
   {
     "path": "/chikhli-buldhana-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chikhli Buldhana</strong>"
+    "html": "Car Shifting in <strong>Chikhli Buldhana</strong>"
   },
   {
     "path": "/chikhli-jalna-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chikhli Jalna</strong>"
+    "html": "Car Shifting in <strong>Chikhli Jalna</strong>"
   },
   {
     "path": "/chimur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chimur</strong>"
+    "html": "Car Shifting in <strong>Chimur</strong>"
   },
   {
     "path": "/chinchani-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chinchani</strong>"
+    "html": "Car Shifting in <strong>Chinchani</strong>"
   },
   {
     "path": "/chiplun-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chiplun</strong>"
+    "html": "Car Shifting in <strong>Chiplun</strong>"
   },
   {
     "path": "/chopda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chopda</strong>"
+    "html": "Car Shifting in <strong>Chopda</strong>"
   },
   {
     "path": "/dabhol-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dabhol</strong>"
+    "html": "Car Shifting in <strong>Dabhol</strong>"
   },
   {
     "path": "/daddi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Daddi</strong>"
+    "html": "Car Shifting in <strong>Daddi</strong>"
   },
   {
     "path": "/dahanu-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dahanu</strong>"
+    "html": "Car Shifting in <strong>Dahanu</strong>"
   },
   {
     "path": "/dahivel-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dahivel</strong>"
+    "html": "Car Shifting in <strong>Dahivel</strong>"
   },
   {
     "path": "/dapoli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dapoli</strong>"
+    "html": "Car Shifting in <strong>Dapoli</strong>"
   },
   {
     "path": "/darwha-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Darwha</strong>"
+    "html": "Car Shifting in <strong>Darwha</strong>"
   },
   {
     "path": "/daryapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Daryapur</strong>"
+    "html": "Car Shifting in <strong>Daryapur</strong>"
   },
   {
     "path": "/dattapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dattapur</strong>"
+    "html": "Car Shifting in <strong>Dattapur</strong>"
   },
   {
     "path": "/daulatabad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Daulatabad</strong>"
+    "html": "Car Shifting in <strong>Daulatabad</strong>"
   },
   {
     "path": "/daund-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Daund</strong>"
+    "html": "Car Shifting in <strong>Daund</strong>"
   },
   {
     "path": "/deccan-gymkhana-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Deccan Gymkhana</strong>"
+    "html": "Car Shifting in <strong>Deccan Gymkhana</strong>"
   },
   {
     "path": "/deglur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Deglur</strong>"
+    "html": "Car Shifting in <strong>Deglur</strong>"
   },
   {
     "path": "/dehu-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dehu</strong>"
+    "html": "Car Shifting in <strong>Dehu</strong>"
   },
   {
     "path": "/deolali-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Deolali</strong>"
+    "html": "Car Shifting in <strong>Deolali</strong>"
   },
   {
     "path": "/deolapar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Deolapar</strong>"
+    "html": "Car Shifting in <strong>Deolapar</strong>"
   },
   {
     "path": "/deoli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Deoli</strong>"
+    "html": "Car Shifting in <strong>Deoli</strong>"
   },
   {
     "path": "/deoni-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Deoni</strong>"
+    "html": "Car Shifting in <strong>Deoni</strong>"
   },
   {
     "path": "/deulgaon-raja-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Deulgaon Raja</strong>"
+    "html": "Car Shifting in <strong>Deulgaon Raja</strong>"
   },
   {
     "path": "/devrukh-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Devrukh</strong>"
+    "html": "Car Shifting in <strong>Devrukh</strong>"
   },
   {
     "path": "/dharangaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dharangaon</strong>"
+    "html": "Car Shifting in <strong>Dharangaon</strong>"
   },
   {
     "path": "/dharavi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dharavi</strong>"
+    "html": "Car Shifting in <strong>Dharavi</strong>"
   },
   {
     "path": "/dharmabad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dharmabad</strong>"
+    "html": "Car Shifting in <strong>Dharmabad</strong>"
   },
   {
     "path": "/dharur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dharur</strong>"
+    "html": "Car Shifting in <strong>Dharur</strong>"
   },
   {
     "path": "/dhawalpuri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dhawalpuri</strong>"
+    "html": "Car Shifting in <strong>Dhawalpuri</strong>"
   },
   {
     "path": "/dhule-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dhule</strong>"
+    "html": "Car Shifting in <strong>Dhule</strong>"
   },
   {
     "path": "/dhulia-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dhulia</strong>"
+    "html": "Car Shifting in <strong>Dhulia</strong>"
   },
   {
     "path": "/dighori-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dighori</strong>"
+    "html": "Car Shifting in <strong>Dighori</strong>"
   },
   {
     "path": "/diglur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Diglur</strong>"
+    "html": "Car Shifting in <strong>Diglur</strong>"
   },
   {
     "path": "/digras-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Digras</strong>"
+    "html": "Car Shifting in <strong>Digras</strong>"
   },
   {
     "path": "/dindori-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dindori</strong>"
+    "html": "Car Shifting in <strong>Dindori</strong>"
   },
   {
     "path": "/diveagar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Diveagar</strong>"
+    "html": "Car Shifting in <strong>Diveagar</strong>"
   },
   {
     "path": "/dombivli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dombivli</strong>"
+    "html": "Car Shifting in <strong>Dombivli</strong>"
   },
   {
     "path": "/dondaicha-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dondaicha</strong>"
+    "html": "Car Shifting in <strong>Dondaicha</strong>"
   },
   {
     "path": "/dongri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dongri</strong>"
+    "html": "Car Shifting in <strong>Dongri</strong>"
   },
   {
     "path": "/dudhani-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dudhani</strong>"
+    "html": "Car Shifting in <strong>Dudhani</strong>"
   },
   {
     "path": "/durgapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Durgapur</strong>"
+    "html": "Car Shifting in <strong>Durgapur</strong>"
   },
   {
     "path": "/durgapur,-chandrapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Durgapur, Chandrapur</strong>"
+    "html": "Car Shifting in <strong>Durgapur, Chandrapur</strong>"
   },
   {
     "path": "/erandol-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Erandol</strong>"
+    "html": "Car Shifting in <strong>Erandol</strong>"
   },
   {
     "path": "/faizpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Faizpur</strong>"
+    "html": "Car Shifting in <strong>Faizpur</strong>"
   },
   {
     "path": "/fort-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Fort</strong>"
+    "html": "Car Shifting in <strong>Fort</strong>"
   },
   {
     "path": "/gadchiroli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Gadchiroli</strong>"
+    "html": "Car Shifting in <strong>Gadchiroli</strong>"
   },
   {
     "path": "/gadhinglaj-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Gadhinglaj</strong>"
+    "html": "Car Shifting in <strong>Gadhinglaj</strong>"
   },
   {
     "path": "/gangakher-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Gangakher</strong>"
+    "html": "Car Shifting in <strong>Gangakher</strong>"
   },
   {
     "path": "/gangapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Gangapur</strong>"
+    "html": "Car Shifting in <strong>Gangapur</strong>"
   },
   {
     "path": "/ganpatipule-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ganpatipule</strong>"
+    "html": "Car Shifting in <strong>Ganpatipule</strong>"
   },
   {
     "path": "/gevrai-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Gevrai</strong>"
+    "html": "Car Shifting in <strong>Gevrai</strong>"
   },
   {
     "path": "/ghargaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ghargaon</strong>"
+    "html": "Car Shifting in <strong>Ghargaon</strong>"
   },
   {
     "path": "/ghatanji-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ghatanji</strong>"
+    "html": "Car Shifting in <strong>Ghatanji</strong>"
   },
   {
     "path": "/ghoti-budrukh-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ghoti Budrukh</strong>"
+    "html": "Car Shifting in <strong>Ghoti Budrukh</strong>"
   },
   {
     "path": "/ghugus-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ghugus</strong>"
+    "html": "Car Shifting in <strong>Ghugus</strong>"
   },
   {
     "path": "/girgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Girgaon</strong>"
+    "html": "Car Shifting in <strong>Girgaon</strong>"
   },
   {
     "path": "/gondia-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Gondia</strong>"
+    "html": "Car Shifting in <strong>Gondia</strong>"
   },
   {
     "path": "/gondiya-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Gondiya</strong>"
+    "html": "Car Shifting in <strong>Gondiya</strong>"
   },
   {
     "path": "/guhagar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Guhagar</strong>"
+    "html": "Car Shifting in <strong>Guhagar</strong>"
   },
   {
     "path": "/hadgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Hadgaon</strong>"
+    "html": "Car Shifting in <strong>Hadgaon</strong>"
   },
   {
     "path": "/halkarni-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Halkarni</strong>"
+    "html": "Car Shifting in <strong>Halkarni</strong>"
   },
   {
     "path": "/harangul-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Harangul</strong>"
+    "html": "Car Shifting in <strong>Harangul</strong>"
   },
   {
     "path": "/harnai-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Harnai</strong>"
+    "html": "Car Shifting in <strong>Harnai</strong>"
   },
   {
     "path": "/helwak-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Helwak</strong>"
+    "html": "Car Shifting in <strong>Helwak</strong>"
   },
   {
     "path": "/hinganghat-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Hinganghat</strong>"
+    "html": "Car Shifting in <strong>Hinganghat</strong>"
   },
   {
     "path": "/hingoli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Hingoli</strong>"
+    "html": "Car Shifting in <strong>Hingoli</strong>"
   },
   {
     "path": "/hirapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Hirapur</strong>"
+    "html": "Car Shifting in <strong>Hirapur</strong>"
   },
   {
     "path": "/hirapur-hamesha-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Hirapur Hamesha</strong>"
+    "html": "Car Shifting in <strong>Hirapur Hamesha</strong>"
   },
   {
     "path": "/hotgi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Hotgi</strong>"
+    "html": "Car Shifting in <strong>Hotgi</strong>"
   },
   {
     "path": "/ichalkaranji-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ichalkaranji</strong>"
+    "html": "Car Shifting in <strong>Ichalkaranji</strong>"
   },
   {
     "path": "/igatpuri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Igatpuri</strong>"
+    "html": "Car Shifting in <strong>Igatpuri</strong>"
   },
   {
     "path": "/indapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Indapur</strong>"
+    "html": "Car Shifting in <strong>Indapur</strong>"
   },
   {
     "path": "/jaisingpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jaisingpur</strong>"
+    "html": "Car Shifting in <strong>Jaisingpur</strong>"
   },
   {
     "path": "/jaitapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jaitapur</strong>"
+    "html": "Car Shifting in <strong>Jaitapur</strong>"
   },
   {
     "path": "/jakhangaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jakhangaon</strong>"
+    "html": "Car Shifting in <strong>Jakhangaon</strong>"
   },
   {
     "path": "/jalgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jalgaon</strong>"
+    "html": "Car Shifting in <strong>Jalgaon</strong>"
   },
   {
     "path": "/jalgaon-jamod-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jalgaon Jamod</strong>"
+    "html": "Car Shifting in <strong>Jalgaon Jamod</strong>"
   },
   {
     "path": "/jalkot-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jalkot</strong>"
+    "html": "Car Shifting in <strong>Jalkot</strong>"
   },
   {
     "path": "/jalna-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jalna</strong>"
+    "html": "Car Shifting in <strong>Jalna</strong>"
   },
   {
     "path": "/jamkhed-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jamkhed</strong>"
+    "html": "Car Shifting in <strong>Jamkhed</strong>"
   },
   {
     "path": "/jamod-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jamod</strong>"
+    "html": "Car Shifting in <strong>Jamod</strong>"
   },
   {
     "path": "/janephal-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Janephal</strong>"
+    "html": "Car Shifting in <strong>Janephal</strong>"
   },
   {
     "path": "/jaoli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jaoli</strong>"
+    "html": "Car Shifting in <strong>Jaoli</strong>"
   },
   {
     "path": "/jat-sangli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jat Sangli</strong>"
+    "html": "Car Shifting in <strong>Jat Sangli</strong>"
   },
   {
     "path": "/jategaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jategaon</strong>"
+    "html": "Car Shifting in <strong>Jategaon</strong>"
   },
   {
     "path": "/jawhar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jawhar</strong>"
+    "html": "Car Shifting in <strong>Jawhar</strong>"
   },
   {
     "path": "/jaysingpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jaysingpur</strong>"
+    "html": "Car Shifting in <strong>Jaysingpur</strong>"
   },
   {
     "path": "/jejuri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jejuri</strong>"
+    "html": "Car Shifting in <strong>Jejuri</strong>"
   },
   {
     "path": "/jintur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jintur</strong>"
+    "html": "Car Shifting in <strong>Jintur</strong>"
   },
   {
     "path": "/junnar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Junnar</strong>"
+    "html": "Car Shifting in <strong>Junnar</strong>"
   },
   {
     "path": "/kachurwahi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kachurwahi</strong>"
+    "html": "Car Shifting in <strong>Kachurwahi</strong>"
   },
   {
     "path": "/kadegaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kadegaon</strong>"
+    "html": "Car Shifting in <strong>Kadegaon</strong>"
   },
   {
     "path": "/kadus-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kadus</strong>"
+    "html": "Car Shifting in <strong>Kadus</strong>"
   },
   {
     "path": "/kagal-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kagal</strong>"
+    "html": "Car Shifting in <strong>Kagal</strong>"
   },
   {
     "path": "/kaij-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kaij</strong>"
+    "html": "Car Shifting in <strong>Kaij</strong>"
   },
   {
     "path": "/kalamb-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kalamb</strong>"
+    "html": "Car Shifting in <strong>Kalamb</strong>"
   },
   {
     "path": "/kalamb-osmanabad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kalamb Osmanabad</strong>"
+    "html": "Car Shifting in <strong>Kalamb Osmanabad</strong>"
   },
   {
     "path": "/kalamboli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kalamboli</strong>"
+    "html": "Car Shifting in <strong>Kalamboli</strong>"
   },
   {
     "path": "/kalamnuri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kalamnuri</strong>"
+    "html": "Car Shifting in <strong>Kalamnuri</strong>"
   },
   {
     "path": "/kalas-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kalas</strong>"
+    "html": "Car Shifting in <strong>Kalas</strong>"
   },
   {
     "path": "/kali-dk-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kali DK</strong>"
+    "html": "Car Shifting in <strong>Kali DK</strong>"
   },
   {
     "path": "/kalmeshwar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kalmeshwar</strong>"
+    "html": "Car Shifting in <strong>Kalmeshwar</strong>"
   },
   {
     "path": "/kalundri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kalundri</strong>"
+    "html": "Car Shifting in <strong>Kalundri</strong>"
   },
   {
     "path": "/kalyan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kalyan</strong>"
+    "html": "Car Shifting in <strong>Kalyan</strong>"
   },
   {
     "path": "/kamargaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kamargaon</strong>"
+    "html": "Car Shifting in <strong>Kamargaon</strong>"
   },
   {
     "path": "/kamatgi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kamatgi</strong>"
+    "html": "Car Shifting in <strong>Kamatgi</strong>"
   },
   {
     "path": "/kamptee-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kamptee</strong>"
+    "html": "Car Shifting in <strong>Kamptee</strong>"
   },
   {
     "path": "/kamthi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kamthi</strong>"
+    "html": "Car Shifting in <strong>Kamthi</strong>"
   },
   {
     "path": "/kandri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kandri</strong>"
+    "html": "Car Shifting in <strong>Kandri</strong>"
   },
   {
     "path": "/kankauli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kankauli</strong>"
+    "html": "Car Shifting in <strong>Kankauli</strong>"
   },
   {
     "path": "/kankavli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kankavli</strong>"
+    "html": "Car Shifting in <strong>Kankavli</strong>"
   },
   {
     "path": "/kannad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kannad</strong>"
+    "html": "Car Shifting in <strong>Kannad</strong>"
   },
   {
     "path": "/karad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Karad</strong>"
+    "html": "Car Shifting in <strong>Karad</strong>"
   },
   {
     "path": "/karajagi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Karajagi</strong>"
+    "html": "Car Shifting in <strong>Karajagi</strong>"
   },
   {
     "path": "/karanja-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Karanja</strong>"
+    "html": "Car Shifting in <strong>Karanja</strong>"
   },
   {
     "path": "/karanja-lad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Karanja Lad</strong>"
+    "html": "Car Shifting in <strong>Karanja Lad</strong>"
   },
   {
     "path": "/karkamb-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Karkamb</strong>"
+    "html": "Car Shifting in <strong>Karkamb</strong>"
   },
   {
     "path": "/karmala-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Karmala</strong>"
+    "html": "Car Shifting in <strong>Karmala</strong>"
   },
   {
     "path": "/kasara-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kasara</strong>"
+    "html": "Car Shifting in <strong>Kasara</strong>"
   },
   {
     "path": "/kasoda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kasoda</strong>"
+    "html": "Car Shifting in <strong>Kasoda</strong>"
   },
   {
     "path": "/kati-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kati</strong>"
+    "html": "Car Shifting in <strong>Kati</strong>"
   },
   {
     "path": "/katol-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Katol</strong>"
+    "html": "Car Shifting in <strong>Katol</strong>"
   },
   {
     "path": "/katral-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Katral</strong>"
+    "html": "Car Shifting in <strong>Katral</strong>"
   },
   {
     "path": "/khadki-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khadki</strong>"
+    "html": "Car Shifting in <strong>Khadki</strong>"
   },
   {
     "path": "/khalapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khalapur</strong>"
+    "html": "Car Shifting in <strong>Khalapur</strong>"
   },
   {
     "path": "/khallar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khallar</strong>"
+    "html": "Car Shifting in <strong>Khallar</strong>"
   },
   {
     "path": "/khamgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khamgaon</strong>"
+    "html": "Car Shifting in <strong>Khamgaon</strong>"
   },
   {
     "path": "/khanapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khanapur</strong>"
+    "html": "Car Shifting in <strong>Khanapur</strong>"
   },
   {
     "path": "/khandala-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khandala</strong>"
+    "html": "Car Shifting in <strong>Khandala</strong>"
   },
   {
     "path": "/khangaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khangaon</strong>"
+    "html": "Car Shifting in <strong>Khangaon</strong>"
   },
   {
     "path": "/khapa-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khapa</strong>"
+    "html": "Car Shifting in <strong>Khapa</strong>"
   },
   {
     "path": "/kharakvasla-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kharakvasla</strong>"
+    "html": "Car Shifting in <strong>Kharakvasla</strong>"
   },
   {
     "path": "/kharda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kharda</strong>"
+    "html": "Car Shifting in <strong>Kharda</strong>"
   },
   {
     "path": "/kharghar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kharghar</strong>"
+    "html": "Car Shifting in <strong>Kharghar</strong>"
   },
   {
     "path": "/kharsundi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kharsundi</strong>"
+    "html": "Car Shifting in <strong>Kharsundi</strong>"
   },
   {
     "path": "/khed-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khed</strong>"
+    "html": "Car Shifting in <strong>Khed</strong>"
   },
   {
     "path": "/khede-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khede</strong>"
+    "html": "Car Shifting in <strong>Khede</strong>"
   },
   {
     "path": "/khetia-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khetia</strong>"
+    "html": "Car Shifting in <strong>Khetia</strong>"
   },
   {
     "path": "/khoni-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khoni</strong>"
+    "html": "Car Shifting in <strong>Khoni</strong>"
   },
   {
     "path": "/khopoli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khopoli</strong>"
+    "html": "Car Shifting in <strong>Khopoli</strong>"
   },
   {
     "path": "/khuldabad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Khuldabad</strong>"
+    "html": "Car Shifting in <strong>Khuldabad</strong>"
   },
   {
     "path": "/kinwat-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kinwat</strong>"
+    "html": "Car Shifting in <strong>Kinwat</strong>"
   },
   {
     "path": "/kodoli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kodoli</strong>"
+    "html": "Car Shifting in <strong>Kodoli</strong>"
   },
   {
     "path": "/kolhapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kolhapur</strong>"
+    "html": "Car Shifting in <strong>Kolhapur</strong>"
   },
   {
     "path": "/kondalwadi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kondalwadi</strong>"
+    "html": "Car Shifting in <strong>Kondalwadi</strong>"
   },
   {
     "path": "/kondhali-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kondhali</strong>"
+    "html": "Car Shifting in <strong>Kondhali</strong>"
   },
   {
     "path": "/kopar-khairane-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kopar Khairane</strong>"
+    "html": "Car Shifting in <strong>Kopar Khairane</strong>"
   },
   {
     "path": "/kopargaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kopargaon</strong>"
+    "html": "Car Shifting in <strong>Kopargaon</strong>"
   },
   {
     "path": "/kopela-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kopela</strong>"
+    "html": "Car Shifting in <strong>Kopela</strong>"
   },
   {
     "path": "/koradi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Koradi</strong>"
+    "html": "Car Shifting in <strong>Koradi</strong>"
   },
   {
     "path": "/koregaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Koregaon</strong>"
+    "html": "Car Shifting in <strong>Koregaon</strong>"
   },
   {
     "path": "/koynanagar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Koynanagar</strong>"
+    "html": "Car Shifting in <strong>Koynanagar</strong>"
   },
   {
     "path": "/kudal-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kudal</strong>"
+    "html": "Car Shifting in <strong>Kudal</strong>"
   },
   {
     "path": "/kuhi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kuhi</strong>"
+    "html": "Car Shifting in <strong>Kuhi</strong>"
   },
   {
     "path": "/kurandvad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kurandvad</strong>"
+    "html": "Car Shifting in <strong>Kurandvad</strong>"
   },
   {
     "path": "/kurankhed-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kurankhed</strong>"
+    "html": "Car Shifting in <strong>Kurankhed</strong>"
   },
   {
     "path": "/kurduvadi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kurduvadi</strong>"
+    "html": "Car Shifting in <strong>Kurduvadi</strong>"
   },
   {
     "path": "/kusumba-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kusumba</strong>"
+    "html": "Car Shifting in <strong>Kusumba</strong>"
   },
   {
     "path": "/lakhandur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Lakhandur</strong>"
+    "html": "Car Shifting in <strong>Lakhandur</strong>"
   },
   {
     "path": "/lanja-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Lanja</strong>"
+    "html": "Car Shifting in <strong>Lanja</strong>"
   },
   {
     "path": "/lasalgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Lasalgaon</strong>"
+    "html": "Car Shifting in <strong>Lasalgaon</strong>"
   },
   {
     "path": "/latur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Latur</strong>"
+    "html": "Car Shifting in <strong>Latur</strong>"
   },
   {
     "path": "/lavasa-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Lavasa</strong>"
+    "html": "Car Shifting in <strong>Lavasa</strong>"
   },
   {
     "path": "/lohogaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Lohogaon</strong>"
+    "html": "Car Shifting in <strong>Lohogaon</strong>"
   },
   {
     "path": "/lonar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Lonar</strong>"
+    "html": "Car Shifting in <strong>Lonar</strong>"
   },
   {
     "path": "/lonavla-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Lonavla</strong>"
+    "html": "Car Shifting in <strong>Lonavla</strong>"
   },
   {
     "path": "/mahabaleshwar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mahabaleshwar</strong>"
+    "html": "Car Shifting in <strong>Mahabaleshwar</strong>"
   },
   {
     "path": "/mahad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mahad</strong>"
+    "html": "Car Shifting in <strong>Mahad</strong>"
   },
   {
     "path": "/mahape-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mahape</strong>"
+    "html": "Car Shifting in <strong>Mahape</strong>"
   },
   {
     "path": "/maindargi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Maindargi</strong>"
+    "html": "Car Shifting in <strong>Maindargi</strong>"
   },
   {
     "path": "/majalgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Majalgaon</strong>"
+    "html": "Car Shifting in <strong>Majalgaon</strong>"
   },
   {
     "path": "/makhjan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Makhjan</strong>"
+    "html": "Car Shifting in <strong>Makhjan</strong>"
   },
   {
     "path": "/malegaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Malegaon</strong>"
+    "html": "Car Shifting in <strong>Malegaon</strong>"
   },
   {
     "path": "/malkapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Malkapur</strong>"
+    "html": "Car Shifting in <strong>Malkapur</strong>"
   },
   {
     "path": "/malvan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Malvan</strong>"
+    "html": "Car Shifting in <strong>Malvan</strong>"
   },
   {
     "path": "/manchar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Manchar</strong>"
+    "html": "Car Shifting in <strong>Manchar</strong>"
   },
   {
     "path": "/mandangad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mandangad</strong>"
+    "html": "Car Shifting in <strong>Mandangad</strong>"
   },
   {
     "path": "/mandhal-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mandhal</strong>"
+    "html": "Car Shifting in <strong>Mandhal</strong>"
   },
   {
     "path": "/mandwa-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mandwa</strong>"
+    "html": "Car Shifting in <strong>Mandwa</strong>"
   },
   {
     "path": "/mangaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mangaon</strong>"
+    "html": "Car Shifting in <strong>Mangaon</strong>"
   },
   {
     "path": "/mangrul-pir-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mangrul Pir</strong>"
+    "html": "Car Shifting in <strong>Mangrul Pir</strong>"
   },
   {
     "path": "/manjlegaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Manjlegaon</strong>"
+    "html": "Car Shifting in <strong>Manjlegaon</strong>"
   },
   {
     "path": "/mankeshwar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mankeshwar</strong>"
+    "html": "Car Shifting in <strong>Mankeshwar</strong>"
   },
   {
     "path": "/mankhurd-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mankhurd</strong>"
+    "html": "Car Shifting in <strong>Mankhurd</strong>"
   },
   {
     "path": "/manmad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Manmad</strong>"
+    "html": "Car Shifting in <strong>Manmad</strong>"
   },
   {
     "path": "/manor-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Manor</strong>"
+    "html": "Car Shifting in <strong>Manor</strong>"
   },
   {
     "path": "/mansar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mansar</strong>"
+    "html": "Car Shifting in <strong>Mansar</strong>"
   },
   {
     "path": "/manwat-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Manwat</strong>"
+    "html": "Car Shifting in <strong>Manwat</strong>"
   },
   {
     "path": "/manwath-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Manwath</strong>"
+    "html": "Car Shifting in <strong>Manwath</strong>"
   },
   {
     "path": "/maregaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Maregaon</strong>"
+    "html": "Car Shifting in <strong>Maregaon</strong>"
   },
   {
     "path": "/mastiholi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mastiholi</strong>"
+    "html": "Car Shifting in <strong>Mastiholi</strong>"
   },
   {
     "path": "/masur,-india-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Masur, India</strong>"
+    "html": "Car Shifting in <strong>Masur, India</strong>"
   },
   {
     "path": "/matheran-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Matheran</strong>"
+    "html": "Car Shifting in <strong>Matheran</strong>"
   },
   {
     "path": "/mehekar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mehekar</strong>"
+    "html": "Car Shifting in <strong>Mehekar</strong>"
   },
   {
     "path": "/mehergaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mehergaon</strong>"
+    "html": "Car Shifting in <strong>Mehergaon</strong>"
   },
   {
     "path": "/mehkar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mehkar</strong>"
+    "html": "Car Shifting in <strong>Mehkar</strong>"
   },
   {
     "path": "/mhasla-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mhasla</strong>"
+    "html": "Car Shifting in <strong>Mhasla</strong>"
   },
   {
     "path": "/mhasvad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mhasvad</strong>"
+    "html": "Car Shifting in <strong>Mhasvad</strong>"
   },
   {
     "path": "/miraj-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Miraj</strong>"
+    "html": "Car Shifting in <strong>Miraj</strong>"
   },
   {
     "path": "/mohadi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mohadi</strong>"
+    "html": "Car Shifting in <strong>Mohadi</strong>"
   },
   {
     "path": "/mohol-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mohol</strong>"
+    "html": "Car Shifting in <strong>Mohol</strong>"
   },
   {
     "path": "/mohpa-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mohpa</strong>"
+    "html": "Car Shifting in <strong>Mohpa</strong>"
   },
   {
     "path": "/mokhada-taluka-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mokhada taluka</strong>"
+    "html": "Car Shifting in <strong>Mokhada taluka</strong>"
   },
   {
     "path": "/mora-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mora</strong>"
+    "html": "Car Shifting in <strong>Mora</strong>"
   },
   {
     "path": "/moram-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Moram</strong>"
+    "html": "Car Shifting in <strong>Moram</strong>"
   },
   {
     "path": "/morsi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Morsi</strong>"
+    "html": "Car Shifting in <strong>Morsi</strong>"
   },
   {
     "path": "/mowad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mowad</strong>"
+    "html": "Car Shifting in <strong>Mowad</strong>"
   },
   {
     "path": "/mudkhed-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mudkhed</strong>"
+    "html": "Car Shifting in <strong>Mudkhed</strong>"
   },
   {
     "path": "/mukher-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mukher</strong>"
+    "html": "Car Shifting in <strong>Mukher</strong>"
   },
   {
     "path": "/mul-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mul</strong>"
+    "html": "Car Shifting in <strong>Mul</strong>"
   },
   {
     "path": "/mulher-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mulher</strong>"
+    "html": "Car Shifting in <strong>Mulher</strong>"
   },
   {
     "path": "/mumbai-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mumbai</strong>"
+    "html": "Car Shifting in <strong>Mumbai</strong>"
   },
   {
     "path": "/mumbai-suburban-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Mumbai Suburban</strong>"
+    "html": "Car Shifting in <strong>Mumbai Suburban</strong>"
   },
   {
     "path": "/murbad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Murbad</strong>"
+    "html": "Car Shifting in <strong>Murbad</strong>"
   },
   {
     "path": "/murgud-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Murgud</strong>"
+    "html": "Car Shifting in <strong>Murgud</strong>"
   },
   {
     "path": "/murtajapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Murtajapur</strong>"
+    "html": "Car Shifting in <strong>Murtajapur</strong>"
   },
   {
     "path": "/murud-raigad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Murud Raigad</strong>"
+    "html": "Car Shifting in <strong>Murud Raigad</strong>"
   },
   {
     "path": "/murud-ratnagiri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Murud Ratnagiri</strong>"
+    "html": "Car Shifting in <strong>Murud Ratnagiri</strong>"
   },
   {
     "path": "/murum-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Murum</strong>"
+    "html": "Car Shifting in <strong>Murum</strong>"
   },
   {
     "path": "/nadgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nadgaon</strong>"
+    "html": "Car Shifting in <strong>Nadgaon</strong>"
   },
   {
     "path": "/nagapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nagapur</strong>"
+    "html": "Car Shifting in <strong>Nagapur</strong>"
   },
   {
     "path": "/nagothana-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nagothana</strong>"
+    "html": "Car Shifting in <strong>Nagothana</strong>"
   },
   {
     "path": "/nagpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nagpur</strong>"
+    "html": "Car Shifting in <strong>Nagpur</strong>"
   },
   {
     "path": "/nagpur-division-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nagpur Division</strong>"
+    "html": "Car Shifting in <strong>Nagpur Division</strong>"
   },
   {
     "path": "/nala-sopara-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nala Sopara</strong>"
+    "html": "Car Shifting in <strong>Nala Sopara</strong>"
   },
   {
     "path": "/naldurg-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Naldurg</strong>"
+    "html": "Car Shifting in <strong>Naldurg</strong>"
   },
   {
     "path": "/nalegaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nalegaon</strong>"
+    "html": "Car Shifting in <strong>Nalegaon</strong>"
   },
   {
     "path": "/nampur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nampur</strong>"
+    "html": "Car Shifting in <strong>Nampur</strong>"
   },
   {
     "path": "/nanded-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nanded</strong>"
+    "html": "Car Shifting in <strong>Nanded</strong>"
   },
   {
     "path": "/nandgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nandgaon</strong>"
+    "html": "Car Shifting in <strong>Nandgaon</strong>"
   },
   {
     "path": "/nandnee-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nandnee</strong>"
+    "html": "Car Shifting in <strong>Nandnee</strong>"
   },
   {
     "path": "/nandura-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nandura</strong>"
+    "html": "Car Shifting in <strong>Nandura</strong>"
   },
   {
     "path": "/nandura-buzurg-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nandura Buzurg</strong>"
+    "html": "Car Shifting in <strong>Nandura Buzurg</strong>"
   },
   {
     "path": "/nandurbar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nandurbar</strong>"
+    "html": "Car Shifting in <strong>Nandurbar</strong>"
   },
   {
     "path": "/narayangaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Narayangaon</strong>"
+    "html": "Car Shifting in <strong>Narayangaon</strong>"
   },
   {
     "path": "/nardana-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nardana</strong>"
+    "html": "Car Shifting in <strong>Nardana</strong>"
   },
   {
     "path": "/narkhed-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Narkhed</strong>"
+    "html": "Car Shifting in <strong>Narkhed</strong>"
   },
   {
     "path": "/nashik-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nashik</strong>"
+    "html": "Car Shifting in <strong>Nashik</strong>"
   },
   {
     "path": "/nashik-division-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nashik Division</strong>"
+    "html": "Car Shifting in <strong>Nashik Division</strong>"
   },
   {
     "path": "/navapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Navapur</strong>"
+    "html": "Car Shifting in <strong>Navapur</strong>"
   },
   {
     "path": "/navi-mumbai-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Navi Mumbai</strong>"
+    "html": "Car Shifting in <strong>Navi Mumbai</strong>"
   },
   {
     "path": "/neral-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Neral</strong>"
+    "html": "Car Shifting in <strong>Neral</strong>"
   },
   {
     "path": "/nerur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nerur</strong>"
+    "html": "Car Shifting in <strong>Nerur</strong>"
   },
   {
     "path": "/nevasa-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nevasa</strong>"
+    "html": "Car Shifting in <strong>Nevasa</strong>"
   },
   {
     "path": "/nighoj-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nighoj</strong>"
+    "html": "Car Shifting in <strong>Nighoj</strong>"
   },
   {
     "path": "/nilanga-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nilanga</strong>"
+    "html": "Car Shifting in <strong>Nilanga</strong>"
   },
   {
     "path": "/nipani-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nipani</strong>"
+    "html": "Car Shifting in <strong>Nipani</strong>"
   },
   {
     "path": "/niphad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Niphad</strong>"
+    "html": "Car Shifting in <strong>Niphad</strong>"
   },
   {
     "path": "/nira-narsingpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nira Narsingpur</strong>"
+    "html": "Car Shifting in <strong>Nira Narsingpur</strong>"
   },
   {
     "path": "/osmanabad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Osmanabad</strong>"
+    "html": "Car Shifting in <strong>Osmanabad</strong>"
   },
   {
     "path": "/ozar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ozar</strong>"
+    "html": "Car Shifting in <strong>Ozar</strong>"
   },
   {
     "path": "/pabal-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pabal</strong>"
+    "html": "Car Shifting in <strong>Pabal</strong>"
   },
   {
     "path": "/pachora-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pachora</strong>"
+    "html": "Car Shifting in <strong>Pachora</strong>"
   },
   {
     "path": "/pahur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pahur</strong>"
+    "html": "Car Shifting in <strong>Pahur</strong>"
   },
   {
     "path": "/paithan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Paithan</strong>"
+    "html": "Car Shifting in <strong>Paithan</strong>"
   },
   {
     "path": "/palghar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Palghar</strong>"
+    "html": "Car Shifting in <strong>Palghar</strong>"
   },
   {
     "path": "/pali,-raigad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pali, Raigad</strong>"
+    "html": "Car Shifting in <strong>Pali, Raigad</strong>"
   },
   {
     "path": "/palso-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Palso</strong>"
+    "html": "Car Shifting in <strong>Palso</strong>"
   },
   {
     "path": "/panchgani-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Panchgani</strong>"
+    "html": "Car Shifting in <strong>Panchgani</strong>"
   },
   {
     "path": "/pandharpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pandharpur</strong>"
+    "html": "Car Shifting in <strong>Pandharpur</strong>"
   },
   {
     "path": "/pandhurli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pandhurli</strong>"
+    "html": "Car Shifting in <strong>Pandhurli</strong>"
   },
   {
     "path": "/panhala-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Panhala</strong>"
+    "html": "Car Shifting in <strong>Panhala</strong>"
   },
   {
     "path": "/panvel-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Panvel</strong>"
+    "html": "Car Shifting in <strong>Panvel</strong>"
   },
   {
     "path": "/parbhani-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Parbhani</strong>"
+    "html": "Car Shifting in <strong>Parbhani</strong>"
   },
   {
     "path": "/parli-vaijnath-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Parli Vaijnath</strong>"
+    "html": "Car Shifting in <strong>Parli Vaijnath</strong>"
   },
   {
     "path": "/parner-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Parner</strong>"
+    "html": "Car Shifting in <strong>Parner</strong>"
   },
   {
     "path": "/parola-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Parola</strong>"
+    "html": "Car Shifting in <strong>Parola</strong>"
   },
   {
     "path": "/parseoni-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Parseoni</strong>"
+    "html": "Car Shifting in <strong>Parseoni</strong>"
   },
   {
     "path": "/partur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Partur</strong>"
+    "html": "Car Shifting in <strong>Partur</strong>"
   },
   {
     "path": "/patan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Patan</strong>"
+    "html": "Car Shifting in <strong>Patan</strong>"
   },
   {
     "path": "/pathardi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pathardi</strong>"
+    "html": "Car Shifting in <strong>Pathardi</strong>"
   },
   {
     "path": "/pathri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pathri</strong>"
+    "html": "Car Shifting in <strong>Pathri</strong>"
   },
   {
     "path": "/patur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Patur</strong>"
+    "html": "Car Shifting in <strong>Patur</strong>"
   },
   {
     "path": "/paturda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Paturda</strong>"
+    "html": "Car Shifting in <strong>Paturda</strong>"
   },
   {
     "path": "/paud-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Paud</strong>"
+    "html": "Car Shifting in <strong>Paud</strong>"
   },
   {
     "path": "/pauni-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pauni</strong>"
+    "html": "Car Shifting in <strong>Pauni</strong>"
   },
   {
     "path": "/pawni-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pawni</strong>"
+    "html": "Car Shifting in <strong>Pawni</strong>"
   },
   {
     "path": "/pedgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pedgaon</strong>"
+    "html": "Car Shifting in <strong>Pedgaon</strong>"
   },
   {
     "path": "/peint-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Peint</strong>"
+    "html": "Car Shifting in <strong>Peint</strong>"
   },
   {
     "path": "/pen-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pen</strong>"
+    "html": "Car Shifting in <strong>Pen</strong>"
   },
   {
     "path": "/phaltan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Phaltan</strong>"
+    "html": "Car Shifting in <strong>Phaltan</strong>"
   },
   {
     "path": "/phulambri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Phulambri</strong>"
+    "html": "Car Shifting in <strong>Phulambri</strong>"
   },
   {
     "path": "/piliv-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Piliv</strong>"
+    "html": "Car Shifting in <strong>Piliv</strong>"
   },
   {
     "path": "/pimpalgaon-baswant-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pimpalgaon Baswant</strong>"
+    "html": "Car Shifting in <strong>Pimpalgaon Baswant</strong>"
   },
   {
     "path": "/pimpalgaon-raja-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pimpalgaon Raja</strong>"
+    "html": "Car Shifting in <strong>Pimpalgaon Raja</strong>"
   },
   {
     "path": "/pimpri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pimpri</strong>"
+    "html": "Car Shifting in <strong>Pimpri</strong>"
   },
   {
     "path": "/pimpri-chinchwad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pimpri-Chinchwad</strong>"
+    "html": "Car Shifting in <strong>Pimpri-Chinchwad</strong>"
   },
   {
     "path": "/pipri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pipri</strong>"
+    "html": "Car Shifting in <strong>Pipri</strong>"
   },
   {
     "path": "/prakasha-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Prakasha</strong>"
+    "html": "Car Shifting in <strong>Prakasha</strong>"
   },
   {
     "path": "/pulgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pulgaon</strong>"
+    "html": "Car Shifting in <strong>Pulgaon</strong>"
   },
   {
     "path": "/pune-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pune</strong>"
+    "html": "Car Shifting in <strong>Pune</strong>"
   },
   {
     "path": "/puntamba-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Puntamba</strong>"
+    "html": "Car Shifting in <strong>Puntamba</strong>"
   },
   {
     "path": "/pural-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pural</strong>"
+    "html": "Car Shifting in <strong>Pural</strong>"
   },
   {
     "path": "/purna-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Purna</strong>"
+    "html": "Car Shifting in <strong>Purna</strong>"
   },
   {
     "path": "/pusad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pusad</strong>"
+    "html": "Car Shifting in <strong>Pusad</strong>"
   },
   {
     "path": "/radhanagari-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Radhanagari</strong>"
+    "html": "Car Shifting in <strong>Radhanagari</strong>"
   },
   {
     "path": "/rahata-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Rahata</strong>"
+    "html": "Car Shifting in <strong>Rahata</strong>"
   },
   {
     "path": "/rahimatpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Rahimatpur</strong>"
+    "html": "Car Shifting in <strong>Rahimatpur</strong>"
   },
   {
     "path": "/rahuri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Rahuri</strong>"
+    "html": "Car Shifting in <strong>Rahuri</strong>"
   },
   {
     "path": "/raigarh-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Raigarh</strong>"
+    "html": "Car Shifting in <strong>Raigarh</strong>"
   },
   {
     "path": "/raireshwar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Raireshwar</strong>"
+    "html": "Car Shifting in <strong>Raireshwar</strong>"
   },
   {
     "path": "/rajapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Rajapur</strong>"
+    "html": "Car Shifting in <strong>Rajapur</strong>"
   },
   {
     "path": "/rajgurunagar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Rajgurunagar</strong>"
+    "html": "Car Shifting in <strong>Rajgurunagar</strong>"
   },
   {
     "path": "/rajur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Rajur</strong>"
+    "html": "Car Shifting in <strong>Rajur</strong>"
   },
   {
     "path": "/rajura-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Rajura</strong>"
+    "html": "Car Shifting in <strong>Rajura</strong>"
   },
   {
     "path": "/ralegaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ralegaon</strong>"
+    "html": "Car Shifting in <strong>Ralegaon</strong>"
   },
   {
     "path": "/ramewadi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ramewadi</strong>"
+    "html": "Car Shifting in <strong>Ramewadi</strong>"
   },
   {
     "path": "/ramtek-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ramtek</strong>"
+    "html": "Car Shifting in <strong>Ramtek</strong>"
   },
   {
     "path": "/ratnagiri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ratnagiri</strong>"
+    "html": "Car Shifting in <strong>Ratnagiri</strong>"
   },
   {
     "path": "/raver-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Raver</strong>"
+    "html": "Car Shifting in <strong>Raver</strong>"
   },
   {
     "path": "/renapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Renapur</strong>"
+    "html": "Car Shifting in <strong>Renapur</strong>"
   },
   {
     "path": "/renavi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Renavi</strong>"
+    "html": "Car Shifting in <strong>Renavi</strong>"
   },
   {
     "path": "/revadanda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Revadanda</strong>"
+    "html": "Car Shifting in <strong>Revadanda</strong>"
   },
   {
     "path": "/revdanda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Revdanda</strong>"
+    "html": "Car Shifting in <strong>Revdanda</strong>"
   },
   {
     "path": "/risod-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Risod</strong>"
+    "html": "Car Shifting in <strong>Risod</strong>"
   },
   {
     "path": "/roha-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Roha</strong>"
+    "html": "Car Shifting in <strong>Roha</strong>"
   },
   {
     "path": "/sailu-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sailu</strong>"
+    "html": "Car Shifting in <strong>Sailu</strong>"
   },
   {
     "path": "/sakol-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sakol</strong>"
+    "html": "Car Shifting in <strong>Sakol</strong>"
   },
   {
     "path": "/sakoli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sakoli</strong>"
+    "html": "Car Shifting in <strong>Sakoli</strong>"
   },
   {
     "path": "/sakri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sakri</strong>"
+    "html": "Car Shifting in <strong>Sakri</strong>"
   },
   {
     "path": "/samudrapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Samudrapur</strong>"
+    "html": "Car Shifting in <strong>Samudrapur</strong>"
   },
   {
     "path": "/sangameshwar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sangameshwar</strong>"
+    "html": "Car Shifting in <strong>Sangameshwar</strong>"
   },
   {
     "path": "/sangamner-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sangamner</strong>"
+    "html": "Car Shifting in <strong>Sangamner</strong>"
   },
   {
     "path": "/sangli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sangli</strong>"
+    "html": "Car Shifting in <strong>Sangli</strong>"
   },
   {
     "path": "/sangola-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sangola</strong>"
+    "html": "Car Shifting in <strong>Sangola</strong>"
   },
   {
     "path": "/sangole-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sangole</strong>"
+    "html": "Car Shifting in <strong>Sangole</strong>"
   },
   {
     "path": "/sangrampur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sangrampur</strong>"
+    "html": "Car Shifting in <strong>Sangrampur</strong>"
   },
   {
     "path": "/saoli-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Saoli</strong>"
+    "html": "Car Shifting in <strong>Saoli</strong>"
   },
   {
     "path": "/saoner-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Saoner</strong>"
+    "html": "Car Shifting in <strong>Saoner</strong>"
   },
   {
     "path": "/sarangkheda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sarangkheda</strong>"
+    "html": "Car Shifting in <strong>Sarangkheda</strong>"
   },
   {
     "path": "/sasvad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sasvad</strong>"
+    "html": "Car Shifting in <strong>Sasvad</strong>"
   },
   {
     "path": "/saswad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Saswad</strong>"
+    "html": "Car Shifting in <strong>Saswad</strong>"
   },
   {
     "path": "/satana-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Satana</strong>"
+    "html": "Car Shifting in <strong>Satana</strong>"
   },
   {
     "path": "/satara-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Satara</strong>"
+    "html": "Car Shifting in <strong>Satara</strong>"
   },
   {
     "path": "/satara-division-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Satara Division</strong>"
+    "html": "Car Shifting in <strong>Satara Division</strong>"
   },
   {
     "path": "/satpati-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Satpati</strong>"
+    "html": "Car Shifting in <strong>Satpati</strong>"
   },
   {
     "path": "/savantvadi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Savantvadi</strong>"
+    "html": "Car Shifting in <strong>Savantvadi</strong>"
   },
   {
     "path": "/savda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Savda</strong>"
+    "html": "Car Shifting in <strong>Savda</strong>"
   },
   {
     "path": "/savlaj-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Savlaj</strong>"
+    "html": "Car Shifting in <strong>Savlaj</strong>"
   },
   {
     "path": "/sawantvadi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sawantvadi</strong>"
+    "html": "Car Shifting in <strong>Sawantvadi</strong>"
   },
   {
     "path": "/selu-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Selu</strong>"
+    "html": "Car Shifting in <strong>Selu</strong>"
   },
   {
     "path": "/sevagram-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sevagram</strong>"
+    "html": "Car Shifting in <strong>Sevagram</strong>"
   },
   {
     "path": "/sewri-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sewri</strong>"
+    "html": "Car Shifting in <strong>Sewri</strong>"
   },
   {
     "path": "/shahada-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shahada</strong>"
+    "html": "Car Shifting in <strong>Shahada</strong>"
   },
   {
     "path": "/shahapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shahapur</strong>"
+    "html": "Car Shifting in <strong>Shahapur</strong>"
   },
   {
     "path": "/shedbal-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shedbal</strong>"
+    "html": "Car Shifting in <strong>Shedbal</strong>"
   },
   {
     "path": "/shegaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shegaon</strong>"
+    "html": "Car Shifting in <strong>Shegaon</strong>"
   },
   {
     "path": "/shevgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shevgaon</strong>"
+    "html": "Car Shifting in <strong>Shevgaon</strong>"
   },
   {
     "path": "/shikrapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shikrapur</strong>"
+    "html": "Car Shifting in <strong>Shikrapur</strong>"
   },
   {
     "path": "/shiraguppi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shiraguppi</strong>"
+    "html": "Car Shifting in <strong>Shiraguppi</strong>"
   },
   {
     "path": "/shirala-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shirala</strong>"
+    "html": "Car Shifting in <strong>Shirala</strong>"
   },
   {
     "path": "/shirdi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shirdi</strong>"
+    "html": "Car Shifting in <strong>Shirdi</strong>"
   },
   {
     "path": "/shirgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shirgaon</strong>"
+    "html": "Car Shifting in <strong>Shirgaon</strong>"
   },
   {
     "path": "/shirol-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shirol</strong>"
+    "html": "Car Shifting in <strong>Shirol</strong>"
   },
   {
     "path": "/shirpur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shirpur</strong>"
+    "html": "Car Shifting in <strong>Shirpur</strong>"
   },
   {
     "path": "/shirud-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shirud</strong>"
+    "html": "Car Shifting in <strong>Shirud</strong>"
   },
   {
     "path": "/shirwal-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shirwal</strong>"
+    "html": "Car Shifting in <strong>Shirwal</strong>"
   },
   {
     "path": "/shivaji-nagar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shivaji Nagar</strong>"
+    "html": "Car Shifting in <strong>Shivaji Nagar</strong>"
   },
   {
     "path": "/shrigonda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Shrigonda</strong>"
+    "html": "Car Shifting in <strong>Shrigonda</strong>"
   },
   {
     "path": "/sillod-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sillod</strong>"
+    "html": "Car Shifting in <strong>Sillod</strong>"
   },
   {
     "path": "/sindewahi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sindewahi</strong>"
+    "html": "Car Shifting in <strong>Sindewahi</strong>"
   },
   {
     "path": "/sindhudurg-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sindhudurg</strong>"
+    "html": "Car Shifting in <strong>Sindhudurg</strong>"
   },
   {
     "path": "/sindi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sindi</strong>"
+    "html": "Car Shifting in <strong>Sindi</strong>"
   },
   {
     "path": "/sindkheda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sindkheda</strong>"
+    "html": "Car Shifting in <strong>Sindkheda</strong>"
   },
   {
     "path": "/sinnar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sinnar</strong>"
+    "html": "Car Shifting in <strong>Sinnar</strong>"
   },
   {
     "path": "/sironcha-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sironcha</strong>"
+    "html": "Car Shifting in <strong>Sironcha</strong>"
   },
   {
     "path": "/sirur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sirur</strong>"
+    "html": "Car Shifting in <strong>Sirur</strong>"
   },
   {
     "path": "/sivala-east-godavari-district-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sivala East Godavari district</strong>"
+    "html": "Car Shifting in <strong>Sivala East Godavari district</strong>"
   },
   {
     "path": "/solapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Solapur</strong>"
+    "html": "Car Shifting in <strong>Solapur</strong>"
   },
   {
     "path": "/sonala-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sonala</strong>"
+    "html": "Car Shifting in <strong>Sonala</strong>"
   },
   {
     "path": "/sonegaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sonegaon</strong>"
+    "html": "Car Shifting in <strong>Sonegaon</strong>"
   },
   {
     "path": "/songir-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Songir</strong>"
+    "html": "Car Shifting in <strong>Songir</strong>"
   },
   {
     "path": "/sonvad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sonvad</strong>"
+    "html": "Car Shifting in <strong>Sonvad</strong>"
   },
   {
     "path": "/soygaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Soygaon</strong>"
+    "html": "Car Shifting in <strong>Soygaon</strong>"
   },
   {
     "path": "/srivardhan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Srivardhan</strong>"
+    "html": "Car Shifting in <strong>Srivardhan</strong>"
   },
   {
     "path": "/surgana-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Surgana</strong>"
+    "html": "Car Shifting in <strong>Surgana</strong>"
   },
   {
     "path": "/taklibhan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Taklibhan</strong>"
+    "html": "Car Shifting in <strong>Taklibhan</strong>"
   },
   {
     "path": "/talbid-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Talbid</strong>"
+    "html": "Car Shifting in <strong>Talbid</strong>"
   },
   {
     "path": "/talegaon-dabhade-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Talegaon Dabhade</strong>"
+    "html": "Car Shifting in <strong>Talegaon Dabhade</strong>"
   },
   {
     "path": "/talegaon-dhamdhere-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Talegaon Dhamdhere</strong>"
+    "html": "Car Shifting in <strong>Talegaon Dhamdhere</strong>"
   },
   {
     "path": "/taloda-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Taloda</strong>"
+    "html": "Car Shifting in <strong>Taloda</strong>"
   },
   {
     "path": "/talode-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Talode</strong>"
+    "html": "Car Shifting in <strong>Talode</strong>"
   },
   {
     "path": "/tarapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Tarapur</strong>"
+    "html": "Car Shifting in <strong>Tarapur</strong>"
   },
   {
     "path": "/tasgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Tasgaon</strong>"
+    "html": "Car Shifting in <strong>Tasgaon</strong>"
   },
   {
     "path": "/telhara-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Telhara</strong>"
+    "html": "Car Shifting in <strong>Telhara</strong>"
   },
   {
     "path": "/thalner-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Thalner</strong>"
+    "html": "Car Shifting in <strong>Thalner</strong>"
   },
   {
     "path": "/thane-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Thane</strong>"
+    "html": "Car Shifting in <strong>Thane</strong>"
   },
   {
     "path": "/trimbak-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Trimbak</strong>"
+    "html": "Car Shifting in <strong>Trimbak</strong>"
   },
   {
     "path": "/trombay-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Trombay</strong>"
+    "html": "Car Shifting in <strong>Trombay</strong>"
   },
   {
     "path": "/tuljapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Tuljapur</strong>"
+    "html": "Car Shifting in <strong>Tuljapur</strong>"
   },
   {
     "path": "/tumsar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Tumsar</strong>"
+    "html": "Car Shifting in <strong>Tumsar</strong>"
   },
   {
     "path": "/udgir-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Udgir</strong>"
+    "html": "Car Shifting in <strong>Udgir</strong>"
   },
   {
     "path": "/umarga-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Umarga</strong>"
+    "html": "Car Shifting in <strong>Umarga</strong>"
   },
   {
     "path": "/umarkhed-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Umarkhed</strong>"
+    "html": "Car Shifting in <strong>Umarkhed</strong>"
   },
   {
     "path": "/umred-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Umred</strong>"
+    "html": "Car Shifting in <strong>Umred</strong>"
   },
   {
     "path": "/uran-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Uran</strong>"
+    "html": "Car Shifting in <strong>Uran</strong>"
   },
   {
     "path": "/uruli-kanchan-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Uruli Kanchan</strong>"
+    "html": "Car Shifting in <strong>Uruli Kanchan</strong>"
   },
   {
     "path": "/vada-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vada</strong>"
+    "html": "Car Shifting in <strong>Vada</strong>"
   },
   {
     "path": "/vadgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vadgaon</strong>"
+    "html": "Car Shifting in <strong>Vadgaon</strong>"
   },
   {
     "path": "/vadner-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vadner</strong>"
+    "html": "Car Shifting in <strong>Vadner</strong>"
   },
   {
     "path": "/vaijapur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vaijapur</strong>"
+    "html": "Car Shifting in <strong>Vaijapur</strong>"
   },
   {
     "path": "/vairag-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vairag</strong>"
+    "html": "Car Shifting in <strong>Vairag</strong>"
   },
   {
     "path": "/valsang-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Valsang</strong>"
+    "html": "Car Shifting in <strong>Valsang</strong>"
   },
   {
     "path": "/vangaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vangaon</strong>"
+    "html": "Car Shifting in <strong>Vangaon</strong>"
   },
   {
     "path": "/varangaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Varangaon</strong>"
+    "html": "Car Shifting in <strong>Varangaon</strong>"
   },
   {
     "path": "/vashi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vashi</strong>"
+    "html": "Car Shifting in <strong>Vashi</strong>"
   },
   {
     "path": "/vasind-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vasind</strong>"
+    "html": "Car Shifting in <strong>Vasind</strong>"
   },
   {
     "path": "/vatul-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vatul</strong>"
+    "html": "Car Shifting in <strong>Vatul</strong>"
   },
   {
     "path": "/velas-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Velas</strong>"
+    "html": "Car Shifting in <strong>Velas</strong>"
   },
   {
     "path": "/velneshwar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Velneshwar</strong>"
+    "html": "Car Shifting in <strong>Velneshwar</strong>"
   },
   {
     "path": "/vengurla-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vengurla</strong>"
+    "html": "Car Shifting in <strong>Vengurla</strong>"
   },
   {
     "path": "/vijaydurg-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vijaydurg</strong>"
+    "html": "Car Shifting in <strong>Vijaydurg</strong>"
   },
   {
     "path": "/vinchur-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vinchur</strong>"
+    "html": "Car Shifting in <strong>Vinchur</strong>"
   },
   {
     "path": "/virar-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Virar</strong>"
+    "html": "Car Shifting in <strong>Virar</strong>"
   },
   {
     "path": "/vita-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vita</strong>"
+    "html": "Car Shifting in <strong>Vita</strong>"
   },
   {
     "path": "/vite-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Vite</strong>"
+    "html": "Car Shifting in <strong>Vite</strong>"
   },
   {
     "path": "/wadgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Wadgaon</strong>"
+    "html": "Car Shifting in <strong>Wadgaon</strong>"
   },
   {
     "path": "/wadner-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Wadner</strong>"
+    "html": "Car Shifting in <strong>Wadner</strong>"
   },
   {
     "path": "/wadwani-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Wadwani</strong>"
+    "html": "Car Shifting in <strong>Wadwani</strong>"
   },
   {
     "path": "/wagholi-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Wagholi</strong>"
+    "html": "Car Shifting in <strong>Wagholi</strong>"
   },
   {
     "path": "/wai-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Wai</strong>"
+    "html": "Car Shifting in <strong>Wai</strong>"
   },
   {
     "path": "/wakad-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Wakad</strong>"
+    "html": "Car Shifting in <strong>Wakad</strong>"
   },
   {
     "path": "/walgaon-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Walgaon</strong>"
+    "html": "Car Shifting in <strong>Walgaon</strong>"
   },
   {
     "path": "/walki-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Walki</strong>"
+    "html": "Car Shifting in <strong>Walki</strong>"
   },
   {
     "path": "/wani-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Wani</strong>"
+    "html": "Car Shifting in <strong>Wani</strong>"
   },
   {
     "path": "/wardha-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Wardha</strong>"
+    "html": "Car Shifting in <strong>Wardha</strong>"
   },
   {
     "path": "/warora-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Warora</strong>"
+    "html": "Car Shifting in <strong>Warora</strong>"
   },
   {
     "path": "/warud-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Warud</strong>"
+    "html": "Car Shifting in <strong>Warud</strong>"
   },
   {
     "path": "/washim-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Washim</strong>"
+    "html": "Car Shifting in <strong>Washim</strong>"
   },
   {
     "path": "/yaval-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Yaval</strong>"
+    "html": "Car Shifting in <strong>Yaval</strong>"
   },
   {
     "path": "/yavatmal-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Yavatmal</strong>"
+    "html": "Car Shifting in <strong>Yavatmal</strong>"
   },
   {
     "path": "/yeola-packers-movers-maharashtra",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Yeola</strong>"
+    "html": "Car Shifting in <strong>Yeola</strong>"
   }
 ];
 
@@ -2705,7 +2705,7 @@ export default function LocationRoutePage() {
               <span>/</span>
               <span>Maharashtra</span>
             </nav>
-            <h1>Packers & Movers in Maharashtra</h1>
+            <h1>Car Shifting in Maharashtra</h1>
             <p>Choose your city for reliable and professional moving services</p>
           </div>
         </div>

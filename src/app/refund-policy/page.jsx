@@ -31,11 +31,11 @@ export default function RefundPolicyPage() {
         <div className="container">
           <div className="card shadow-sm border-0 rounded-3">
             <div className="card-body p-4 p-md-5">
-              <h2 className="mb-4 text-danger fw-bold">Refund Policy – SRS Packers And Movers</h2>
+              <h2 className="mb-4 text-danger fw-bold">Refund Policy – Maruti Trans Car Carrier Shifting</h2>
 
               <p className="text-muted lead">
                 This Refund Policy outlines the terms under which refunds may be processed 
-                for services booked with SRS Packers And Movers. We maintain transparency 
+                for services booked with Maruti Trans Car Carrier Shifting. We maintain transparency 
                 and fairness in all financial transactions.
               </p>
 

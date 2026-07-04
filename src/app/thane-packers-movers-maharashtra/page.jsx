@@ -4,8 +4,8 @@ import QuoteForm from "@/components/QuoteForm";
 import "./thane.css";
 
 export const metadata = {
-  title: "Best Packers and Movers in Thane, Maharashtra, SRS Packers",
-  description: "Your Search Ends Here! SRS Packers and Movers in Thane – Expert Packing and Moving Services Providing Comprehensive Relocation Solutions in Thane, Maharashtra",
+  title: "Best Car Shifting in Thane, Maharashtra, Maruti Trans Packers",
+  description: "Your Search Ends Here! Maruti Trans Car Shifting in Thane – Expert Packing and Moving Services Providing Comprehensive Relocation Solutions in Thane, Maharashtra",
   keywords: "movers and packers in Thane, Movers Packers Thane, Movers near me Thane, Packers and movers in Thane, Moving companies near me Thane, Movers Thane, Packers and movers near me Thane",
 };
 
@@ -25,7 +25,7 @@ export default function ThanePage() {
               <span>/</span>
               <span>Thane</span>
             </nav>
-            <h1 className="page-title">Best Packers and Movers in Thane</h1>
+            <h1 className="page-title">Best Car Shifting in Thane</h1>
             <p className="page-description">
               Discover our trusted branches across Thane, delivering seamless and reliable moving experiences.
             </p>
@@ -43,37 +43,37 @@ export default function ThanePage() {
         <div className="container">
           <div className="row g-4">
             <div className="col-md-7">
-              <h2 className="fw-bold text-dark mb-4">Popular Packers and Movers in Thane, India</h2>
+              <h2 className="fw-bold text-dark mb-4">Popular Car Shifting in Thane, India</h2>
               <p className="text-muted">
                 <a href="https://thane.nic.in/" target="_blank" rel="noopener noreferrer" className="text-decoration-none text-dark fw-bold">Thane</a> is a youthful city located in the state of Maharashtra which has beautiful lakes, historical beauty, and a growing economy. Being one of the biggest districts of the Mumbai Metropolitan Region, Thane is characterised by its numerous languages and historical sights.
               </p>
               <p className="text-muted">
-                If you are in search of a reliable packers and movers service provider in Thane then you can blindly opt for SRS Packers and Movers. We provide excellent packing and moving, loading and unloading services, and warehouse storage.
+                If you are in search of a reliable packers and movers service provider in Thane then you can blindly opt for Maruti Trans Car Carrier Shifting. We provide excellent packing and moving, loading and unloading services, and warehouse storage.
               </p>
               <p className="text-muted">
                 Our complete packers and movers services are extended in-home and office shifting, and reliable car transportation from <Link href="/thane-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Thane</Link> to Nalanda. We also offer IBA-approved transit insurance domestic shifting services and more.
               </p>
 
-              <h3 className="fw-bold text-dark mt-4 mb-3">Comprehensive Packers and Movers Services Across Maharashtra</h3>
+              <h3 className="fw-bold text-dark mt-4 mb-3">Comprehensive Car Carrier Shifting Services Across Maharashtra</h3>
               <p className="text-muted">
-                SRS Packers and Movers is a leading company which offers packing and moving services in Maharashtra. Be it from Thane to <Link href="#!" className="text-decoration-none text-dark fw-bold">Ghatkopar</Link> or Bandra to Andheri we make sure that the customers get safe and fraud-free packers and movers services with us.
+                Maruti Trans Car Carrier Shifting is a leading company which offers packing and moving services in Maharashtra. Be it from Thane to <Link href="#!" className="text-decoration-none text-dark fw-bold">Ghatkopar</Link> or Bandra to Andheri we make sure that the customers get safe and fraud-free packers and movers services with us.
               </p>
               <p className="text-muted">
                 We perform local shifting from <Link href="/pune-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Pune</Link> to <Link href="/navi-mumbai-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Navi Mumbai</Link>, <Link href="/nashik-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Nashik</Link> to <Link href="/nagpur-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Nagpur</Link>, <Link href="/mumbai-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Mumbai</Link> to <Link href="/aurangabad-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Aurangabad</Link> and many other locations with great safety. Our good movers packers service also includes Badlapur to Thane and <Link href="/panvel-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Panvel</Link> to Nashik.
               </p>
               <p className="text-muted">
-                To avail of our top packing and moving services, SRS Packers and Movers is the most preferred choice for you. Reliability and non-scammed, authentic and efficient packing and moving services can be obtained from the best IBA-approved movers and packers in Thane.
+                To avail of our top packing and moving services, Maruti Trans Car Carrier Shifting is the most preferred choice for you. Reliability and non-scammed, authentic and efficient packing and moving services can be obtained from the best IBA-approved movers and packers in Thane.
               </p>
             </div>
 
             <div className="col-md-5">
               <div className="card p-4 shadow-sm border rounded-3 bg-light">
-                <h3 className="fw-bold text-dark mb-3">Packers and Movers in Thane</h3>
+                <h3 className="fw-bold text-dark mb-3">Car Shifting in Thane</h3>
                 <address className="text-muted mb-4">
                   Plot no. 9, Shop no. 4, City inclave, sec.2a, koparkhairne Mumbai, Maharashtra 400709
                 </address>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.2412429580972!2d72.9733895!3d19.228315200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b92ebb87e077%3A0x872b62ef9e570b5!2sSRS%20Packers%20And%20Movers!5e0!3m2!1sen!2sin!4v1767767761289!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.2412429580972!2d72.9733895!3d19.228315200000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b92ebb87e077%3A0x872b62ef9e570b5!2sMaruti Trans%20Packers%20And%20Movers!5e0!3m2!1sen!2sin!4v1767767761289!5m2!1sen!2sin"
                   width="100%"
                   height="300"
                   style={{ border: 0 }}
@@ -183,7 +183,7 @@ export default function ThanePage() {
           <div className="row g-5 align-items-center">
             <div className="col-md-5">
               <img
-                src="https://srspackersandmovers.com/assets/images/gallery/gallery3.jpg"
+                src="https://marutitrans.com/assets/images/gallery/gallery3.webp"
                 alt="Thane Team"
                 loading="lazy"
                 className="img-fluid rounded-3 shadow-lg"
@@ -254,7 +254,7 @@ export default function ThanePage() {
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    <strong>SRS Logistics Services</strong> provides businesses and individuals with dependable logistics solutions. Our exemplary service standards have built SRS's reputation as a trusted logistics provider in Thane through our years of experience transporting goods and consignments safely with efficiency.
+                    <strong>Maruti Trans Logistics Services</strong> provides businesses and individuals with dependable logistics solutions. Our exemplary service standards have built Maruti Trans's reputation as a trusted logistics provider in Thane through our years of experience transporting goods and consignments safely with efficiency.
                   </p>
                 </div>
                 <Link href="/logistic-services" className="text-danger fw-semibold text-decoration-none">
@@ -271,7 +271,7 @@ export default function ThanePage() {
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    Enjoy a smooth and stress-free household shifting experience in Thane with SRS Packers and Movers. Our experienced team handles every detail with care, ensuring a flawless and efficient relocation process.
+                    Enjoy a smooth and stress-free household shifting experience in Thane with Maruti Trans Car Carrier Shifting. Our experienced team handles every detail with care, ensuring a flawless and efficient relocation process.
                   </p>
                 </div>
                 <Link href="/residential-moving" className="text-danger fw-semibold text-decoration-none">
@@ -288,7 +288,7 @@ export default function ThanePage() {
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    At <strong>SRS Packers and Movers</strong>, our team handles <strong>industrial shifting services in Thane</strong> with a level of care and planning that large-scale moves genuinely require. Throughout our many years of being in the relocation industry, we have had the opportunity to work with several different industries.
+                    At <strong>Maruti Trans Car Carrier Shifting</strong>, our team handles <strong>industrial shifting services in Thane</strong> with a level of care and planning that large-scale moves genuinely require. Throughout our many years of being in the relocation industry, we have had the opportunity to work with several different industries.
                   </p>
                 </div>
                 <Link href="#!" className="text-danger fw-semibold text-decoration-none">
@@ -305,7 +305,7 @@ export default function ThanePage() {
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    Looking for dependable warehouse services in Amravati? SRS Packers and Movers offers industry-leading storage space to store a variety of goods, for a short period and long period in Amravati.
+                    Looking for dependable warehouse services in Amravati? Maruti Trans Car Carrier Shifting offers industry-leading storage space to store a variety of goods, for a short period and long period in Amravati.
                   </p>
                 </div>
                 <Link href="/warehousing" className="text-danger fw-semibold text-decoration-none">
@@ -317,12 +317,12 @@ export default function ThanePage() {
               <div className="col-12 col-md-12 mb-5 border-bottom pb-4">
                 <h4 className="fw-bold mb-2">
                   <Link href="#!" className="text-decoration-none text-dark">
-                    Bill For Claim Packers and Movers in Thane
+                    Bill For Claim Car Shifting in Thane
                   </Link>
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    When people shift their home, office, or vehicle, one of the biggest requirements today is a Genuine Bill for Claim that can be used for insurance, relocation allowance, travel claims, or company reimbursement. A proper moving bill is not just a receipt; it is your official proof of relocation expenses. SRS Packers and Movers specializes in providing transparent, verified, and fully compliant <strong>Bill for Claim Packers and Movers in Thane</strong>, ensuring that your documentation is accepted without any hassle.
+                    When people shift their home, office, or vehicle, one of the biggest requirements today is a Genuine Bill for Claim that can be used for insurance, relocation allowance, travel claims, or company reimbursement. A proper moving bill is not just a receipt; it is your official proof of relocation expenses. Maruti Trans Car Carrier Shifting specializes in providing transparent, verified, and fully compliant <strong>Bill for Claim Car Shifting in Thane</strong>, ensuring that your documentation is accepted without any hassle.
                   </p>
                 </div>
                 <Link href="#!" className="text-danger fw-semibold text-decoration-none">
@@ -334,12 +334,12 @@ export default function ThanePage() {
               <div className="col-12 col-md-12 mb-5 border-bottom pb-4">
                 <h4 className="fw-bold mb-2">
                   <Link href="#!" className="text-decoration-none text-dark">
-                    IBA Approved Packers and Movers in Thane
+                    IBA Approved Car Shifting in Thane
                   </Link>
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    Trust the expertise of IBA Approved Packers and Movers in Thane for your relocation needs. Our certified services ensure secure and efficient moves, offering peace of mind with every step of your journey.
+                    Trust the expertise of IBA Approved Car Shifting in Thane for your relocation needs. Our certified services ensure secure and efficient moves, offering peace of mind with every step of your journey.
                   </p>
                 </div>
                 <Link href="#!" className="text-danger fw-semibold text-decoration-none">
@@ -351,12 +351,12 @@ export default function ThanePage() {
               <div className="col-12 col-md-12 mb-5 border-bottom pb-4">
                 <h4 className="fw-bold mb-2">
                   <Link href="/international-moving" className="text-decoration-none text-dark hover-danger">
-                    International Packers and Movers in Thane
+                    International Car Shifting in Thane
                   </Link>
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    <strong>SRS Packers and Movers</strong> provides families and professionals with dependable international relocation services. Our exemplary service records have built SRS's credibility as the leading mover in your city through our years of experience transporting our customers' possessions overseas with integrity.
+                    <strong>Maruti Trans Car Carrier Shifting</strong> provides families and professionals with dependable international relocation services. Our exemplary service records have built Maruti Trans's credibility as the leading mover in your city through our years of experience transporting our customers' possessions overseas with integrity.
                   </p>
                 </div>
                 <Link href="/international-moving" className="text-danger fw-semibold text-decoration-none">
@@ -585,10 +585,9 @@ export default function ThanePage() {
                     <div className="row g-0 h-100">
                       <div className="col-4 h-100">
                         <img
-                          src="https://srspackersandmovers.com/assets/uploads/blog/591743671629.png"
+                          src="https://marutitrans.com/assets/uploads/blog/591743671629.png"
                           className="w-100 h-100 object-fit-cover"
-                          alt="Blog Image"
-                        />
+                          alt="Blog Image" loading="lazy" />
                       </div>
                       <div className="col-8">
                         <div className="card-body d-flex flex-column justify-content-between h-100">
@@ -609,10 +608,9 @@ export default function ThanePage() {
                     <div className="row g-0 h-100">
                       <div className="col-4 h-100">
                         <img
-                          src="https://srspackersandmovers.com/assets/uploads/blog/361729596410.png"
+                          src="https://marutitrans.com/assets/uploads/blog/361729596410.png"
                           className="w-100 h-100 object-fit-cover"
-                          alt="Blog Image"
-                        />
+                          alt="Blog Image" loading="lazy" />
                       </div>
                       <div className="col-8">
                         <div className="card-body d-flex flex-column justify-content-between h-100">
@@ -633,10 +631,9 @@ export default function ThanePage() {
                     <div className="row g-0 h-100">
                       <div className="col-4 h-100">
                         <img
-                          src="https://srspackersandmovers.com/assets/uploads/blog/771725693951.png"
+                          src="https://marutitrans.com/assets/uploads/blog/771725693951.png"
                           className="w-100 h-100 object-fit-cover"
-                          alt="Blog Image"
-                        />
+                          alt="Blog Image" loading="lazy" />
                       </div>
                       <div className="col-8">
                         <div className="card-body d-flex flex-column justify-content-between h-100">
@@ -657,10 +654,9 @@ export default function ThanePage() {
                     <div className="row g-0 h-100">
                       <div className="col-4 h-100">
                         <img
-                          src="https://srspackersandmovers.com/assets/uploads/blog/621724397335.png"
+                          src="https://marutitrans.com/assets/uploads/blog/621724397335.png"
                           className="w-100 h-100 object-fit-cover"
-                          alt="Blog Image"
-                        />
+                          alt="Blog Image" loading="lazy" />
                       </div>
                       <div className="col-8">
                         <div className="card-body d-flex flex-column justify-content-between h-100">
@@ -693,10 +689,9 @@ export default function ThanePage() {
                 ].map((gImg, idx) => (
                   <div key={idx} className="col-4">
                     <img
-                      src={`https://srspackersandmovers.com/assets/images/srs_gallery/${gImg}`}
+                      src={`https://marutitrans.com/assets/images/srs_gallery/${gImg}`}
                       className="img-fluid rounded shadow-sm h-100"
-                      alt="Gallery"
-                    />
+                      alt="Gallery" loading="lazy" />
                   </div>
                 ))}
               </div>

@@ -21,7 +21,7 @@ export default function TermsConditionsPage() {
             {/* Title */}
             <h1>Terms & Conditions</h1>
             {/* Subtitle */}
-            <p>Read the service terms and conditions of SRS Packers and Movers</p>
+            <p>Read the service terms and conditions of Maruti Trans Car Carrier Shifting</p>
           </div>
         </div>
       </section>
@@ -31,11 +31,11 @@ export default function TermsConditionsPage() {
         <div className="container">
           <div className="card shadow-sm border-0 rounded-3">
             <div className="card-body p-4 p-md-5">
-              <h2 className="mb-4 text-danger fw-bold">Terms and Conditions – SRS Packers And Movers</h2>
+              <h2 className="mb-4 text-danger fw-bold">Terms and Conditions – Maruti Trans Car Carrier Shifting</h2>
 
               <p className="text-muted lead">
                 These Terms and Conditions define the rules and regulations for using the services 
-                of SRS Packers And Movers. By booking our relocation, packing, transportation, 
+                of Maruti Trans Car Carrier Shifting. By booking our relocation, packing, transportation, 
                 or logistics services, you agree to comply with the policies stated below.
               </p>
 
@@ -72,7 +72,7 @@ export default function TermsConditionsPage() {
 
               <h4 className="mt-4 fw-bold text-dark">Policy Updates</h4>
               <p className="text-muted mb-0">
-                SRS Packers And Movers reserves the right to update these terms at any time. 
+                Maruti Trans Car Carrier Shifting reserves the right to update these terms at any time. 
                 Continued use of our services indicates acceptance of the revised terms.
               </p>
             </div>

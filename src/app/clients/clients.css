@@ -1,17 +1,15 @@
 /* ==========================================================================
-   OUR FEATURED CLIENTS PAGE STYLES
+   OUR FEATURED CLIENTS PAGE STYLES - VECTOR LOGO CARDS
    ========================================================================== */
 
 :root {
   --red-main: #a10000;
-  --red-dark: #7a0000;
-  --srs-red-light: #fde8ea;
+  --red-hover: #c40000;
   --white: #ffffff;
-  --border-light: #e3e6e9;
-  --text-dark: #212529;
-  --text-muted: #6c757d;
-  --gray-bg: #f8f9fa;
-  --white-80: rgba(255, 255, 255, 0.8);
+  --border-light: #eef2f5;
+  --text-dark: #1f2327;
+  --text-muted: #6f7881;
+  --gray-bg: #f8fafc;
 }
 
 /* Force Arial across this page */
@@ -46,8 +44,6 @@
 }
 
 .section-title {
-  font-size: 2.2rem;
-  font-weight: 700;
   color: var(--text-dark);
   margin: 0;
 }
@@ -60,48 +56,55 @@
 /* Client Card Grid */
 .client-card {
   background-color: var(--white);
-  border: 1px solid var(--border-light);
-  border-radius: 6px;
-  padding: 20px;
-  height: 100%;
+  border: 1px solid var(--border-light) !important;
+  border-radius: 16px !important;
+  padding: 30px 20px !important;
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: all 0.3s ease;
-  min-height: 140px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.client-card img {
-  max-width: 100%;
-  max-height: 80px;
-  object-fit: contain;
-  filter: grayscale(100%);
+.client-card svg {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  opacity: 0.75;
   transition: all 0.3s ease;
 }
 
 /* Hover Effects */
 .client-card:hover {
-  border-color: var(--red-main);
-  box-shadow: 0 10px 25px rgba(220, 20, 60, 0.15);
-  transform: translateY(-4px);
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(161, 0, 0, 0.08) !important;
+  border-color: var(--red-main) !important;
 }
 
-.client-card:hover img {
-  filter: grayscale(0%);
+.client-card:hover svg {
+  opacity: 1;
 }
 
 /* Responsive Adjustments */
-@media (max-width: 576px) {
+@media (max-width: 991.98px) {
+  .page-hero h1 {
+    font-size: 2.5rem !important;
+  }
   .section-title {
-    font-size: 1.5rem;
+    font-size: 1.8rem !important;
   }
+}
 
+@media (max-width: 575.98px) {
+  .page-hero h1 {
+    font-size: 2rem !important;
+  }
+  .page-hero p {
+    font-size: 0.95rem !important;
+  }
+  .section-title {
+    font-size: 1.5rem !important;
+  }
   .client-card {
-    padding: 15px;
-    min-height: 100px;
-  }
-
-  .client-card img {
-    max-height: 45px;
+    padding: 20px 15px !important;
   }
 }

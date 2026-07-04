@@ -31,7 +31,7 @@ export default function DisclaimerPage() {
         <div className="container">
           <div className="card shadow-sm border-0 rounded-3">
             <div className="card-body p-4 p-md-5">
-              <h2 className="mb-4 text-danger fw-bold">Website Disclaimer – SRS Packers And Movers</h2>
+              <h2 className="mb-4 text-danger fw-bold">Website Disclaimer – Maruti Trans Car Carrier Shifting</h2>
 
               <p className="text-muted lead">
                 The content available on this website is provided for general informational purposes 
@@ -57,7 +57,7 @@ export default function DisclaimerPage() {
 
               <h4 className="mt-4 fw-bold text-dark">Limitation of Liability</h4>
               <p className="text-muted">
-                SRS Packers And Movers shall not be liable for any direct, indirect, 
+                Maruti Trans Car Carrier Shifting shall not be liable for any direct, indirect, 
                 incidental, or consequential damages arising from the use of this website 
                 or reliance on its information.
               </p>

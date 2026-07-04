@@ -1,11 +1,15 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import "./about.css";
 
 export const metadata = {
-  title: "About - SRS Packers And Movers",
-  description: "We are committed to providing our customers with the best possible service at all times. If you’re looking for a reliable and trusted partner for your next move, look no further than SRS Packers And Movers Packers and Movers. Get in touch with us today to learn more about our services and how we can help you with your next move.",
-  keywords: "about srs packers and movers, reliable packers and movers, moving company profile",
+  title: "About Us | Maruti Trans Car Carrier Shifting",
+  description: "Maruti Trans is a leading vehicle transport and car carrier company with roots in Haryana. Discover our history, milestones, fleet capacity, and safety commitments.",
+  keywords: "about maruti trans, car carrier company, vehicle transport history, haryana packers movers",
+  alternates: {
+    canonical: "https://srspackersandmovers.com/about"
+  }
 };
 
 export default function AboutPage() {
@@ -23,7 +27,7 @@ export default function AboutPage() {
               <span>About Us</span>
             </nav>
             <h1>About Us</h1>
-            <p>Reliable Relocation Solutions Built on Trust, Quality, and Decades of Professional Care</p>
+            <p>Reliable Automobile Logistics Solutions Built on Trust, Quality, and Decades of Professional Care</p>
           </div>
         </div>
       </section>
@@ -35,11 +39,15 @@ export default function AboutPage() {
             {/* IMAGE */}
             <div className="col-lg-5">
               <div className="about-image-wrap shadow-lg">
-                <img
-                  src="https://srspackersandmovers.com/assets/images/breadcrumb/about.webp"
-                  alt="About SRS Packers & Movers"
-                  loading="lazy"
+                <Image
+                  src="/assets/images/about/about_company.webp"
+                  alt="About Maruti Trans"
                   className="img-fluid"
+                  width={500}
+                  height={350}
+                  sizes="(max-width: 768px) 100vw, 40vw"
+                  style={{ objectFit: "cover" }}
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -47,25 +55,18 @@ export default function AboutPage() {
             {/* CONTENT */}
             <div className="col-lg-7">
               <div className="about-content-box">
-                <span className="about-tag">About The Company</span>
+                <span className="about-tag">About Maruti Trans</span>
                 <h2 className="about-heading">
-                  Reliable Relocation Solutions Built on <span>Trust & Care</span>
+                  Safely Shifting Your Vehicles <span>Across India</span>
                 </h2>
                 <p>
-                  SRS Packers and Movers, we have always maintained the position of being the best movers in Mumbai since
-                  we have all that is required to do a perfect job when it comes to the loading and unloading of your
-                  goods. If you are packing and moving to the city of Mumbai or shifting to a new city or town altogether,
-                  you can rest assured your belongings are safe and secure in our storage warehouses.
+                  Maruti Trans Car Carrier Shifting, registered under principal proprietor Parveen Kumar, is a dedicated vehicle transport specialist based in Haryana, India. We have built a reputable fleet of multi-car carrier trailers, enclosed shipping containers, and flatbed tow trucks designed for safe door-to-door transit.
                 </p>
                 <p>
-                  It is worth stressing that each client may have different transportation needs, and that is why our
-                  offers encompass the services for local shifting, shifting within a house and shifting for different
-                  occupations and types of the population.
+                  We understand that shipping a car involves a lot of trust. Whether it is a daily hatchback or a high-end luxury vehicle, we approach every task with a standard condition checklist and comprehensive transit insurance cover.
                 </p>
                 <p>
-                  If this is not enough, we also deal with car moving, bike moving, and car shifting services in Mumbai.
-                  Therefore, our transit insurance services will be a sure way of having an extra precaution that your
-                  vehicles are well taken care of.
+                  Operating under the approved trade registration of Maruti Trans Car Carrier Shifting, we secure all checkpoints, border clearances, and toll protocols, providing an entirely hassle-free transport experience.
                 </p>
                 <Link href="/contacts" className="btn about-btn">
                   Get in Touch
@@ -75,25 +76,10 @@ export default function AboutPage() {
 
             <div className="col-lg-12">
               <p className="text-muted">
-                Being the IBA-approved packers and movers, we provide the IBA-approved car carriers Mumbai and bike
-                carriers Mumbai to all our customers and assure them that they will not be scammed. Our bill approved by the
-                IBA for a claim also increases the reliability of our service, making us the most wanted packers and movers
-                company in Mumbai.
+                Our operations originate from our registered base in Charkhi Dadri, Haryana: <strong>House No. 84, Ground Floor, Maruti Trans Car Carrier Shifting, Chandwass Road, Nearby Hari Om Irritation Company, Chandwass, Badhra, Charkhi Dadri, Haryana - 127312</strong>. From here, we coordinate long-distance auto carrier routes connecting Haryana to Maharashtra, Gujarat, Telangana, Karnataka, Rajasthan, and other major states.
               </p>
               <p className="text-muted">
-                When people type “packers movers near me” in Mumbai, <strong>SRS Packers and Movers</strong> come out as the
-                best because our charges are affordable but the quality of the services that we offer is superb. We are the
-                Mumbai cheapest packers & movers along with being the most verified and reliable ones in town. Thanks to the
-                skillful work of our best removalists in Mumbai, the actual moving and packing process is a real pleasure,
-                and that’s why many people turn to us. We offer the best packing and unpacking services, and the most security
-                loading and unloading services licensed by the IBA.
-              </p>
-              <p className="text-muted">
-                Therefore, for the best packers and movers service in Mumbai, contact <strong>SRS Packers and Movers</strong>.
-                With a commitment to delivering quality services together with profound experience in the industry, we
-                offer one of the best solutions for anyone in need of reliable, affordable and professional moving services.
-                Whether you are thinking of shifting locally within Mumbai or shifting to another city, count on us to make
-                your shifting experience a hassle-free one.
+                By investing in high-quality hydraulic ramps, soft tie-down wheel straps, and modern enclosed container trailers, we secure vehicles against rough roads, climate hazards, and scratches. Our focus is entirely on shipping cars and two-wheelers with a damage-free promise.
               </p>
             </div>
           </div>
@@ -112,12 +98,12 @@ export default function AboutPage() {
 
           <div className="timeline-wrapper row">
             {[
-              { year: "2009", title: "Company Founded", desc: "Started with two trucks and a vision to transform the moving industry." },
-              { year: "2012", title: "Expanded to 10 Cities", desc: "Opened branches in major metropolitan areas across India." },
-              { year: "2015", title: "International Services", desc: "Launched global relocation services to more than 30 countries." },
-              { year: "2018", title: "50,000+ Moves", desc: "Successfully completed over fifty thousand relocations." },
-              { year: "2021", title: "Digital Transformation", desc: "Introduced online booking and real-time tracking systems." },
-              { year: "2024", title: "Pan India Network", desc: "Expanded operations to 50+ cities with 200+ fleet vehicles." }
+              { year: "2016", title: "Operations Founded", desc: "Started local vehicle towing operations in Haryana." },
+              { year: "2018", title: "Expanded Trailer Fleet", desc: "Acquired double-decker open car carrier trailers." },
+              { year: "2020", title: "Enclosed Container Services", desc: "Launched hard-sided enclosed containers for sports and luxury cars." },
+              { year: "2022", title: "10,000+ Shifting Tasks", desc: "Crossed the milestone of shipping over ten thousand cars." },
+              { year: "2024", title: "GPS Integration", desc: "Integrated real-time GPS tracking on all transport corridors." },
+              { year: "2026", title: "National Auto Carrier Network", desc: "Serving 45+ cities with dedicated vehicle transit stations." }
             ].map((item, idx) => (
               <div key={idx} className="timeline-item col-12 col-md-6 mb-4">
                 <span className="timeline-dot"></span>
@@ -136,33 +122,39 @@ export default function AboutPage() {
       <section className="why-choose-us py-5">
         <div className="container">
           <div className="text-center mb-5">
-            <h2 className="why-title">Why Choose <span>SRS Packers & Movers</span></h2>
-            <p className="text-muted mt-3">
-              We are Mumbai-based and specialise in all types of removal solutions whether clients require specific
-              services or packages. Regardless of whether you teach, heal, learn, or are a part of the generation, we
-              give the best packing, loading and unloading services to ensure you have a trouble-free move. Our IBA-licensed
-              packers and movers services are secure car and bike moving, properly secured warehousing, and home and office
-              shifting. We boast ourselves as the most reliable and genuine packers and movers, who offer the best quality
-              movers packers coupled with pocket-friendly prices.
-            </p>
-            <p className="text-muted">
-              We bring you SRS Packers and Movers providing you with an assured, intelligent, no-scam packing and moving
-              service with enhanced security by transit insurance IBA-approved bill for claims. Welcome to our company for
-              efficient, timely and professional Moving Services in Mumbai.
+            <h2 className="why-title">Why Choose <span>Maruti Trans</span></h2>
+            <p className="why-desc mx-auto text-muted mt-3" style={{ maxWidth: "680px" }}>
+              We specialize entirely in automobile logistics. When you transport your vehicle with Maruti Trans, you get specialized equipment and seasoned trailer captains who understand how to mount, balance, strap, and drive cargo trailers safely.
             </p>
           </div>
 
-          <div className="row g-4 justify-content-center">
+          <div className="row g-4 mt-2 justify-content-center">
             {[
-              { icon: "bi-patch-check-fill", title: "Quality Service", desc: "High-standard packing, loading and unloading ensuring damage-free relocation." },
-              { icon: "bi-people-fill", title: "Expert Team", desc: "Skilled professionals trained to handle every type of moving requirement." },
-              { icon: "bi-shield-check", title: "Secure & IBA Approved", desc: "Transit insurance, IBA-approved bills and secure warehousing facilities." },
-              { icon: "bi-heart-fill", title: "Customer Commitment", desc: "Reliable, genuine and pocket-friendly services with complete transparency." }
+              {
+                icon: "bi-shield-check",
+                title: "Transit Insurance Cover",
+                desc: "Comprehensive transit insurance coverage to secure your vehicle value against unforeseen transit damage."
+              },
+              {
+                icon: "bi-truck",
+                title: "Specialized Carriers",
+                desc: "A modern fleet of open double-decker carriers and hard-sided enclosed containers built for safe long-distance shipping."
+              },
+              {
+                icon: "bi-patch-check",
+                title: "Four-Point Tire Strapping",
+                desc: "We lock vehicles strictly via heavy-duty soft straps around the tires, ensuring zero body scrapes or bumper friction."
+              },
+              {
+                icon: "bi-geo-alt",
+                title: "GPS Consignment Tracking",
+                desc: "Follow the journey of your vehicle with real-time transit updates using our web tracking system."
+              }
             ].map((card, idx) => (
-              <div key={idx} className="col-lg-3 col-md-6">
+              <div key={idx} className="col-12 col-md-6 col-lg-3">
                 <div className="why-choose-card text-center">
                   <div className="icon-arc">
-                    <div className="icon-circle">
+                    <div className="icon-circle shadow-sm">
                       <i className={`bi ${card.icon}`}></i>
                     </div>
                   </div>
@@ -171,76 +163,6 @@ export default function AboutPage() {
                 </div>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* 13 Reasons Section */}
-      <section className="reasons-list-section py-5">
-        <div className="container">
-          <div className="text-center mb-5">
-            <h2 className="section-title">
-              13 Reasons For Hiring a <span>Professional Mover Company in Mumbai</span>
-            </h2>
-            <p className="section-subtitle text-muted mt-2">
-              Smart, safe, and stress-free relocation services designed for your peace of mind.
-            </p>
-            <div className="text-muted mt-3">
-              <p>
-                Expertise: Companies that engage in packing and moving services have the expertise to deal with various
-                goods during the moving process. Time-saving: Using the services of movers is convenient since you will
-                not need to spend time on moving physical property. Stress-Free: Movers handle the physical work and
-                transport, eliminating all concerns related to moving. Proper Equipment: Special tools are safer and
-                more effective when used by trained professionals during the move. Insurance Coverage: Professional
-                movers provide transit insurance to safeguard belongings in case of damage. Cost-Effective: Avoid
-                hidden expenses associated with do-it-yourself moves, such as vehicle rental and packing materials.
-              </p>
-              <p>
-                Safe Packing: Transportation companies ensure proper packing of clients’ goods to prevent damage during
-                transit. Efficient Loading and Unloading: Movers assist in ensuring that items are loaded and unloaded
-                correctly and on time. Secure Storage: Many movers offer safe storage facilities for items that need to
-                be stored temporarily. Custom Solutions: Movers often provide customized packages based on your needs,
-                whether for local or interstate moves. Reliable Transport: Professional movers use well-maintained
-                vehicles that meet safety standards. Legal Compliance: Independent movers handle all necessary permits
-                and comply with existing laws and regulations during the moving process. Peace of Mind: Knowing that
-                belongings are in the hands of professionals helps relieve stress throughout the moving process.
-              </p>
-            </div>
-          </div>
-
-          <div className="row g-4">
-            {[
-              { icon: "bi-box-seam", title: "Expert Handling" },
-              { icon: "bi-clock-history", title: "Time-Saving Process" },
-              { icon: "bi-shield-check", title: "Stress-Free Relocation" },
-              { icon: "bi-tools", title: "Advanced Moving Equipment" },
-              { icon: "bi-file-earmark-check", title: "Transit Insurance Coverage" },
-              { icon: "bi-currency-rupee", title: "Cost-Effective Solutions" },
-              { icon: "bi-bag-check", title: "Safe Packing Standards" },
-              { icon: "bi-truck", title: "Efficient Loading & Unloading" },
-              { icon: "bi-building-lock", title: "Secure Storage Facilities" },
-              { icon: "bi-sliders", title: "Customized Moving Plans" },
-              { icon: "bi-truck-flatbed", title: "Reliable Transport Network" },
-              { icon: "bi-journal-check", title: "Legal & Safety Compliance" }
-            ].map((reason, idx) => (
-              <div key={idx} className="col-lg-6">
-                <div className="reason-list-card">
-                  <div className="reason-icon-box">
-                    <i className={`bi ${reason.icon}`}></i>
-                  </div>
-                  <h5>{reason.title}</h5>
-                </div>
-              </div>
-            ))}
-            {/* Full-width 13th Reason */}
-            <div className="col-lg-12">
-              <div className="reason-list-card">
-                <div className="reason-icon-box">
-                  <i className="bi bi-emoji-smile"></i>
-                </div>
-                <h5>Complete Peace of Mind</h5>
-              </div>
-            </div>
           </div>
         </div>
       </section>

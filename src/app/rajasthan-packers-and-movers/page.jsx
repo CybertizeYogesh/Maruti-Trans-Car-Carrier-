@@ -2,8 +2,8 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "SRS Packers And Movers in Rajasthan",
-  description: "Find reliable and professional packers and movers in Packers & Movers in Rajasthan. Get free quotes for home shifting, office shifting, and cargo transport.",
+  title: "Maruti Trans Car Shifting in Rajasthan",
+  description: "Find reliable and professional packers and movers in Car Shifting in Rajasthan. Get free quotes for home shifting, office shifting, and cargo transport.",
 };
 
 export default function LocationRoutePage() {
@@ -11,152 +11,152 @@ export default function LocationRoutePage() {
   {
     "path": "/ajmer-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ajmer</strong>"
+    "html": "Car Shifting in <strong>Ajmer</strong>"
   },
   {
     "path": "/alwar-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Alwar</strong>"
+    "html": "Car Shifting in <strong>Alwar</strong>"
   },
   {
     "path": "/banswara-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Banswara</strong>"
+    "html": "Car Shifting in <strong>Banswara</strong>"
   },
   {
     "path": "/barmer-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Barmer</strong>"
+    "html": "Car Shifting in <strong>Barmer</strong>"
   },
   {
     "path": "/bharatpur-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bharatpur</strong>"
+    "html": "Car Shifting in <strong>Bharatpur</strong>"
   },
   {
     "path": "/bhilwara-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bhilwara</strong>"
+    "html": "Car Shifting in <strong>Bhilwara</strong>"
   },
   {
     "path": "/bikaner-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bikaner</strong>"
+    "html": "Car Shifting in <strong>Bikaner</strong>"
   },
   {
     "path": "/bundi-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Bundi</strong>"
+    "html": "Car Shifting in <strong>Bundi</strong>"
   },
   {
     "path": "/chittorgarh-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Chittorgarh</strong>"
+    "html": "Car Shifting in <strong>Chittorgarh</strong>"
   },
   {
     "path": "/churu-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Churu</strong>"
+    "html": "Car Shifting in <strong>Churu</strong>"
   },
   {
     "path": "/dausa-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dausa</strong>"
+    "html": "Car Shifting in <strong>Dausa</strong>"
   },
   {
     "path": "/dungarpur-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Dungarpur</strong>"
+    "html": "Car Shifting in <strong>Dungarpur</strong>"
   },
   {
     "path": "/ganganagar-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Ganganagar</strong>"
+    "html": "Car Shifting in <strong>Ganganagar</strong>"
   },
   {
     "path": "/hanumangarh-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Hanumangarh</strong>"
+    "html": "Car Shifting in <strong>Hanumangarh</strong>"
   },
   {
     "path": "/jaipur-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jaipur</strong>"
+    "html": "Car Shifting in <strong>Jaipur</strong>"
   },
   {
     "path": "/jaisalmer-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jaisalmer</strong>"
+    "html": "Car Shifting in <strong>Jaisalmer</strong>"
   },
   {
     "path": "/jhalawar-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jhalawar</strong>"
+    "html": "Car Shifting in <strong>Jhalawar</strong>"
   },
   {
     "path": "/jhunjhunu-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jhunjhunu</strong>"
+    "html": "Car Shifting in <strong>Jhunjhunu</strong>"
   },
   {
     "path": "/jodhpur-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Jodhpur</strong>"
+    "html": "Car Shifting in <strong>Jodhpur</strong>"
   },
   {
     "path": "/karauli-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Karauli</strong>"
+    "html": "Car Shifting in <strong>Karauli</strong>"
   },
   {
     "path": "/kota-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Kota</strong>"
+    "html": "Car Shifting in <strong>Kota</strong>"
   },
   {
     "path": "/nagaur-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Nagaur</strong>"
+    "html": "Car Shifting in <strong>Nagaur</strong>"
   },
   {
     "path": "/pali-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pali</strong>"
+    "html": "Car Shifting in <strong>Pali</strong>"
   },
   {
     "path": "/pratapgarh-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Pratapgarh</strong>"
+    "html": "Car Shifting in <strong>Pratapgarh</strong>"
   },
   {
     "path": "/rajsamand-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Rajsamand</strong>"
+    "html": "Car Shifting in <strong>Rajsamand</strong>"
   },
   {
     "path": "/sawai-madhopur-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sawai Madhopur</strong>"
+    "html": "Car Shifting in <strong>Sawai Madhopur</strong>"
   },
   {
     "path": "/sikar-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sikar</strong>"
+    "html": "Car Shifting in <strong>Sikar</strong>"
   },
   {
     "path": "/sirohi-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Sirohi</strong>"
+    "html": "Car Shifting in <strong>Sirohi</strong>"
   },
   {
     "path": "/tonk-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Tonk</strong>"
+    "html": "Car Shifting in <strong>Tonk</strong>"
   },
   {
     "path": "/udaipur-packers-movers-rajasthan",
     "icon": "bi bi-truck state-city-icon",
-    "html": "Packers and Movers in <strong>Udaipur</strong>"
+    "html": "Car Shifting in <strong>Udaipur</strong>"
   }
 ];
 
@@ -175,7 +175,7 @@ export default function LocationRoutePage() {
               <span>/</span>
               <span>Rajasthan</span>
             </nav>
-            <h1>Packers & Movers in Rajasthan</h1>
+            <h1>Car Shifting in Rajasthan</h1>
             <p>Choose your city for reliable and professional moving services</p>
           </div>
         </div>

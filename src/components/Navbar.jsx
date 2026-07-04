@@ -55,10 +55,10 @@ export default function Navbar() {
       {/* Main Navbar */}
       <nav className="main-navbar navbar navbar-expand-lg sticky-top">
         <div className="container-fluid px-3 px-lg-5">
-          <Link href="/" className="navbar-brand p-3">
+          <Link href="/" className="navbar-brand py-2 px-1 py-md-3 px-md-3">
             <img
-              src="https://srspackersandmovers.com/assets/images/logo/logo.png"
-              alt="SRS Packers and Movers"
+              src="/assets/images/logo/logo.svg"
+              alt="Maruti Trans Car Carrier"
               className="main-nav-logo"
             />
           </Link>
@@ -66,41 +66,30 @@ export default function Navbar() {
           <div className="top-mega-menu d-none d-xl-flex align-items-center ms-auto me-4">
             <ul className="mega-menu-list mb-0">
               <li className="mega-item">
-                <a href="#">
-                  INTERNATIONAL MOVING <i className="bi bi-chevron-down"></i>
-                </a>
-                <div className="mega-dropdown">
-                  <Link href="/international-moving">International Moving Services</Link>
-                  <Link href="/navi-mumbai-packers-movers-maharashtra">Navi Mumbai packers movers</Link>
-                </div>
+                <Link href="/car-carrier">
+                  CAR CARRIER
+                </Link>
+              </li>
+              <li className="mega-item">
+                <Link href="/door-to-door-car-transport">
+                  DOOR-TO-DOOR
+                </Link>
+              </li>
+              <li className="mega-item">
+                <Link href="/luxury-car-transport-services">
+                  LUXURY CAR TRANSPORT
+                </Link>
               </li>
               <li className="mega-item">
                 <a href="#">
-                  DOMESTIC MOVING <i className="bi bi-chevron-down"></i>
+                  ALL SERVICES <i className="bi bi-chevron-down"></i>
                 </a>
                 <div className="mega-dropdown">
-                  <Link href="/domestic-moving">Domestic Relocation</Link>
-                  <Link href="/thane-packers-movers-maharashtra">Thane packers movers</Link>
-                </div>
-              </li>
-              <li className="mega-item">
-                <a href="#">
-                  CORPORATE MOVING <i className="bi bi-chevron-down"></i>
-                </a>
-                <div className="mega-dropdown">
-                  <Link href="/residential-moving">Residential Moving</Link>
-                  <Link href="/services">Corporate Shifting</Link>
-                </div>
-              </li>
-              <li className="mega-item">
-                <a href="#">
-                  SERVICES <i className="bi bi-chevron-down"></i>
-                </a>
-                <div className="mega-dropdown">
-                  <Link href="/packing-unpacking">Packing & Unpacking</Link>
-                  <Link href="/loading-unloading">Loading & Unloading</Link>
-                  <Link href="/warehousing">Warehousing Services</Link>
-                  <Link href="/car-transportation-services">Car Transportation</Link>
+                  <Link href="/car-courier-service">Car Courier Service</Link>
+                  <Link href="/car-relocation-service">Car Relocation Service</Link>
+                  <Link href="/car-transportation">Car Transportation</Link>
+                  <Link href="/single-car-carrier">Single Car Carrier</Link>
+                  <Link href="/enclosed-car-carrier-services">Enclosed Car Carrier</Link>
                 </div>
               </li>
             </ul>
@@ -146,8 +135,8 @@ export default function Navbar() {
         <div className="offcanvas-header border-bottom py-3 px-4">
           <Link href="/" className="d-flex align-items-center text-decoration-none" onClick={toggleMobileMenu}>
             <img
-              src="https://srspackersandmovers.com/assets/images/logo/logo.png"
-              alt="SRS Packers and Movers"
+              src="/assets/images/logo/logo_light.svg"
+              alt="Maruti Trans Car Carrier"
               className="fullscreen-menu-logo"
             />
           </Link>
@@ -220,28 +209,38 @@ export default function Navbar() {
                 </h5>
                 <ul className="list-unstyled menu-section-list mt-3">
                   <li>
-                    <Link href="/maharashtra-packers-and-movers" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Maharashtra
+                    <Link href="/contacts?origin=Haryana" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Haryana Shifting
                     </Link>
                   </li>
                   <li>
-                    <Link href="/thane-packers-movers-maharashtra" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Thane
+                    <Link href="/contacts?origin=CharkhiDadri" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Charkhi Dadri
                     </Link>
                   </li>
                   <li>
-                    <Link href="/mumbai-packers-movers-maharashtra" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Mumbai
+                    <Link href="/contacts?origin=Gurgaon" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Gurgaon
                     </Link>
                   </li>
                   <li>
-                    <Link href="/pune-packers-movers-maharashtra" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Pune
+                    <Link href="/contacts?origin=Faridabad" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Faridabad
                     </Link>
                   </li>
                   <li>
-                    <Link href="/navi-mumbai-packers-movers-maharashtra" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Navi Mumbai
+                    <Link href="/contacts?origin=Rohtak" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Rohtak
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contacts?origin=Gurgaon" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Gurgaon to Delhi NCR
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/contacts?origin=CharkhiDadri" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Charkhi Dadri to Big Cities
                     </Link>
                   </li>
                 </ul>
@@ -254,63 +253,43 @@ export default function Navbar() {
                 </h5>
                 <ul className="list-unstyled menu-section-list mt-3">
                   <li>
-                    <Link href="/local-moving" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Local Moving
+                    <Link href="/car-courier-service" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Car Courier Service
                     </Link>
                   </li>
                   <li>
-                    <Link href="/domestic-moving" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Domestic Moving
+                    <Link href="/door-to-door-car-transport" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Door-to-Door Car Transport
                     </Link>
                   </li>
                   <li>
-                    <Link href="/international-moving" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>International Moving
+                    <Link href="/car-relocation-service" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Car Relocation Service
                     </Link>
                   </li>
                   <li>
-                    <Link href="/insurance-moving" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Moving With Insurance
+                    <Link href="/car-carrier" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Car Carrier
                     </Link>
                   </li>
                   <li>
-                    <Link href="/car-transportation-services" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Car Carriers
+                    <Link href="/car-transportation" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Car Transportation
                     </Link>
                   </li>
                   <li>
-                    <Link href="/delicate-item-movers" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Delicate Item Movers
+                    <Link href="/single-car-carrier" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Single Car Carrier
                     </Link>
                   </li>
                   <li>
-                    <Link href="/door-to-door" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Door to Door Services
+                    <Link href="/luxury-car-transport-services" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Luxury Car Transport
                     </Link>
                   </li>
                   <li>
-                    <Link href="/residential-moving" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Residential Moving
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/logistic-services" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Logistic Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/loading-unloading" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Loading And Unloading
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/packing-unpacking" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Packing And Unpacking
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/warehousing" className="menu-section-link" onClick={toggleMobileMenu}>
-                      <i className="bi bi-chevron-right me-2"></i>Warehousing
+                    <Link href="/enclosed-car-carrier-services" className="menu-section-link" onClick={toggleMobileMenu}>
+                      <i className="bi bi-chevron-right me-2"></i>Enclosed Car Carrier
                     </Link>
                   </li>
                 </ul>
@@ -343,8 +322,8 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <a href="tel:+919892325154" className="menu-section-link menu-section-link-cta">
-                      <i className="bi bi-telephone-fill me-2"></i>Call Now: +91 9892325154
+                    <a href="tel:+918512000715" className="menu-section-link menu-section-link-cta">
+                      <i className="bi bi-telephone-fill me-2"></i>Call Now: +91 8512000715
                     </a>
                   </li>
                 </ul>
@@ -356,11 +335,11 @@ export default function Navbar() {
               <div className="col-12 col-lg-6 mb-3 mb-lg-0">
                 <div className="d-flex flex-wrap align-items-center gap-3">
                   <span className="text-muted fw-semibold text-uppercase small">Contact:</span>
-                  <a href="tel:+919892325154" className="btn btn-outline-dark">
-                    <i className="bi bi-telephone-fill text-danger me-2"></i>+91 9892325154
+                  <a href="tel:+918512000715" className="btn btn-outline-dark">
+                    <i className="bi bi-telephone-fill text-danger me-2"></i>+91 8512000715
                   </a>
-                  <a href="mailto:info@srspackersandmovers.com" className="btn btn-outline-dark">
-                    <i className="bi bi-envelope-fill text-danger me-2"></i>info@srspackersandmovers.com
+                  <a href="mailto:info@marutitrans.com" className="btn btn-outline-dark">
+                    <i className="bi bi-envelope-fill text-danger me-2"></i>info@marutitrans.com
                   </a>
                 </div>
               </div>
@@ -368,16 +347,16 @@ export default function Navbar() {
                 <div className="d-flex flex-wrap align-items-center justify-content-lg-end gap-3">
                   <span className="text-muted fw-semibold text-uppercase small">Follow Us:</span>
                   <div className="d-flex gap-2">
-                    <a href="https://www.facebook.com/ShekhawatRelocation" className="social-icon-btn" aria-label="Facebook">
+                    <a href="#" className="social-icon-btn" aria-label="Facebook">
                       <i className="bi bi-facebook"></i>
                     </a>
-                    <a href="https://x.com/SrsPackers" className="social-icon-btn" aria-label="Twitter">
+                    <a href="#" className="social-icon-btn" aria-label="Twitter">
                       <i className="bi bi-twitter"></i>
                     </a>
-                    <a href="https://www.instagram.com/srs_packersmovers" className="social-icon-btn" aria-label="Instagram">
+                    <a href="#" className="social-icon-btn" aria-label="Instagram">
                       <i className="bi bi-instagram"></i>
                     </a>
-                    <a href="https://www.linkedin.com/company/srs-packers-and-movers/" className="social-icon-btn" aria-label="LinkedIn">
+                    <a href="#" className="social-icon-btn" aria-label="LinkedIn">
                       <i className="bi bi-linkedin"></i>
                     </a>
                   </div>

@@ -1,7 +1,9 @@
 /* Stats Box Text Color Fix */
 .stat-box h3,
-.stat-box p {
-  color: #222;
+.stat-box p,
+.stat-box .stat-value,
+.stat-box .stat-label {
+  color: #222 !important;
 }
 
 /* Compact horizontal footer contact item */
@@ -272,6 +274,13 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 992px) {
+  .footer-bottom-links {
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
 }
 
 .footer-bottom-link {

@@ -21,16 +21,16 @@ export default function PrivacyPolicyPage() {
             {/* Title */}
             <h1>Privacy Policy</h1>
             {/* Subtitle */}
-            <p>Protecting your privacy and data with SRS Packers and Movers</p>
+            <p>Protecting your privacy and data with Maruti Trans Car Carrier Shifting</p>
           </div>
         </div>
       </section>
 
       {/* Privacy Policy Content */}
       <section className="privacy-section container py-5">
-        <h2>Privacy Policy for SRS Packers And Movers</h2>
+        <h2>Privacy Policy for Maruti Trans Car Carrier Shifting</h2>
         <p>
-          Terms and Conditions of SRS Packers And Movers: We do not collect and do not solicit personal information from
+          Terms and Conditions of Maruti Trans Car Carrier Shifting: We do not collect and do not solicit personal information from
           our users. This Privacy Policy explains the process by which we obtain and process your information when you
           interact with us. By using our services, you accept the terms stated in this document, which is a Privacy
           Policy.
@@ -132,7 +132,7 @@ export default function PrivacyPolicyPage() {
 
         <h3>Contact Us</h3>
         <div className="privacy-contact">
-          <strong>SRS Packers And Movers</strong>
+          <strong>Maruti Trans Car Carrier Shifting</strong>
           <br />
           <span>Plot no. 9, Shop no. 4, City inclave, sec.2a, koparkhairne Mumbai, Maharashtra 400709</span>
           <br />
@@ -145,15 +145,15 @@ export default function PrivacyPolicyPage() {
           <br />
           <span>
             Email:{" "}
-            <a href="mailto:info@srspackersandmovers.com" className="text-danger">
-              info@srspackersandmovers.com
+            <a href="mailto:info@marutitrans.com" className="text-danger">
+              info@marutitrans.com
             </a>
           </span>
           <br />
           <span>
             Call us:{" "}
-            <a href="tel:+919892325154" className="text-danger">
-              +91-9892325154
+            <a href="tel:+918512000715" className="text-danger">
+              +91-8512000715
             </a>
           </span>
         </div>

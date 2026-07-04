@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import "./floationgCTA.css";
+import "./floatingCTA.css";
 
 export default function FloatingCTA() {
   return (
@@ -11,7 +11,7 @@ export default function FloatingCTA() {
         <a
           aria-label="Call"
           title="Call Us Now"
-          href="tel:+919892325154"
+          href="tel:+918512000715"
           className="text-decoration-none"
         >
           <i className="bi bi-telephone-fill fab-icon"></i>
@@ -23,7 +23,7 @@ export default function FloatingCTA() {
         <a
           aria-label="WhatsApp"
           title="Instant Quote – Just 30 Mins!"
-          href="https://api.whatsapp.com/send?phone=+919892325154&text=Hello+sir,+I+am+interested+in+one+of+your+services"
+          href="https://api.whatsapp.com/send?phone=+918512000715&text=Hello+sir,+I+am+interested+in+one+of+your+services"
           target="_blank"
           rel="noopener noreferrer"
           className="text-decoration-none"

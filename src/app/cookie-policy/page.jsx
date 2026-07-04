@@ -21,7 +21,7 @@ export default function CookiePolicyPage() {
             {/* Title */}
             <h1>Cookie Policy</h1>
             {/* Subtitle */}
-            <p>Understanding how SRS Packers and Movers uses cookies and tracking technologies</p>
+            <p>Understanding how Maruti Trans Car Carrier Shifting uses cookies and tracking technologies</p>
           </div>
         </div>
       </section>
@@ -31,10 +31,10 @@ export default function CookiePolicyPage() {
         <div className="container">
           <div className="card shadow-sm border-0">
             <div className="card-body p-4 p-md-5">
-              <h2 className="mb-4 text-danger fw-bold">Cookie Policy for SRS Packers And Movers</h2>
+              <h2 className="mb-4 text-danger fw-bold">Cookie Policy for Maruti Trans Car Carrier Shifting</h2>
 
               <p className="text-muted lead">
-                This Cookie Policy explains how SRS Packers And Movers uses cookies and similar tracking technologies 
+                This Cookie Policy explains how Maruti Trans Car Carrier Shifting uses cookies and similar tracking technologies 
                 on our website. When you visit our website to explore packing and moving services, request a quote, 
                 or contact us, small data files may be stored on your device to enhance performance and improve 
                 your browsing experience.

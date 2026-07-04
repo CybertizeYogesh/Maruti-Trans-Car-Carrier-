@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 export const metadata = {
-  title: "SRS Packers and Movers All India Branches",
+  title: "Maruti Trans Car Carrier Shifting All India Branches",
   description: "Find reliable and professional packers and movers in Our services in all over India. Get free quotes for home shifting, office shifting, and cargo transport.",
 };
 

@@ -874,7 +874,10 @@ textarea.form-control {
   }
 
   .move-type-selection {
-    gap: 0.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 1rem 1rem;
     margin-bottom: 1.5rem;
   }
 

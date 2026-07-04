@@ -9,37 +9,37 @@ const ALL_TESTIMONIALS = [
     initials: "RS",
     name: "Rahul Sharma",
     route: "Mumbai to Delhi",
-    text: "“Excellent service! The team was professional and handled all our belongings with utmost care. The entire move was completed ahead of schedule.”"
+    text: "“Excellent service! The car carrier team was professional and handled my sedan with utmost care. The entire delivery was completed ahead of schedule.”"
   },
   {
     initials: "PP",
     name: "Priya Patel",
     route: "Pune to Bangalore",
-    text: "“Best packers and movers I've ever hired. Transparent pricing, no hidden costs, and exceptional packing quality. Highly recommended!”"
+    text: "“Best car transport service I've ever hired. Transparent pricing, no hidden fuel surcharges, and exceptional loading safety. Highly recommended!”"
   },
   {
     initials: "AK",
     name: "Amit Kumar",
     route: "Chennai to Hyderabad",
-    text: "“SRS made our office relocation seamless. Minimal downtime and everything was set up perfectly at the new location. Great team!”"
+    text: "“Maruti Trans made our corporate fleet relocation seamless. Minimal transit time and everything was unloaded perfectly. Great team!”"
   },
   {
     initials: "SG",
     name: "Sneha Gupta",
     route: "Kolkata to Mumbai",
-    text: "“Very impressed with their car carrier service. My car arrived safely and on time. Tracking updates were very helpful.”"
+    text: "“Very impressed with their enclosed car carrier service. My luxury SUV arrived safely and without a single scratch. Tracking updates were very helpful.”"
   },
   {
     initials: "MS",
     name: "Manish Singh",
     route: "Mumbai to Pune",
-    text: "“Hired them for household shifting. Extremely happy with their packing speed and safety measures. Highly recommended!”"
+    text: "“Hired them for door-to-door car transport. Extremely happy with their quick flatbed response and professional loading checklist. Highly recommended!”"
   },
   {
     initials: "AD",
     name: "Anjali Deshmukh",
     route: "Thane to Navi Mumbai",
-    text: "“The team was courteous and carefully unpacked all the items. Excellent localized shifting service in Mumbai.”"
+    text: "“The driver was courteous and carefully strapped the vehicle's wheels. Excellent local vehicle shifting support in Mumbai region.”"
   }
 ];
 
@@ -58,7 +58,7 @@ export default function TestimonialsPage() {
               <span>Testimonials</span>
             </nav>
             <h1>Testimonials</h1>
-            <p>Protecting your privacy and data with SRS Packers and Movers</p>
+            <p>Protecting your privacy and data with Maruti Trans Car Carrier Shifting</p>
           </div>
         </div>
       </section>

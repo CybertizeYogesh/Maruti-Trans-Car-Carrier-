@@ -3,95 +3,67 @@ import Link from "next/link";
 import "./services.css";
 
 export const metadata = {
-  title: "Our Services | Comprehensive Packing & Moving Solutions",
-  description: "Explore our wide range of professional packing and moving services, including home shifting, office relocation, vehicle transport, storage solutions, and more. We ensure safe, reliable, and hassle-free moves tailored to your needs.",
-  keywords: "household shifting, office relocation, vehicle transport, storage solutions",
+  title: "Vehicle Relocation Services | Maruti Trans Car Carrier Shifting",
+  description: "Explore our range of secure car transport services: open carriers, single flatbeds, enclosed trailer logistics, door-to-door shifting, and express courier options.",
+  keywords: "car transport services, car shifting Haryana, enclosed car carrier, flatbed towing, auto logistics",
 };
 
 const SERVICES = [
   {
-    title: "Local Moving",
-    iconClass: "bi bi-house-door",
-    desc: "Safe and quick household relocation within city limits with expert packing.",
-    href: "/local-moving",
-    points: ["Same-day service", "Trained staff", "Secure handling", "Furniture setup"]
+    title: "Car Courier Service",
+    iconClass: "bi bi-send",
+    desc: "Express state-to-state vehicle shipping with optimized corridor routing for quick delivery.",
+    href: "/car-courier-service",
+    points: ["Fast highway routing", "GPS updates", "Transit protection", "Prompt schedules"]
   },
   {
-    title: "Domestic Moving",
+    title: "Door-to-Door Car Transport",
+    iconClass: "bi bi-house-check",
+    desc: "Convenient home pickup and direct doorstep delivery with certified check sheets.",
+    href: "/door-to-door-car-transport",
+    points: ["Zero mileage driven", "Pre-inspection report", "Hydraulic loaders", "No terminal visits"]
+  },
+  {
+    title: "Car Relocation Service",
+    iconClass: "bi bi-arrow-left-right",
+    desc: "Coordinated vehicle shifting for corporate transfers and family relocations.",
+    href: "/car-relocation-service",
+    points: ["Corporate packages", "Border tax paperwork", "Fleet transitions", "Storage yards"]
+  },
+  {
+    title: "Car Carrier",
     iconClass: "bi bi-truck",
-    desc: "Interstate relocation across India with door-to-door service.",
-    href: "/domestic-moving",
-    points: ["Pan India network", "On-time delivery", "GPS tracking", "Move coordinator"]
+    desc: "Economical multi-car shipping via open double-decker carrier trailers.",
+    href: "/car-carrier",
+    points: ["Budget-friendly", "Modern trailer fleet", "Four-point straps", "Trained driver captains"]
   },
   {
-    title: "International Moving",
-    iconClass: "bi bi-globe",
-    desc: "Global relocation services with customs and documentation support.",
-    href: "/international-moving",
-    points: ["50+ countries", "Air & sea freight", "Custom clearance", "Destination support"]
+    title: "Car Transportation",
+    iconClass: "bi bi-speedometer2",
+    desc: "Reliable highway transportation solutions for automobiles across India.",
+    href: "/car-transportation",
+    points: ["All-India network", "Insured transit", "Certified drivers", "No hidden charges"]
   },
   {
-    title: "Moving With Insurance",
-    iconClass: "bi bi-shield-check",
-    desc: "Comprehensive transit insurance for complete peace of mind.",
-    href: "/insurance-moving",
-    points: ["Full coverage", "Quick claims", "Damage protection", "Risk-free move"]
+    title: "Single Car Carrier",
+    iconClass: "bi bi-truck-flatbed",
+    desc: "Dedicated flatbed towing vehicles for rapid, private individual car shipping.",
+    href: "/single-car-carrier",
+    points: ["Express timelines", "Hydraulic beds", "No intermediate stops", "Dedicated transport"]
   },
   {
-    title: "Car Carriers",
-    iconClass: "bi bi-car-front",
-    desc: "Safe transportation of cars and bikes using specialized carriers.",
-    href: "/car-transportation-services",
-    points: ["Enclosed carriers", "Bike transport", "Damage-free", "Insurance support"]
+    title: "Luxury Car Shifting",
+    iconClass: "bi bi-star-fill",
+    desc: "White-glove handling with soft wheel straps for sports and premium brands.",
+    href: "/luxury-car-transport-services",
+    points: ["Air-ride trucks", "Race-loading ramps", "Protective wraps", "High-limit insurance"]
   },
   {
-    title: "Delicate Item Movers",
-    iconClass: "bi bi-gem",
-    desc: "Special handling for fragile, antique, and valuable items.",
-    href: "/delicate-item-movers",
-    points: ["Extra padding", "Custom packing", "Expert handling", "Safe delivery"]
-  },
-  {
-    title: "Door to Door Services",
-    iconClass: "bi bi-door-open",
-    desc: "Complete relocation from pickup to final placement.",
-    href: "/door-to-door",
-    points: ["End-to-end move", "No hidden costs", "Single contact", "Hassle-free"]
-  },
-  {
-    title: "Residential Moving",
-    iconClass: "bi bi-building",
-    desc: "Professional home relocation with safety and speed.",
-    href: "/residential-moving",
-    points: ["Apartment moves", "Villa shifting", "Careful packing", "Timely delivery"]
-  },
-  {
-    title: "Logistic Services",
-    iconClass: "bi bi-box-seam",
-    desc: "Reliable logistics and supply chain transportation.",
-    href: "/logistic-services",
-    points: ["On-time delivery", "Fleet support", "Route planning", "Tracking system"]
-  },
-  {
-    title: "Loading And Unloading",
-    iconClass: "bi bi-boxes",
-    desc: "Safe loading and unloading by trained professionals.",
-    href: "/loading-unloading",
-    points: ["Heavy item handling", "Safety equipment", "Skilled labor", "No damage"]
-  },
-  {
-    title: "Packing And Unpacking",
-    iconClass: "bi bi-boxes",
-    desc: "Professional packing using high-quality materials.",
-    href: "/packing-unpacking",
-    points: ["Premium cartons", "Bubble wrapping", "Labeling", "Organized unpacking"]
-  },
-  {
-    title: "Warehousing",
-    iconClass: "bi bi-building-lock",
-    desc: "Secure and climate-controlled storage solutions.",
-    href: "/warehousing",
-    points: ["Short & long term", "24/7 security", "Inventory management", "Easy access"]
+    title: "Enclosed Car Carrier",
+    iconClass: "bi bi-shield-lock",
+    desc: "Covered hard-sided trailer containers protecting cars from environmental debris.",
+    href: "/enclosed-car-carrier-services",
+    points: ["Shields from weather", "Zero road grime", "Lockable trailers", "Ultimate security"]
   }
 ];
 
@@ -110,7 +82,7 @@ export default function ServicesPage() {
               <span>Services</span>
             </nav>
             <h1>Our Services</h1>
-            <p>Comprehensive moving solutions for every need</p>
+            <p>Comprehensive Vehicle Relocation and Shifting Solutions Across India</p>
           </div>
         </div>
       </section>

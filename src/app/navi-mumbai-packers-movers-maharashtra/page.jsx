@@ -4,8 +4,8 @@ import QuoteForm from "@/components/QuoteForm";
 import "./navi-mumbai.css";
 
 export const metadata = {
-  title: "Best Packers and Movers in Navi Mumbai, Maharashtra, SRS Packers",
-  description: "Your Search Ends Here! SRS Packers and Movers in Navi Mumbai – Expert Packing and Moving Services Providing Comprehensive Relocation Solutions in Navi Mumbai, Maharashtra",
+  title: "Best Car Shifting in Navi Mumbai, Maharashtra, Maruti Trans Packers",
+  description: "Your Search Ends Here! Maruti Trans Car Shifting in Navi Mumbai – Expert Packing and Moving Services Providing Comprehensive Relocation Solutions in Navi Mumbai, Maharashtra",
   keywords: "movers and packers in Navi Mumbai, Movers Packers Navi Mumbai, Movers near me Navi Mumbai, Packers and movers in Navi Mumbai, Moving companies near me Navi Mumbai, Movers Navi Mumbai, Packers and movers near me Navi Mumbai",
 };
 
@@ -25,7 +25,7 @@ export default function NaviMumbaiPage() {
               <span>/</span>
               <span>Navi Mumbai</span>
             </nav>
-            <h1 className="page-title">Best Packers and Movers in Navi Mumbai</h1>
+            <h1 className="page-title">Best Car Shifting in Navi Mumbai</h1>
             <p className="page-description">
               Discover our trusted branches across Navi Mumbai, delivering seamless and reliable moving experiences.
             </p>
@@ -43,20 +43,20 @@ export default function NaviMumbaiPage() {
         <div className="container">
           <div className="row g-4">
             <div className="col-md-7">
-              <h2 className="fw-bold text-dark mb-4">Best and Most Trusted Packers and Movers in Navi Mumbai</h2>
+              <h2 className="fw-bold text-dark mb-4">Best and Most Trusted Car Shifting in Navi Mumbai</h2>
               <p className="text-muted">
-                <Link href="/navi-mumbai-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Best Packers and Movers in Navi Mumbai</Link>, which is one of the most important emerging cities in Maharashtra, Navi Mumbai, is a city that can be described as modern and rapidly growing. It is full of cultural and economic activity, and the many races and businesses mean diverse populations.
+                <Link href="/navi-mumbai-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Best Car Shifting in Navi Mumbai</Link>, which is one of the most important emerging cities in Maharashtra, Navi Mumbai, is a city that can be described as modern and rapidly growing. It is full of cultural and economic activity, and the many races and businesses mean diverse populations.
               </p>
               <p className="text-muted">
-                If one plans on having a trouble-free packing and moving experience, SRS Packers and Movers are the best in Navi Mumbai. Our services include our trademark professional bike shifting, excellent loading and unloading, and safe and secure warehousing.
+                If one plans on having a trouble-free packing and moving experience, Maruti Trans Car Carrier Shifting are the best in Navi Mumbai. Our services include our trademark professional bike shifting, excellent loading and unloading, and safe and secure warehousing.
               </p>
               <p className="text-muted">
                 Some of them are - economical, safe and fast home shifting, office shifting, car transportation, and car moving services from Navi Mumbai to Nalanda.
               </p>
 
-              <h3 className="fw-bold text-dark mt-4 mb-3">Comprehensive Services Offered by Packers and Movers Companies in Maharashtra</h3>
+              <h3 className="fw-bold text-dark mt-4 mb-3">Comprehensive Services Offered by Car Carrier Shifting Companies in Maharashtra</h3>
               <p className="text-muted">
-                SRS Packers and Movers offer excellent packing and moving services all over Maharashtra. From Thane to Ghatkopar, Bandra to Andheri, our professional team makes it a point to offer safe and scam-free movers and packers.
+                Maruti Trans Car Carrier Shifting offer excellent packing and moving services all over Maharashtra. From Thane to Ghatkopar, Bandra to Andheri, our professional team makes it a point to offer safe and scam-free movers and packers.
               </p>
               <p className="text-muted">
                 Our teams cover <Link href="/pune-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Pune</Link> to <Link href="/navi-mumbai-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Navi Mumbai</Link> relocation, <Link href="/nashik-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Nashik</Link> to <Link href="/nagpur-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Nagpur</Link> shift, and <Link href="/mumbai-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Mumbai</Link> to <Link href="/aurangabad-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Aurangabad</Link> transfer with a great deal of concern. Our reliable packers and movers services are from <Link href="/panvel-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Panvel</Link> to <Link href="/thane-packers-movers-maharashtra" className="text-decoration-none text-dark fw-bold">Thane</Link> & Ghatkopar to Nashik.
@@ -65,18 +65,18 @@ export default function NaviMumbaiPage() {
                 Let the professionals at Chhotu Transport take care of verified packing and loading from Andheri to Aurangabad; switching on to a new stage could not be easier!
               </p>
               <p className="text-muted">
-                When you choose SRS Packers and Movers, you get IBA-approved packers movers services that will be customized to suit your needs. All our services; from domestic shifting to transit insurance are offered in Navi Mumbai and they are top-notch to guarantee you a stress-free relocation service.
+                When you choose Maruti Trans Car Carrier Shifting, you get IBA-approved packers movers services that will be customized to suit your needs. All our services; from domestic shifting to transit insurance are offered in Navi Mumbai and they are top-notch to guarantee you a stress-free relocation service.
               </p>
             </div>
 
             <div className="col-md-5">
               <div className="card p-4 shadow-sm border rounded-3 bg-light">
-                <h3 className="fw-bold text-dark mb-3">Packers and Movers in Navi Mumbai</h3>
+                <h3 className="fw-bold text-dark mb-3">Car Shifting in Navi Mumbai</h3>
                 <address className="text-muted mb-4">
                   Shop Number 4, City Enclave, Sector 2, Kopar Khairane, Navi Mumbai, Maharashtra 400709
                 </address>
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5239144156267!2d72.9969156!3d19.1285307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c107c58671a5%3A0xa76c0315afef2cbf!2sSRS%20PACKERS%20AND%20MOVERS!5e0!3m2!1sen!2sin!4v1767778433375!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.5239144156267!2d72.9969156!3d19.1285307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c107c58671a5%3A0xa76c0315afef2cbf!2sMaruti Trans%20PACKERS%20AND%20MOVERS!5e0!3m2!1sen!2sin!4v1767778433375!5m2!1sen!2sin"
                   width="100%"
                   height="300"
                   style={{ border: 0 }}
@@ -186,7 +186,7 @@ export default function NaviMumbaiPage() {
           <div className="row g-5 align-items-center">
             <div className="col-md-5">
               <img
-                src="https://srspackersandmovers.com/assets/images/gallery/gallery3.jpg"
+                src="https://marutitrans.com/assets/images/gallery/gallery3.webp"
                 alt="Navi Mumbai Team"
                 loading="lazy"
                 className="img-fluid rounded-3 shadow-lg"
@@ -240,7 +240,7 @@ export default function NaviMumbaiPage() {
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    <strong>SRS Logistics Services</strong> provides businesses and individuals with dependable logistics solutions. Our exemplary service standards have built SRS's reputation as a trusted logistics provider in Navi Mumbai through our years of experience transporting goods and consignments safely with efficiency.
+                    <strong>Maruti Trans Logistics Services</strong> provides businesses and individuals with dependable logistics solutions. Our exemplary service standards have built Maruti Trans's reputation as a trusted logistics provider in Navi Mumbai through our years of experience transporting goods and consignments safely with efficiency.
                   </p>
                 </div>
                 <Link href="/logistic-services" className="text-danger fw-semibold text-decoration-none">
@@ -252,12 +252,12 @@ export default function NaviMumbaiPage() {
               <div className="col-12 col-md-12 mb-5 border-bottom pb-4">
                 <h4 className="fw-bold mb-2">
                   <Link href="#!" className="text-decoration-none text-dark">
-                    Bill For Claim Packers and Movers in Navi Mumbai
+                    Bill For Claim Car Shifting in Navi Mumbai
                   </Link>
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    When people shift their home, office, or vehicle, one of the biggest requirements today is a Genuine Bill for Claim that can be used for insurance, relocation allowance, travel claims, or company reimbursement. A proper moving bill is not just a receipt; it is your official proof of relocation expenses. SRS Packers and Movers specializes in providing transparent, verified, and fully compliant <strong>Bill for Claim Packers and Movers in Navi Mumbai</strong>, ensuring that your documentation is accepted without any hassle.
+                    When people shift their home, office, or vehicle, one of the biggest requirements today is a Genuine Bill for Claim that can be used for insurance, relocation allowance, travel claims, or company reimbursement. A proper moving bill is not just a receipt; it is your official proof of relocation expenses. Maruti Trans Car Carrier Shifting specializes in providing transparent, verified, and fully compliant <strong>Bill for Claim Car Shifting in Navi Mumbai</strong>, ensuring that your documentation is accepted without any hassle.
                   </p>
                 </div>
                 <Link href="#!" className="text-danger fw-semibold text-decoration-none">
@@ -274,7 +274,7 @@ export default function NaviMumbaiPage() {
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    At <strong>SRS Packers and Movers</strong>, our team handles <strong>industrial shifting services in Navi Mumbai</strong> with a level of care and planning that large-scale moves genuinely require. Throughout our many years of being in the relocation industry, we have had the opportunity to work with several different industries.
+                    At <strong>Maruti Trans Car Carrier Shifting</strong>, our team handles <strong>industrial shifting services in Navi Mumbai</strong> with a level of care and planning that large-scale moves genuinely require. Throughout our many years of being in the relocation industry, we have had the opportunity to work with several different industries.
                   </p>
                 </div>
                 <Link href="#!" className="text-danger fw-semibold text-decoration-none">
@@ -291,7 +291,7 @@ export default function NaviMumbaiPage() {
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    Enjoy a smooth and stress-free household shifting experience in Navi Mumbai with SRS Packers and Movers. Our experienced team handles every detail with care, ensuring a flawless and efficient relocation process.
+                    Enjoy a smooth and stress-free household shifting experience in Navi Mumbai with Maruti Trans Car Carrier Shifting. Our experienced team handles every detail with care, ensuring a flawless and efficient relocation process.
                   </p>
                 </div>
                 <Link href="/residential-moving" className="text-danger fw-semibold text-decoration-none">
@@ -320,12 +320,12 @@ export default function NaviMumbaiPage() {
               <div className="col-12 col-md-12 mb-5 border-bottom pb-4">
                 <h4 className="fw-bold mb-2">
                   <Link href="#!" className="text-decoration-none text-dark">
-                    IBA Approved Packers and Movers in Navi Mumbai
+                    IBA Approved Car Shifting in Navi Mumbai
                   </Link>
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    Trust the expertise of IBA Approved Packers and Movers in Navi Mumbai for your relocation needs. Our certified services ensure secure and efficient moves, offering peace of mind with every step of your journey.
+                    Trust the expertise of IBA Approved Car Shifting in Navi Mumbai for your relocation needs. Our certified services ensure secure and efficient moves, offering peace of mind with every step of your journey.
                   </p>
                 </div>
                 <Link href="#!" className="text-danger fw-semibold text-decoration-none">
@@ -342,7 +342,7 @@ export default function NaviMumbaiPage() {
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    Looking for dependable warehouse services in Amravati? SRS Packers and Movers offers industry-leading storage space to store a variety of goods, for a short period and long period in Amravati.
+                    Looking for dependable warehouse services in Amravati? Maruti Trans Car Carrier Shifting offers industry-leading storage space to store a variety of goods, for a short period and long period in Amravati.
                   </p>
                 </div>
                 <Link href="/warehousing" className="text-danger fw-semibold text-decoration-none">
@@ -371,12 +371,12 @@ export default function NaviMumbaiPage() {
               <div className="col-12 col-md-12 mb-4">
                 <h4 className="fw-bold mb-2">
                   <Link href="/international-moving" className="text-decoration-none text-dark hover-danger">
-                    International Packers and Movers in Navi Mumbai
+                    International Car Shifting in Navi Mumbai
                   </Link>
                 </h4>
                 <div className="mb-3 text-muted">
                   <p>
-                    <strong>SRS Packers and Movers</strong> provides families and professionals with dependable international relocation services. Our exemplary service records have built SRS's credibility as the leading mover in your city through our years of experience transporting our customers' possessions overseas with integrity.
+                    <strong>Maruti Trans Car Carrier Shifting</strong> provides families and professionals with dependable international relocation services. Our exemplary service records have built Maruti Trans's credibility as the leading mover in your city through our years of experience transporting our customers' possessions overseas with integrity.
                   </p>
                 </div>
                 <Link href="/international-moving" className="text-danger fw-semibold text-decoration-none">
@@ -589,10 +589,9 @@ export default function NaviMumbaiPage() {
                     <div className="row g-0 h-100">
                       <div className="col-4 h-100">
                         <img
-                          src="https://srspackersandmovers.com/assets/uploads/blog/591743671629.png"
+                          src="https://marutitrans.com/assets/uploads/blog/591743671629.png"
                           className="w-100 h-100 object-fit-cover"
-                          alt="Blog Image"
-                        />
+                          alt="Blog Image" loading="lazy" />
                       </div>
                       <div className="col-8">
                         <div className="card-body d-flex flex-column justify-content-between h-100">
@@ -613,10 +612,9 @@ export default function NaviMumbaiPage() {
                     <div className="row g-0 h-100">
                       <div className="col-4 h-100">
                         <img
-                          src="https://srspackersandmovers.com/assets/uploads/blog/361729596410.png"
+                          src="https://marutitrans.com/assets/uploads/blog/361729596410.png"
                           className="w-100 h-100 object-fit-cover"
-                          alt="Blog Image"
-                        />
+                          alt="Blog Image" loading="lazy" />
                       </div>
                       <div className="col-8">
                         <div className="card-body d-flex flex-column justify-content-between h-100">
@@ -637,10 +635,9 @@ export default function NaviMumbaiPage() {
                     <div className="row g-0 h-100">
                       <div className="col-4 h-100">
                         <img
-                          src="https://srspackersandmovers.com/assets/uploads/blog/771725693951.png"
+                          src="https://marutitrans.com/assets/uploads/blog/771725693951.png"
                           className="w-100 h-100 object-fit-cover"
-                          alt="Blog Image"
-                        />
+                          alt="Blog Image" loading="lazy" />
                       </div>
                       <div className="col-8">
                         <div className="card-body d-flex flex-column justify-content-between h-100">
@@ -661,10 +658,9 @@ export default function NaviMumbaiPage() {
                     <div className="row g-0 h-100">
                       <div className="col-4 h-100">
                         <img
-                          src="https://srspackersandmovers.com/assets/uploads/blog/621724397335.png"
+                          src="https://marutitrans.com/assets/uploads/blog/621724397335.png"
                           className="w-100 h-100 object-fit-cover"
-                          alt="Blog Image"
-                        />
+                          alt="Blog Image" loading="lazy" />
                       </div>
                       <div className="col-8">
                         <div className="card-body d-flex flex-column justify-content-between h-100">
@@ -697,10 +693,9 @@ export default function NaviMumbaiPage() {
                 ].map((gImg, idx) => (
                   <div key={idx} className="col-4">
                     <img
-                      src={`https://srspackersandmovers.com/assets/images/srs_gallery/${gImg}`}
+                      src={`https://marutitrans.com/assets/images/srs_gallery/${gImg}`}
                       className="img-fluid rounded shadow-sm h-100"
-                      alt="Gallery"
-                    />
+                      alt="Gallery" loading="lazy" />
                   </div>
                 ))}
               </div>
