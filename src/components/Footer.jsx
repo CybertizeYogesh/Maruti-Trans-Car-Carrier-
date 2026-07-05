@@ -47,7 +47,7 @@ export default function Footer() {
             <div className="footer-address mb-3">
               <h6 className="text-white fw-semibold mb-2">Registered Address:</h6>
               <p className="footer-text mb-0">
-                House No. 84, Ground Floor, Maruti Trans Packers & Movers, Chandwass Road, Nearby Hari Om Irritation Company, Chandwass, Badhra, Charkhi Dadri, Haryana - 127312
+                New Amanpura Gali no 2 sector 6 Near by Shitla Mata Mander, Gurgaon, Haryana - 122001
               </p>
             </div>
           </div>
@@ -77,7 +77,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li className="mb-2">
-                <Link href="/branches" className="footer-link">
+                <Link href="/contacts" className="footer-link">
                   <i className="bi bi-chevron-right me-1"></i>Branches
                 </Link>
               </li>

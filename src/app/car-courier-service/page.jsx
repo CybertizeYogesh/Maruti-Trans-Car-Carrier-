@@ -33,7 +33,7 @@ export default function CarCourierServicePage() {
 
       {/* Main Form Container */}
       <div className="container mt-4 pt-2">
-        <QuoteForm defaultFrom="Charkhi Dadri, Haryana" layout="slider" />
+        <QuoteForm defaultFrom="Gurgaon, Haryana" layout="slider" />
       </div>
 
       {/* Content Section */}

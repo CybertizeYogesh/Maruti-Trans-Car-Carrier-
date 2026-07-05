@@ -14,7 +14,6 @@ export default async function sitemap() {
     "/track-shipment",
     "/clients",
     "/gallery",
-    "/branches",
     "/blogs",
     "/cookie-policy",
     "/disclaimer",

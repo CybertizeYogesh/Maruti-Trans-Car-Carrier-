@@ -180,7 +180,7 @@ export default function Navbar() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/branches" className="menu-section-link" onClick={toggleMobileMenu}>
+                    <Link href="/contacts" className="menu-section-link" onClick={toggleMobileMenu}>
                       <i className="bi bi-chevron-right me-2"></i>Branches
                     </Link>
                   </li>

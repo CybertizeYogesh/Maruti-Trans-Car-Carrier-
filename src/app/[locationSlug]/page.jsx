@@ -109,10 +109,10 @@ export default async function LocationSlugPage({ params }) {
       "priceRange": "INR 3500 - INR 32000",
       "address": {
         "@type": "PostalAddress",
-        "streetAddress": "House No. 84, Ground Floor, Chandwass Road, Chandwass, Badhra",
-        "addressLocality": "Charkhi Dadri",
+        "streetAddress": "New Amanpura Gali no 2 sector 6 Near by Shitla Mata Mander",
+        "addressLocality": "Gurgaon",
         "addressRegion": "Haryana",
-        "postalCode": "127312",
+        "postalCode": "122001",
         "addressCountry": "IN"
       }
     },

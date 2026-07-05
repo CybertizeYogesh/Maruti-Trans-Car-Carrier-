@@ -121,16 +121,12 @@ export default function ContactsPage() {
                       <div>
                         <h6 className="fw-bold text-dark mb-1">Registered Head Office Address</h6>
                         <p className="text-muted small leading-relaxed m-0">
-                          Floor No.: GROUND FLOOR<br />
-                          Building No./Flat No.: HOUSE NO .84<br />
-                          Name Of Premises/Building: MARUTI TRANS PACKERS & MOVERS<br />
-                          Road/Street: CHANDWASS ROAD<br />
-                          Nearby Landmark: Hari Om Irritation Company<br />
-                          Locality/Sub Locality: CHANDWASS ,BADHRA<br />
-                          City/Town/Village: Kiskanda<br />
-                          District: Charkhi Dadri<br />
+                          Building/Premises: New Amanpura<br />
+                          Street: Gali no 2, Sector 6<br />
+                          Nearby Landmark: Near by Shitla Mata Mander<br />
+                          City/District: Gurgaon<br />
                           State: Haryana<br />
-                          PIN Code: 127312
+                          PIN Code: 122001
                         </p>
                       </div>
                     </div>
@@ -242,7 +238,7 @@ export default function ContactsPage() {
                 <div className="p-0">
                   <iframe
                     title="Map of Maruti Trans registered Haryana office"
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d111867.75549091871!2d76.191147!3d28.592548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391215b3e6c0c2e3%3A0xeab4838634cf8df8!2sCharkhi%20Dadri%2C%20Haryana!5e0!3m2!1sen!2sin!4v1719591618979!5m2!1sen!2sin"
+                    src="https://maps.google.com/maps?q=28.4786584,77.0300265&z=16&output=embed"
                     width="100%"
                     height="400"
                     style={{ border: 0, display: "block" }}

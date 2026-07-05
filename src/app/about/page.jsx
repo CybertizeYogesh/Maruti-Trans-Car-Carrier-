@@ -76,7 +76,7 @@ export default function AboutPage() {
 
             <div className="col-lg-12">
               <p className="text-muted">
-                Our operations originate from our registered base in Charkhi Dadri, Haryana: <strong>House No. 84, Ground Floor, Maruti Trans Car Carrier Shifting, Chandwass Road, Nearby Hari Om Irritation Company, Chandwass, Badhra, Charkhi Dadri, Haryana - 127312</strong>. From here, we coordinate long-distance auto carrier routes connecting Haryana to Maharashtra, Gujarat, Telangana, Karnataka, Rajasthan, and other major states.
+                Our operations originate from our registered base in Gurgaon, Haryana: <strong>New Amanpura Gali no 2 sector 6 Near by Shitla Mata Mander, Gurgaon, Haryana - 122001</strong>. From here, we coordinate long-distance auto carrier routes connecting Haryana to Maharashtra, Gujarat, Telangana, Karnataka, Rajasthan, and other major states.
               </p>
               <p className="text-muted">
                 By investing in high-quality hydraulic ramps, soft tie-down wheel straps, and modern enclosed container trailers, we secure vehicles against rough roads, climate hazards, and scratches. Our focus is entirely on shipping cars and two-wheelers with a damage-free promise.

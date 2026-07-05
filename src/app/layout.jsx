@@ -65,16 +65,16 @@ export default function RootLayout({ children }) {
               "priceRange": "INR 3000 - INR 35000",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "House No. 84, Ground Floor, Chandwass Road, Nearby Hari Om Irritation Company, Chandwass, Badhra",
-                "addressLocality": "Charkhi Dadri",
+                "streetAddress": "New Amanpura Gali no 2 sector 6 Near by Shitla Mata Mander",
+                "addressLocality": "Gurgaon",
                 "addressRegion": "Haryana",
-                "postalCode": "127312",
+                "postalCode": "122001",
                 "addressCountry": "IN"
               },
               "geo": {
                 "@type": "GeoCoordinates",
-                "latitude": 28.5303,
-                "longitude": 76.1264
+                "latitude": 28.4786584,
+                "longitude": 77.0300265
               },
               "openingHoursSpecification": {
                 "@type": "OpeningHoursSpecification",
